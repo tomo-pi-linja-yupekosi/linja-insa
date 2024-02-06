@@ -3,7 +3,27 @@ glyphname = "sitelen-sp";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "lipu-sp";
+},
+{
+pos = (296,0);
+ref = _part.dot;
+scale = (0.65,1);
+},
+{
+pos = (550,0);
+ref = _part.dot;
+scale = (0.65,1);
+},
+{
+pos = (803,0);
+ref = _part.dot;
+scale = (0.65,1);
+}
+);
+width = 1407;
 }
 );
 unicode = 989536;

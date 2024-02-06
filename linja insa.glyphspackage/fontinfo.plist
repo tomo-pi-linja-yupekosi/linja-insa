@@ -113,11 +113,11 @@ userData = {
 GSCornerRadius = 500;
 GSExtrudeAngle = 0;
 GSExtrudeOffset = 500;
-GSOffsetCapStyle = 3;
+GSOffsetCapStyle = 4;
 GSOffsetHorizontal = 93;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetPosition = 0;
 GSOffsetVertical = 87.5;
 };
 }

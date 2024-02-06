@@ -1,0 +1,21 @@
+{
+glyphname = "poka-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (1352,0);
+ref = _part.dot;
+},
+{
+pos = (-10,456);
+ref = _part.bottom_box;
+}
+);
+width = 1827;
+}
+);
+unicode = 989522;
+}

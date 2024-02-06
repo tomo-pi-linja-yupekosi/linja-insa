@@ -1,0 +1,10 @@
+{
+glyphname = "nasa-sp";
+layers = (
+{
+layerId = m01;
+width = 1224;
+}
+);
+unicode = 989502;
+}

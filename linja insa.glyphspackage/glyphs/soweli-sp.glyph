@@ -1,0 +1,10 @@
+{
+glyphname = "soweli-sp";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 989538;
+}

@@ -1,0 +1,25 @@
+{
+export = 0;
+glyphname = _part.bottom_box;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1119,578,l),
+(1119,175,l),
+(308,175,l),
+(308,578,l),
+(122,578,l),
+(122,0,l),
+(1305,0,l),
+(1305,578,l)
+);
+}
+);
+width = 1427;
+}
+);
+}

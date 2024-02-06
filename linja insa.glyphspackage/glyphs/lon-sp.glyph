@@ -1,0 +1,25 @@
+{
+glyphname = "lon-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,631,l),
+(112,456,l),
+(1295,456,l),
+(1295,631,l)
+);
+},
+{
+pos = (478,170);
+ref = _part.dot;
+}
+);
+width = 1407;
+}
+);
+unicode = 989484;
+}

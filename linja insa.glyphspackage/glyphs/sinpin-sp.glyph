@@ -1,0 +1,21 @@
+{
+glyphname = "sinpin-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = _part.side_box;
+},
+{
+alignment = -1;
+pos = (854,0);
+ref = _part.dot;
+}
+);
+width = 1329;
+}
+);
+unicode = 989535;
+}

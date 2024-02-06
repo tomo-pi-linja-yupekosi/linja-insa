@@ -1,0 +1,15 @@
+{
+glyphname = "interpunct-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.dot;
+}
+);
+width = 475;
+}
+);
+unicode = 989596;
+}

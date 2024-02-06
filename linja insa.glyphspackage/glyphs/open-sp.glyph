@@ -1,0 +1,20 @@
+{
+glyphname = "open-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "poki-sp";
+},
+{
+pos = (-10,578);
+ref = _part.bottom_box;
+scale = (1,-1);
+}
+);
+width = 1407;
+}
+);
+unicode = 989511;
+}

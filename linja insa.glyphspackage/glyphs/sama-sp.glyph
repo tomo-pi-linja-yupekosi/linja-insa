@@ -1,0 +1,76 @@
+{
+glyphname = "sama-sp";
+layers = (
+{
+hints = (
+{
+origin = (1,3);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (1,3);
+type = TTSnap;
+},
+{
+horizontal = 1;
+origin = (0,3);
+type = TTSnap;
+},
+{
+origin = (0,3);
+type = TTSnap;
+},
+{
+options = 4;
+origin = (1,0);
+target = (1,1);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,0);
+target = (0,1);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (1,3);
+target = (1,0);
+type = TTStem;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3);
+target = (0,0);
+type = TTStem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1016,879,l),
+(1016,1045,l),
+(112,1045,l),
+(112,879,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1016,445,l),
+(1016,611,l),
+(112,611,l),
+(112,445,l)
+);
+}
+);
+width = 1128;
+}
+);
+unicode = 989526;
+}

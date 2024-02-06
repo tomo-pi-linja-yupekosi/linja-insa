@@ -1,0 +1,15 @@
+{
+glyphname = "mi-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.pronoun;
+}
+);
+width = 1171;
+}
+);
+unicode = 989492;
+}

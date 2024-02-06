@@ -1,0 +1,17 @@
+{
+glyphname = "ike-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1714,1490);
+ref = "pona-sp";
+}
+);
+width = 1714;
+}
+);
+unicode = 989453;
+}

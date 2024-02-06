@@ -1,0 +1,22 @@
+{
+glyphname = "colon-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-238);
+ref = _part.dot;
+},
+{
+alignment = -1;
+pos = (0,238);
+ref = _part.dot;
+}
+);
+width = 475;
+}
+);
+unicode = 989597;
+}

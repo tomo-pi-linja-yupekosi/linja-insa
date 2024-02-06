@@ -1,0 +1,21 @@
+{
+glyphname = "uta-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,538);
+ref = _closedMouth;
+},
+{
+pos = (638,-431);
+ref = _part.dot;
+}
+);
+width = 1714;
+}
+);
+unicode = 989552;
+}

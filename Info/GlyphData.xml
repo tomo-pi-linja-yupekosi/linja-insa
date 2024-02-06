@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE glyphData [
+<!ELEMENT glyphData (glyph)+>
+<!ATTLIST glyphData
+	format			CDATA		#IMPLIED>
+<!ELEMENT glyph EMPTY>
+<!ATTLIST glyph
+	unicode			CDATA		#IMPLIED
+	unicodeLegacy	CDATA		#IMPLIED
+	name			CDATA		#REQUIRED
+	sortName		CDATA		#IMPLIED
+	sortNameKeep	CDATA		#IMPLIED
+	category		CDATA		#REQUIRED
+	subCategory		CDATA		#IMPLIED
+	case			CDATA		#IMPLIED
+	direction		CDATA		#IMPLIED
+	script			CDATA		#IMPLIED
+	description		CDATA		#IMPLIED
+	production		CDATA		#IMPLIED
+	altNames		CDATA		#IMPLIED
+	decompose		CDATA		#IMPLIED
+	anchors			CDATA		#IMPLIED
+	marks			CDATA		#IMPLIED>
+]>
+<glyphData format="2">
+	<glyph unicode="F1900" production="uniF1900" description="sitelen pona ideograph a" name="a-sp" sortName="a" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1901" production="uniF1901" description="sitelen pona ideograph akesi" name="akesi-sp" sortName="akesi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1902" production="uniF1902" description="sitelen pona ideograph ala" name="ala-sp" sortName="ala" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1903" production="uniF1903" description="sitelen pona ideograph alasa" name="alasa-sp" sortName="alasa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1904" production="uniF1904" description="sitelen pona ideograph ale" name="ale-sp" sortName="ale" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1905" production="uniF1905" description="sitelen pona ideograph anpa" name="anpa-sp" sortName="anpa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1906" production="uniF1906" description="sitelen pona ideograph ante" name="ante-sp" sortName="ante" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1907" production="uniF1907" description="sitelen pona ideograph anu" name="anu-sp" sortName="anu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1908" production="uniF1908" description="sitelen pona ideograph awen" name="awen-sp" sortName="awen" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1909" production="uniF1909" description="sitelen pona ideograph e" name="e-sp" sortName="e" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190A" production="uniF190A" description="sitelen pona ideograph en" name="en-sp" sortName="en" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190B" production="uniF190B" description="sitelen pona ideograph esun" name="esun-sp" sortName="esun" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190C" production="uniF190C" description="sitelen pona ideograph ijo" name="ijo-sp" sortName="ijo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190D" production="uniF190D" description="sitelen pona ideograph ike" name="ike-sp" sortName="ike" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190E" production="uniF190E" description="sitelen pona ideograph ilo" name="ilo-sp" sortName="ilo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F190F" production="uniF190F" description="sitelen pona ideograph insa" name="insa-sp" sortName="insa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1910" production="uniF1910" description="sitelen pona ideograph jaki" name="jaki-sp" sortName="jaki" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1911" production="uniF1911" description="sitelen pona ideograph jan" name="jan-sp" sortName="jan" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1912" production="uniF1912" description="sitelen pona ideograph jelo" name="jelo-sp" sortName="jelo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1913" production="uniF1913" description="sitelen pona ideograph jo" name="jo-sp" sortName="jo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1914" production="uniF1914" description="sitelen pona ideograph kala" name="kala-sp" sortName="kala" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1915" production="uniF1915" description="sitelen pona ideograph kalama" name="kalama-sp" sortName="kalama" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1916" production="uniF1916" description="sitelen pona ideograph kama" name="kama-sp" sortName="kama" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1917" production="uniF1917" description="sitelen pona ideograph kasi" name="kasi-sp" sortName="kasi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1918" production="uniF1918" description="sitelen pona ideograph ken" name="ken-sp" sortName="ken" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1919" production="uniF1919" description="sitelen pona ideograph kepeken" name="kepeken-sp" sortName="kepeken" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191A" production="uniF191A" description="sitelen pona ideograph kili" name="kili-sp" sortName="kili" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191B" production="uniF191B" description="sitelen pona ideograph kiwen" name="kiwen-sp" sortName="kiwen" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191C" production="uniF191C" description="sitelen pona ideograph ko" name="ko-sp" sortName="ko" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191D" production="uniF191D" description="sitelen pona ideograph kon" name="kon-sp" sortName="kon" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191E" production="uniF191E" description="sitelen pona ideograph kule" name="kule-sp" sortName="kule" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F191F" production="uniF191F" description="sitelen pona ideograph kulupu" name="kulupu-sp" sortName="kulupu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1920" production="uniF1920" description="sitelen pona ideograph kute" name="kute-sp" sortName="kute" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1921" production="uniF1921" description="sitelen pona ideograph la" name="la-sp" sortName="la" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1922" production="uniF1922" description="sitelen pona ideograph lape" name="lape-sp" sortName="lape" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1923" production="uniF1923" description="sitelen pona ideograph laso" name="laso-sp" sortName="laso" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1924" production="uniF1924" description="sitelen pona ideograph lawa" name="lawa-sp" sortName="lawa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1925" production="uniF1925" description="sitelen pona ideograph len" name="len-sp" sortName="len" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1926" production="uniF1926" description="sitelen pona ideograph lete" name="lete-sp" sortName="lete" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1927" production="uniF1927" description="sitelen pona ideograph li" name="li-sp" sortName="li" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1928" production="uniF1928" description="sitelen pona ideograph lili" name="lili-sp" sortName="lili" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1929" production="uniF1929" description="sitelen pona ideograph linja" name="linja-sp" sortName="linja" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192A" production="uniF192A" description="sitelen pona ideograph lipu" name="lipu-sp" sortName="lipu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192B" production="uniF192B" description="sitelen pona ideograph loje" name="loje-sp" sortName="loje" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192C" production="uniF192C" description="sitelen pona ideograph lon" name="lon-sp" sortName="lon" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192D" production="uniF192D" description="sitelen pona ideograph luka" name="luka-sp" sortName="luka" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192E" production="uniF192E" description="sitelen pona ideograph lukin" name="lukin-sp" sortName="lukin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F192F" production="uniF192F" description="sitelen pona ideograph lupa" name="lupa-sp" sortName="lupa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1930" production="uniF1930" description="sitelen pona ideograph ma" name="ma-sp" sortName="ma" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1931" production="uniF1931" description="sitelen pona ideograph mama" name="mama-sp" sortName="mama" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1932" production="uniF1932" description="sitelen pona ideograph mani" name="mani-sp" sortName="mani" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1933" production="uniF1933" description="sitelen pona ideograph meli" name="meli-sp" sortName="meli" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1934" production="uniF1934" description="sitelen pona ideograph mi" name="mi-sp" sortName="mi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1935" production="uniF1935" description="sitelen pona ideograph mije" name="mije-sp" sortName="mije" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1936" production="uniF1936" description="sitelen pona ideograph moku" name="moku-sp" sortName="moku" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1937" production="uniF1937" description="sitelen pona ideograph moli" name="moli-sp" sortName="moli" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1938" production="uniF1938" description="sitelen pona ideograph monsi" name="monsi-sp" sortName="monsi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1939" production="uniF1939" description="sitelen pona ideograph mu" name="mu-sp" sortName="mu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193A" production="uniF193A" description="sitelen pona ideograph mun" name="mun-sp" sortName="mun" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193B" production="uniF193B" description="sitelen pona ideograph musi" name="musi-sp" sortName="musi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193C" production="uniF193C" description="sitelen pona ideograph mute" name="mute-sp" sortName="mute" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193D" production="uniF193D" description="sitelen pona ideograph nanpa" name="nanpa-sp" sortName="nanpa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193E" production="uniF193E" description="sitelen pona ideograph nasa" name="nasa-sp" sortName="nasa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F193F" production="uniF193F" description="sitelen pona ideograph nasin" name="nasin-sp" sortName="nasin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1940" production="uniF1940" description="sitelen pona ideograph nena" name="nena-sp" sortName="nena" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1941" production="uniF1941" description="sitelen pona ideograph ni" name="ni-sp" sortName="ni" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1942" production="uniF1942" description="sitelen pona ideograph nimi" name="nimi-sp" sortName="nimi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1943" production="uniF1943" description="sitelen pona ideograph noka" name="noka-sp" sortName="noka" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1944" production="uniF1944" description="sitelen pona ideograph o" name="o-sp" sortName="o" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1945" production="uniF1945" description="sitelen pona ideograph olin" name="olin-sp" sortName="olin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1946" production="uniF1946" description="sitelen pona ideograph ona" name="ona-sp" sortName="ona" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1947" production="uniF1947" description="sitelen pona ideograph open" name="open-sp" sortName="open" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1948" production="uniF1948" description="sitelen pona ideograph pakala" name="pakala-sp" sortName="pakala" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1949" production="uniF1949" description="sitelen pona ideograph pali" name="pali-sp" sortName="pali" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194A" production="uniF194A" description="sitelen pona ideograph palisa" name="palisa-sp" sortName="palisa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194B" production="uniF194B" description="sitelen pona ideograph pan" name="pan-sp" sortName="pan" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194C" production="uniF194C" description="sitelen pona ideograph pana" name="pana-sp" sortName="pana" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194D" production="uniF194D" description="sitelen pona ideograph pi" name="pi-sp" sortName="pi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194E" production="uniF194E" description="sitelen pona ideograph pilin" name="pilin-sp" sortName="pilin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F194F" production="uniF194F" description="sitelen pona ideograph pimeja" name="pimeja-sp" sortName="pimeja" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1950" production="uniF1950" description="sitelen pona ideograph pini" name="pini-sp" sortName="pini" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1951" production="uniF1951" description="sitelen pona ideograph pipi" name="pipi-sp" sortName="pipi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1952" production="uniF1952" description="sitelen pona ideograph poka" name="poka-sp" sortName="poka" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1953" production="uniF1953" description="sitelen pona ideograph poki" name="poki-sp" sortName="poki" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1954" production="uniF1954" description="sitelen pona ideograph pona" name="pona-sp" sortName="pona" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1955" production="uniF1955" description="sitelen pona ideograph pu" name="pu-sp" sortName="pu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1956" production="uniF1956" description="sitelen pona ideograph sama" name="sama-sp" sortName="sama" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1957" production="uniF1957" description="sitelen pona ideograph seli" name="seli-sp" sortName="seli" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1958" production="uniF1958" description="sitelen pona ideograph selo" name="selo-sp" sortName="selo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1959" production="uniF1959" description="sitelen pona ideograph seme" name="seme-sp" sortName="seme" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195A" production="uniF195A" description="sitelen pona ideograph sewi" name="sewi-sp" sortName="sewi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195B" production="uniF195B" description="sitelen pona ideograph sijelo" name="sijelo-sp" sortName="sijelo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195C" production="uniF195C" description="sitelen pona ideograph sike" name="sike-sp" sortName="sike" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195D" production="uniF195D" description="sitelen pona ideograph sin" name="sin-sp" sortName="sin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195E" production="uniF195E" description="sitelen pona ideograph sina" name="sina-sp" sortName="sina" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F195F" production="uniF195F" description="sitelen pona ideograph sinpin" name="sinpin-sp" sortName="sinpin" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1960" production="uniF1960" description="sitelen pona ideograph sitelen" name="sitelen-sp" sortName="sitelen" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1961" production="uniF1961" description="sitelen pona ideograph sona" name="sona-sp" sortName="sona" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1962" production="uniF1962" description="sitelen pona ideograph soweli" name="soweli-sp" sortName="soweli" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1963" production="uniF1963" description="sitelen pona ideograph suli" name="suli-sp" sortName="suli" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1964" production="uniF1964" description="sitelen pona ideograph suno" name="suno-sp" sortName="suno" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1965" production="uniF1965" description="sitelen pona ideograph supa" name="supa-sp" sortName="supa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1966" production="uniF1966" description="sitelen pona ideograph suwi" name="suwi-sp" sortName="suwi" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1967" production="uniF1967" description="sitelen pona ideograph tan" name="tan-sp" sortName="tan" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1968" production="uniF1968" description="sitelen pona ideograph taso" name="taso-sp" sortName="taso" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1969" production="uniF1969" description="sitelen pona ideograph tawa" name="tawa-sp" sortName="tawa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196A" production="uniF196A" description="sitelen pona ideograph telo" name="telo-sp" sortName="telo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196B" production="uniF196B" description="sitelen pona ideograph tenpo" name="tenpo-sp" sortName="tenpo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196C" production="uniF196C" description="sitelen pona ideograph toki" name="toki-sp" sortName="toki" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196D" production="uniF196D" description="sitelen pona ideograph tomo" name="tomo-sp" sortName="tomo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196E" production="uniF196E" description="sitelen pona ideograph tu" name="tu-sp" sortName="tu" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F196F" production="uniF196F" description="sitelen pona ideograph unpa" name="unpa-sp" sortName="unpa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1970" production="uniF1970" description="sitelen pona ideograph uta" name="uta-sp" sortName="uta" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1971" production="uniF1971" description="sitelen pona ideograph utala" name="utala-sp" sortName="utala" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1972" production="uniF1972" description="sitelen pona ideograph walo" name="walo-sp" sortName="walo" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1973" production="uniF1973" description="sitelen pona ideograph wan" name="wan-sp" sortName="wan" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1974" production="uniF1974" description="sitelen pona ideograph waso" name="waso-sp" sortName="waso" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1975" production="uniF1975" description="sitelen pona ideograph wawa" name="wawa-sp" sortName="wawa" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1976" production="uniF1976" description="sitelen pona ideograph weka" name="weka-sp" sortName="weka" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1977" production="uniF1977" description="sitelen pona ideograph wile" name="wile-sp" sortName="wile" category="UCSUR" subCategory="nimi pu" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1978" production="uniF1978" description="sitelen pona ideograph namako" name="namako-sp" sortName="namako" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1979" production="uniF1979" description="sitelen pona ideograph kin" name="kin-sp" sortName="kin" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197A" production="uniF197A" description="sitelen pona ideograph oko" name="oko-sp" sortName="oko" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197B" production="uniF197B" description="sitelen pona ideograph kipisi" name="kipisi-sp" sortName="kipisi" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197C" production="uniF197C" description="sitelen pona ideograph leko" name="leko-sp" sortName="leko" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197D" production="uniF197D" description="sitelen pona ideograph monsuta" name="monsuta-sp" sortName="monsuta" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197E" production="uniF197E" description="sitelen pona ideograph tonsi" name="tonsi-sp" sortName="tonsi" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F197F" production="uniF197F" description="sitelen pona ideograph jasima" name="jasima-sp" sortName="jasima" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1980" production="uniF1980" description="sitelen pona ideograph kijetesantakalu" name="kijetesantakalu-sp" sortName="kijetesantakalu" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1981" production="uniF1981" description="sitelen pona ideograph soko" name="soko-sp" sortName="soko" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1982" production="uniF1982" description="sitelen pona ideograph meso" name="meso-sp" sortName="meso" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1983" production="uniF1983" description="sitelen pona ideograph epiku" name="epiku-sp" sortName="epiku" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1984" production="uniF1984" description="sitelen pona ideograph kokosila" name="kokosila-sp" sortName="kokosila" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1985" production="uniF1985" description="sitelen pona ideograph lanpan" name="lanpan-sp" sortName="lanpan" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1986" production="uniF1986" description="sitelen pona ideograph n" name="n-sp" sortName="n" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1987" production="uniF1987" description="sitelen pona ideograph misikeke" name="misikeke-sp" sortName="misikeke" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1988" production="uniF1988" description="sitelen pona ideograph ku" name="ku-sp" sortName="ku" category="UCSUR" subCategory="nimi ku suli" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F1990" production="uniF1990" description="sitelen pona cartouche.start" name="cartouchestart-sp" sortName="cartouche.start" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F1991" production="uniF1991" description="sitelen pona cartouche.end" name="cartoucheend-sp" sortName="cartouche.end" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F1995" production="uniF1995" description="sitelen pona joiner.stack" name="joinerstack-sp" sortName="joiner.stack" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F1996" production="uniF1996" description="sitelen pona joiner.scale" name="joinerscale-sp" sortName="joiner.scale" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F1997" production="uniF1997" description="sitelen pona long.start" name="longstart-sp" sortName="long.start" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F1998" production="uniF1998" description="sitelen pona long.end" name="longend-sp" sortName="long.end" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F199A" production="uniF199A" description="sitelen pona reverse.start" name="reversestart-sp" sortName="reverse.start" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F199B" production="uniF199B" description="sitelen pona reverse.end" name="reverseend-sp" sortName="reverse.end" category="UCSUR" subCategory="format" script="sitelen pona" />
+	<glyph unicode="F199C" production="uniF199C" description="sitelen pona interpunct" name="interpunct-sp" sortName="interpunct" category="UCSUR" subCategory="format" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F199D" production="uniF199D" description="sitelen pona colon" name="colon-sp" sortName="colon" category="UCSUR" subCategory="format" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F19A0" production="uniF19A0" description="sitelen pona ideograph pake" name="pake-sp" sortName="pake" category="UCSUR" subCategory="nimi ku lili" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F19A1" production="uniF19A1" description="sitelen pona ideograph apeja" name="apeja-sp" sortName="apeja" category="UCSUR" subCategory="nimi ku lili" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F19A2" production="uniF19A2" description="sitelen pona ideograph majuna" name="majuna-sp" sortName="majuna" category="UCSUR" subCategory="nimi ku lili" script="sitelen pona" direction="LTR" />
+	<glyph unicode="F19A3" production="uniF19A3" name="powe-sp" sortName="powe" category="UCSUR" subCategory="nimi ku lili" script="sitelen pona" direction="LTR" />
+</glyphData>

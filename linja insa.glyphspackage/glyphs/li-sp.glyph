@@ -1,0 +1,32 @@
+{
+category = UCSUR;
+glyphname = "li-sp";
+layers = (
+{
+backgroundImage = {
+imagePath = "nasin koko li.png";
+locked = 1;
+pos = (-94,-139);
+scale = (3.5939,3.5939);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1083,738,l),
+(228,0,l),
+(112,116,l),
+(833,738,l),
+(112,1374,l),
+(228,1490,l)
+);
+}
+);
+width = 1195;
+}
+);
+script = "sitelen pona";
+subCategory = "nimi pu";
+unicode = 989479;
+}

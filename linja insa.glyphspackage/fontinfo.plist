@@ -1,0 +1,188 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+date = "2024-01-25 21:59:19 +0000";
+familyName = "linja insa";
+fontMaster = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = underlineThickness;
+value = 140;
+},
+{
+name = underlinePosition;
+value = -348;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+0,
+5,
+3,
+0,
+0,
+0,
+2,
+0,
+4
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Optical size";
+Location = 14;
+},
+{
+Axis = Weight;
+Location = 400;
+}
+);
+},
+{
+name = "CJK Grid";
+value = "8";
+},
+{
+name = TTFStems;
+value = (
+{
+filter = "category == \"UCSUR\"";
+horizontal = 1;
+name = HStem;
+width = 175;
+},
+{
+filter = "category == \"UCSUR\"";
+horizontal = 0;
+name = VStem;
+width = 186;
+}
+);
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1118;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = Regular;
+stemValues = (
+175,
+186
+);
+userData = {
+GSCornerRadius = 500;
+GSExtrudeAngle = 0;
+GSExtrudeOffset = 500;
+GSOffsetHorizontal = 80;
+GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetVertical = 80;
+};
+}
+);
+instances = (
+{
+axesValues = (
+0
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+name = Midline;
+}
+);
+settings = {
+gridLength = 16;
+gridSubDivision = 16;
+keyboardIncrementBig = 8;
+keyboardIncrementHuge = 128;
+};
+stems = (
+{
+horizontal = 1;
+name = cap_h;
+},
+{
+name = cap_v;
+}
+);
+unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+HH = "168";
+HV = "190";
+OH = "176";
+OV = "185";
+nV = "180";
+nd = "150";
+oH = "161";
+oV = "182";
+tH = "154";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,15 @@
+{
+glyphname = "kama-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.walking;
+}
+);
+width = 1555;
+}
+);
+unicode = 989462;
+}

@@ -1,0 +1,92 @@
+{
+glyphname = "selo-sp";
+layers = (
+{
+hints = (
+{
+options = 4;
+origin = (0,1);
+target = (0,0);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,5);
+target = (0,4);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,9);
+target = (0,8);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,13);
+target = (0,12);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,1);
+target = (0,2);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,5);
+target = (0,6);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,9);
+target = (0,10);
+type = TTStem;
+},
+{
+options = 4;
+origin = (0,13);
+target = (0,14);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,1);
+type = TTSnap;
+},
+{
+origin = (0,1);
+type = TTSnap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,1192,l),
+(240,298,l),
+(426,298,l),
+(426,1017,l),
+(612,1017,l),
+(612,473,l),
+(798,473,l),
+(798,1017,l),
+(1093,1017,l),
+(1093,473,l),
+(1279,473,l),
+(1279,1017,l),
+(1465,1017,l),
+(1465,298,l),
+(1651,298,l),
+(1651,1192,l)
+);
+}
+);
+width = 1891;
+}
+);
+unicode = 989528;
+}

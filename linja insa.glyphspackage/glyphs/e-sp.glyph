@@ -1,0 +1,19 @@
+{
+glyphname = "e-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "li-sp";
+},
+{
+pos = (500,0);
+ref = "li-sp";
+}
+);
+width = 1695;
+}
+);
+unicode = 989449;
+}

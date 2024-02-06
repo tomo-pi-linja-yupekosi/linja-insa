@@ -1,0 +1,17 @@
+{
+glyphname = "tawa-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1555,0);
+ref = _part.walking;
+scale = (-1,1);
+}
+);
+width = 1555;
+}
+);
+unicode = 989545;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = "pi-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,175,l),
+(298,1490,l),
+(112,1490,l),
+(112,0,l),
+(911,0,l),
+(911,175,l)
+);
+}
+);
+width = 1023;
+}
+);
+unicode = 989517;
+}

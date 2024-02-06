@@ -1,0 +1,21 @@
+{
+glyphname = "wan-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,1490,l),
+(112,0,l),
+(302,0,l),
+(302,1490,l)
+);
+}
+);
+width = 414;
+}
+);
+unicode = 989555;
+}

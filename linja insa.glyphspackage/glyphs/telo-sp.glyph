@@ -1,0 +1,20 @@
+{
+glyphname = "telo-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-320);
+ref = "linja-sp";
+},
+{
+pos = (0,320);
+ref = "linja-sp";
+}
+);
+width = 1926;
+}
+);
+unicode = 989546;
+}

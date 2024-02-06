@@ -1,0 +1,21 @@
+{
+glyphname = "anpa-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (478,-517);
+ref = _part.dot;
+},
+{
+pos = (-10,456);
+ref = _part.bottom_box;
+}
+);
+width = 1407;
+}
+);
+unicode = 989445;
+}

@@ -5,16 +5,17 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,-320);
+pos = (37,-320);
 ref = "linja-sp";
 },
 {
-pos = (0,320);
+pos = (37,320);
 ref = "linja-sp";
 }
 );
-width = 1926;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989546;
 }

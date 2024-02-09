@@ -3,8 +3,9 @@ glyphname = "moli-sp";
 layers = (
 {
 layerId = m01;
-width = 600;
+width = 2000;
 }
 );
+metricLeft = "=|";
 unicode = 989495;
 }

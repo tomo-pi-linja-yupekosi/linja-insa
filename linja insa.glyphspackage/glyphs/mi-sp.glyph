@@ -5,11 +5,13 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (414,0);
 ref = _part.pronoun;
 }
 );
-width = 1171;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989492;
 }

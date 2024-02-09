@@ -5,14 +5,15 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (-250,0);
 ref = "li-sp";
 },
 {
-pos = (500,0);
+pos = (250,0);
 ref = "li-sp";
 }
 );
-width = 1695;
+width = 2000;
 }
 );
 unicode = 989449;

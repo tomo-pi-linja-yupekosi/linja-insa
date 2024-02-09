@@ -3,8 +3,9 @@ glyphname = "ko-sp";
 layers = (
 {
 layerId = m01;
-width = 1355;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989468;
 }

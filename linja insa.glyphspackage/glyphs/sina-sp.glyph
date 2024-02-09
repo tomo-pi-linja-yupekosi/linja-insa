@@ -6,13 +6,14 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (0,1472);
+pos = (414,1472);
 ref = _part.pronoun;
 scale = (1,-1);
 }
 );
-width = 1171;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989534;
 }

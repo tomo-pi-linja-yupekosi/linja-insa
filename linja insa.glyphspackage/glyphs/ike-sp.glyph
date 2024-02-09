@@ -6,12 +6,13 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (1714,1490);
+pos = (2000,1490);
 ref = "pona-sp";
 }
 );
-width = 1714;
+width = 2000;
 }
 );
+metricLeft = "=|";
 unicode = 989453;
 }

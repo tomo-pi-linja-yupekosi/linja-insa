@@ -8,13 +8,14 @@ shapes = (
 ref = "poki-sp";
 },
 {
-pos = (-10,578);
+pos = (286,578);
 ref = _part.bottom_box;
 scale = (1,-1);
 }
 );
-width = 1407;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989511;
 }

@@ -6,16 +6,17 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (478,-517);
+pos = (774,-517);
 ref = _part.dot;
 },
 {
-pos = (-10,456);
+pos = (286,456);
 ref = _part.bottom_box;
 }
 );
-width = 1407;
+width = 2000;
 }
 );
+metricLeft = "|=";
 unicode = 989445;
 }

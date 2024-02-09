@@ -117,7 +117,6 @@ GSOffsetCapStyle = 4;
 GSOffsetHorizontal = 93;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 0;
 GSOffsetVertical = 87.5;
 };
 }
@@ -176,6 +175,8 @@ HH = "168";
 HV = "190";
 OH = "176";
 OV = "185";
+han3 = "175";
+han5 = "186";
 nV = "180";
 nd = "150";
 oH = "161";

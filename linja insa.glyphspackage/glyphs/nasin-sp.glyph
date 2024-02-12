@@ -1,0 +1,35 @@
+{
+glyphname = "nasin-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1093,1514,l),
+(907,1514,l),
+(907,0,l),
+(1093,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1000,1188,l),
+(334,522,l),
+(466,398,l),
+(1000,932,l),
+(1534,398,l),
+(1666,522,l)
+);
+}
+);
+width = 2000;
+}
+);
+tags = (
+"can cartouche"
+);
+unicode = 989503;
+}

@@ -1,13 +1,14 @@
 {
-glyphname = "jo-sp.cart";
+glyphname = "nimi-sp.cart";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = "jo-sp";
+ref = "nimi-sp";
 },
 {
+alignment = -1;
 ref = _part.cartouche;
 }
 );

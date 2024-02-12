@@ -16,5 +16,8 @@ ref = "li-sp";
 width = 2000;
 }
 );
+tags = (
+"can cartouche"
+);
 unicode = 989449;
 }

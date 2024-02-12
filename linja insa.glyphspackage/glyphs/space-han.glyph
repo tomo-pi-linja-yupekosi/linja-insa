@@ -6,5 +6,8 @@ layerId = m01;
 width = 2000;
 }
 );
+tags = (
+"can cartouche"
+);
 unicode = 12288;
 }

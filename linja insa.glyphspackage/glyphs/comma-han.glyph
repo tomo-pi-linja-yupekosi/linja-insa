@@ -36,5 +36,8 @@ nodes = (
 width = 2000;
 }
 );
+tags = (
+"can cartouche"
+);
 unicode = 12289;
 }

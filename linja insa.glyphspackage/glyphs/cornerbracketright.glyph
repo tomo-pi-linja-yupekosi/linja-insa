@@ -20,5 +20,8 @@ width = 2000;
 }
 );
 script = han;
+tags = (
+"can cartouche"
+);
 unicode = 12301;
 }

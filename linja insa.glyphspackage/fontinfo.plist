@@ -440,6 +440,7 @@ GSExtrudeOffset = 500;
 GSOffsetHorizontal = 93;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetVertical = 87.5;
 };
 }

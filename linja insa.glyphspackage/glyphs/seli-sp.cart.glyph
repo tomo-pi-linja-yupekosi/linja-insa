@@ -1,0 +1,19 @@
+{
+glyphname = "seli-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "seli-sp";
+},
+{
+alignment = -1;
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+}

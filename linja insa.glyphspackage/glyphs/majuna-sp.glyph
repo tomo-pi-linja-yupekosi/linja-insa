@@ -1,0 +1,15 @@
+{
+glyphname = "majuna-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = .notdef;
+}
+);
+width = 2000;
+}
+);
+unicode = 989602;
+}

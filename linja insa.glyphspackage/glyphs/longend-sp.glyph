@@ -1,0 +1,10 @@
+{
+glyphname = "longend-sp";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 989592;
+}

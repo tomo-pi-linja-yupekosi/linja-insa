@@ -9,7 +9,34 @@ tag = wght;
 );
 classes = (
 {
-code = "a-sp
+code = "space-han
+comma-han
+cornerbracketleft
+cornerbracketright
+colon-sp
+interpunct-sp
+apeja-sp
+majuna-sp
+pake-sp
+powe-sp
+epiku-sp
+jasima-sp
+kijetesantakalu-sp
+kin-sp
+kipisi-sp
+kokosila-sp
+ku-sp
+lanpan-sp
+leko-sp
+meso-sp
+misikeke-sp
+monsuta-sp
+n-sp
+namako-sp
+oko-sp
+soko-sp
+tonsi-sp
+a-sp
 akesi-sp
 ala-sp
 alasa-sp
@@ -18,10 +45,6 @@ anpa-sp
 ante-sp
 anu-sp
 awen-sp
-colon-sp
-comma-han
-cornerbracketleft
-cornerbracketright
 e-sp
 en-sp
 esun-sp
@@ -29,7 +52,6 @@ ijo-sp
 ike-sp
 ilo-sp
 insa-sp
-interpunct-sp
 jaki-sp
 jan-sp
 jelo-sp
@@ -71,14 +93,14 @@ mije-sp
 moku-sp
 moli-sp
 monsi-sp
+mu-sp
 mun-sp
 musi-sp
 mute-sp
-n-sp
 nanpa-sp
 nasa-sp
-nena-sp
 nasin-sp
+nena-sp
 ni-sp
 nimi-sp
 noka-sp
@@ -101,6 +123,7 @@ poki-sp
 pona-sp
 pu-sp
 sama-sp
+seli-sp
 selo-sp
 seme-sp
 sewi-sp
@@ -110,8 +133,8 @@ sin-sp
 sina-sp
 sinpin-sp
 sitelen-sp
+sona-sp
 soweli-sp
-space-han
 suli-sp
 suno-sp
 supa-sp
@@ -123,7 +146,6 @@ telo-sp
 tenpo-sp
 toki-sp
 tomo-sp
-tonsi-sp
 tu-sp
 unpa-sp
 uta-sp
@@ -131,13 +153,40 @@ utala-sp
 walo-sp
 wan-sp
 waso-sp
+wawa-sp
 weka-sp
-wile-sp
-";
+wile-sp";
 name = cartouchable;
 },
 {
-code = "a-sp.cart
+code = "space-han.cart
+comma-han.cart
+cornerbracketleft.cart
+cornerbracketright.cart
+colon-sp.cart
+interpunct-sp.cart
+apeja-sp.cart
+majuna-sp.cart
+pake-sp.cart
+powe-sp.cart
+epiku-sp.cart
+jasima-sp.cart
+kijetesantakalu-sp.cart
+kin-sp.cart
+kipisi-sp.cart
+kokosila-sp.cart
+ku-sp.cart
+lanpan-sp.cart
+leko-sp.cart
+meso-sp.cart
+misikeke-sp.cart
+monsuta-sp.cart
+n-sp.cart
+namako-sp.cart
+oko-sp.cart
+soko-sp.cart
+tonsi-sp.cart
+a-sp.cart
 akesi-sp.cart
 ala-sp.cart
 alasa-sp.cart
@@ -146,10 +195,6 @@ anpa-sp.cart
 ante-sp.cart
 anu-sp.cart
 awen-sp.cart
-colon-sp.cart
-comma-han.cart
-cornerbracketleft.cart
-cornerbracketright.cart
 e-sp.cart
 en-sp.cart
 esun-sp.cart
@@ -157,7 +202,6 @@ ijo-sp.cart
 ike-sp.cart
 ilo-sp.cart
 insa-sp.cart
-interpunct-sp.cart
 jaki-sp.cart
 jan-sp.cart
 jelo-sp.cart
@@ -199,14 +243,14 @@ mije-sp.cart
 moku-sp.cart
 moli-sp.cart
 monsi-sp.cart
+mu-sp.cart
 mun-sp.cart
 musi-sp.cart
 mute-sp.cart
-n-sp.cart
 nanpa-sp.cart
 nasa-sp.cart
-nena-sp.cart
 nasin-sp.cart
+nena-sp.cart
 ni-sp.cart
 nimi-sp.cart
 noka-sp.cart
@@ -229,6 +273,7 @@ poki-sp.cart
 pona-sp.cart
 pu-sp.cart
 sama-sp.cart
+seli-sp.cart
 selo-sp.cart
 seme-sp.cart
 sewi-sp.cart
@@ -238,8 +283,8 @@ sin-sp.cart
 sina-sp.cart
 sinpin-sp.cart
 sitelen-sp.cart
+sona-sp.cart
 soweli-sp.cart
-space-han.cart
 suli-sp.cart
 suno-sp.cart
 supa-sp.cart
@@ -251,7 +296,6 @@ telo-sp.cart
 tenpo-sp.cart
 toki-sp.cart
 tomo-sp.cart
-tonsi-sp.cart
 tu-sp.cart
 unpa-sp.cart
 uta-sp.cart
@@ -259,9 +303,9 @@ utala-sp.cart
 walo-sp.cart
 wan-sp.cart
 waso-sp.cart
+wawa-sp.cart
 weka-sp.cart
-wile-sp.cart
-";
+wile-sp.cart";
 name = cartouched;
 }
 );

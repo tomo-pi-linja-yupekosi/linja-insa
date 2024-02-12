@@ -1,0 +1,17 @@
+{
+glyphname = "ku-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ku-sp";
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+}

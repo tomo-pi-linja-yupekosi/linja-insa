@@ -3,6 +3,11 @@ glyphname = "ko-sp";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+ref = .notdef;
+}
+);
 width = 2000;
 }
 );

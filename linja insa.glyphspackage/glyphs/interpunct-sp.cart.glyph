@@ -1,0 +1,20 @@
+{
+glyphname = "interpunct-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "interpunct-sp";
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2001;
+}
+);
+tags = (
+cart
+);
+}

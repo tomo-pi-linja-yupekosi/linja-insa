@@ -1,0 +1,20 @@
+{
+glyphname = "tenpo-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "tenpo-sp";
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+cart
+);
+}

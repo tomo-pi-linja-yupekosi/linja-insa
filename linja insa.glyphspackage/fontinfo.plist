@@ -7,8 +7,283 @@ name = Weight;
 tag = wght;
 }
 );
+classes = (
+{
+code = "a-sp
+akesi-sp
+ala-sp
+alasa-sp
+ale-sp
+anpa-sp
+ante-sp
+anu-sp
+awen-sp
+colon-sp
+comma-han
+cornerbracketleft
+cornerbracketright
+e-sp
+en-sp
+esun-sp
+ijo-sp
+ike-sp
+ilo-sp
+insa-sp
+interpunct-sp
+jaki-sp
+jan-sp.cart
+jan-sp
+jelo-sp
+jo-sp
+kala-sp
+kalama-sp
+kama-sp
+kasi-sp
+ken-sp
+kepeken-sp
+kili-sp
+kiwen-sp
+ko-sp
+kon-sp
+kule-sp
+kulupu-sp
+kute-sp
+la-sp
+lape-sp
+laso-sp
+lawa-sp
+len-sp
+lete-sp
+li-sp
+lili-sp
+linja-sp
+lipu-sp
+loje-sp
+lon-sp
+luka-sp
+lukin-sp
+lupa-sp
+ma-sp
+mama-sp
+mani-sp
+meli-sp
+mi-sp
+mije-sp
+moku-sp
+moli-sp
+monsi-sp
+mun-sp
+musi-sp
+mute-sp
+n-sp
+nanpa-sp
+nasa-sp
+nena-sp
+ni-sp
+noka-sp
+o-sp
+olin-sp
+ona-sp
+open-sp
+pakala-sp
+pali-sp
+palisa-sp
+pan-sp
+pana-sp
+pi-sp
+pilin-sp
+pimeja-sp
+pini-sp
+pipi-sp
+poka-sp
+poki-sp
+pona-sp
+pu-sp
+sama-sp
+selo-sp
+seme-sp
+sewi-sp
+sijelo-sp
+sike-sp
+sin-sp
+sina-sp
+sinpin-sp
+sitelen-sp
+soweli-sp
+space-han
+suli-sp
+suno-sp
+supa-sp
+suwi-sp
+tan-sp
+taso-sp
+tawa-sp
+telo-sp
+tenpo-sp
+toki-sp
+tomo-sp
+tonsi-sp
+tu-sp
+unpa-sp
+uta-sp
+utala-sp
+walo-sp
+wan-sp
+waso-sp
+weka-sp
+wile-sp";
+name = cartouchable;
+},
+{
+code = "a-sp.cart
+akesi-sp.cart
+ala-sp.cart
+alasa-sp.cart
+ale-sp.cart
+anpa-sp.cart
+ante-sp.cart
+anu-sp.cart
+awen-sp.cart
+colon-sp.cart
+comma-han.cart
+cornerbracketleft.cart
+cornerbracketright.cart
+e-sp.cart
+en-sp.cart
+esun-sp.cart
+ijo-sp.cart
+ike-sp.cart
+ilo-sp.cart
+insa-sp.cart
+interpunct-sp.cart
+jaki-sp.cart
+jan-sp.cart.cart
+jan-sp.cart
+jelo-sp.cart
+jo-sp.cart
+kala-sp.cart
+kalama-sp.cart
+kama-sp.cart
+kasi-sp.cart
+ken-sp.cart
+kepeken-sp.cart
+kili-sp.cart
+kiwen-sp.cart
+ko-sp.cart
+kon-sp.cart
+kule-sp.cart
+kulupu-sp.cart
+kute-sp.cart
+la-sp.cart
+lape-sp.cart
+laso-sp.cart
+lawa-sp.cart
+len-sp.cart
+lete-sp.cart
+li-sp.cart
+lili-sp.cart
+linja-sp.cart
+lipu-sp.cart
+loje-sp.cart
+lon-sp.cart
+luka-sp.cart
+lukin-sp.cart
+lupa-sp.cart
+ma-sp.cart
+mama-sp.cart
+mani-sp.cart
+meli-sp.cart
+mi-sp.cart
+mije-sp.cart
+moku-sp.cart
+moli-sp.cart
+monsi-sp.cart
+mun-sp.cart
+musi-sp.cart
+mute-sp.cart
+n-sp.cart
+nanpa-sp.cart
+nasa-sp.cart
+nena-sp.cart
+ni-sp.cart
+noka-sp.cart
+o-sp.cart
+olin-sp.cart
+ona-sp.cart
+open-sp.cart
+pakala-sp.cart
+pali-sp.cart
+palisa-sp.cart
+pan-sp.cart
+pana-sp.cart
+pi-sp.cart
+pilin-sp.cart
+pimeja-sp.cart
+pini-sp.cart
+pipi-sp.cart
+poka-sp.cart
+poki-sp.cart
+pona-sp.cart
+pu-sp.cart
+sama-sp.cart
+selo-sp.cart
+seme-sp.cart
+sewi-sp.cart
+sijelo-sp.cart
+sike-sp.cart
+sin-sp.cart
+sina-sp.cart
+sinpin-sp.cart
+sitelen-sp.cart
+soweli-sp.cart
+space-han.cart
+suli-sp.cart
+suno-sp.cart
+supa-sp.cart
+suwi-sp.cart
+tan-sp.cart
+taso-sp.cart
+tawa-sp.cart
+telo-sp.cart
+tenpo-sp.cart
+toki-sp.cart
+tomo-sp.cart
+tonsi-sp.cart
+tu-sp.cart
+unpa-sp.cart
+uta-sp.cart
+utala-sp.cart
+walo-sp.cart
+wan-sp.cart
+waso-sp.cart
+weka-sp.cart
+wile-sp.cart";
+name = cartouched;
+}
+);
 date = "2024-01-25 21:59:19 +0000";
 familyName = "linja insa";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature calt;
+";
+tag = aalt;
+},
+{
+code = "sub [cartouchestart-sp @cartouched] @cartouchable' by @cartouched;
+rsub @cartouchable' [cartoucheend-sp @cartouched] by @cartouched;";
+tag = calt;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -113,7 +388,6 @@ userData = {
 GSCornerRadius = 500;
 GSExtrudeAngle = 0;
 GSExtrudeOffset = 500;
-GSOffsetCapStyle = 4;
 GSOffsetHorizontal = 93;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;

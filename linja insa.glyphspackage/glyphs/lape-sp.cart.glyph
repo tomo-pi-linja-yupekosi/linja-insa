@@ -1,0 +1,20 @@
+{
+glyphname = "lape-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "lape-sp";
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+cart
+);
+}

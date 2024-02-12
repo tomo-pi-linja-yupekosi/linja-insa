@@ -1,0 +1,20 @@
+{
+glyphname = "sike-sp.cart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "sike-sp";
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+cart
+);
+}

@@ -1,20 +1,10 @@
 {
 displayStrings = (
-"/ona-sp/li-sp/jan-sp/lawa-sp/pi-sp/kulupu-sp 
-/ona-sp/li-sp/jo-sp/e-sp/meli-sp/e-sp/jan-sp/lili-sp/tu-sp 
-/lon-sp/tomo-sp/la-sp/jan-sp/lili-sp/pi-sp/nanpa-sp/tu-sp/en-sp/mama-sp/li-sp/pali-sp/e-sp/pan-sp/e-sp/len-sp 
-/meli-sp/li-sp/jan-sp",
-"/sitelen-sp",
-"/noka-sp",
-"/ona-sp/li-sp/toki-sp/e-sp/ni-sp 「/lipu-sp/kule-sp/li-sp/pona-sp/pi-sp/toki-sp/pona-sp 」
-/kiwen-sp/pona-sp 、/kiwen-sp/ike-sp 、/kiwen-sp/ijo-sp",
-"「",
-"」",
-"、",
-"/pilin-sp",
-"/ona-sp/li-sp/moku-sp/e-sp/kili-sp/pona-sp",
-"/lipu-sp",
-"/ijo-sp",
-"/mi-sp/mama-sp/e-sp/sina-sp"
+"/akesi-sp/cartouchestart-sp/kili-sp/jan-sp/cartoucheend-sp",
+"/_part.cartouche",
+"/cartouchestart-sp",
+"/_cap.butt",
+"/unpa-sp",
+"/ona-sp/li-sp/musi-sp/e-sp/musi-sp/cartouchestart-sp/waso-sp/pona-sp/cartoucheend-sp"
 );
 }

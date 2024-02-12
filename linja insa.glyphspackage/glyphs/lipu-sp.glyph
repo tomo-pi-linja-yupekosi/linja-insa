@@ -5,72 +5,64 @@ layers = (
 hints = (
 {
 options = 4;
-origin = (0,3);
-target = (1,3);
+place = (408, 186);
 type = TTStem;
 },
 {
 options = 4;
-origin = (0,2);
-target = (1,0);
+place = (1591, 186);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (0,0);
-target = (1,2);
+place = (0, 175);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (0,1);
-target = (1,1);
+place = (0, 175);
 type = TTStem;
 },
 {
 horizontal = 1;
-origin = (0,3);
+place = (1490, 0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-origin = (0,0);
+place = (0, 0);
 type = TTSnap;
 },
 {
-origin = (0,0);
+place = (408, 0);
 type = TTSnap;
 },
 {
-origin = (0,1);
+place = (1591, 0);
 type = TTSnap;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (1,3);
-target = (0,3);
+place = (1315, 175);
 type = TTStem;
 },
 {
 horizontal = 1;
 options = 4;
-origin = (1,0);
-target = (0,2);
+place = (1315, 175);
 type = TTStem;
 },
 {
 options = 4;
-origin = (1,2);
-target = (0,0);
+place = (594, 186);
 type = TTStem;
 },
 {
 options = 4;
-origin = (1,1);
-target = (0,1);
+place = (1405, 186);
 type = TTStem;
 }
 );
@@ -99,4 +91,5 @@ width = 2000;
 }
 );
 metricLeft = "|=";
+unicode = 989482;
 }

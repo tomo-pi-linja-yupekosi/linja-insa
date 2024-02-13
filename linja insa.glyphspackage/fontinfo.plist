@@ -434,7 +434,7 @@ stemValues = (
 186
 );
 userData = {
-GSCornerRadius = 500;
+GSCornerRadius = 50;
 GSExtrudeAngle = 0;
 GSExtrudeOffset = 500;
 GSOffsetHorizontal = 93;

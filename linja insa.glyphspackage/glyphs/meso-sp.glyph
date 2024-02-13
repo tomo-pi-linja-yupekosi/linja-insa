@@ -5,7 +5,28 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = .notdef;
+alignment = -1;
+ref = "interpunct-sp";
+},
+{
+attr = {
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(1400,1495,l),
+(1400,-5,l)
+);
+},
+{
+attr = {
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(600,1495,l),
+(600,-5,l)
+);
 }
 );
 width = 2000;

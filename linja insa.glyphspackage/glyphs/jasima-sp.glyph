@@ -5,7 +5,18 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = .notdef;
+alignment = -1;
+ref = "telo-sp";
+},
+{
+attr = {
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(998,1580,l),
+(998,-89,l)
+);
 }
 );
 width = 2000;

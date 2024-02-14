@@ -5,7 +5,68 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = .notdef;
+attr = {
+lineCapEnd = 3;
+lineCapStart = 4;
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(828,257,l),
+(943,6,l),
+(401,6,l),
+(284,6,o),
+(192,116,o),
+(192,256,c),
+(192,396,o),
+(284,506,o),
+(401,506,c),
+(703,506,l),
+(703,802,l),
+(703,1190,o),
+(1065,1495,o),
+(1522,1495,c),
+(1522,1293,l),
+(1809,1054,l),
+(1554,785,l),
+(1554,6,l)
+);
+},
+{
+alignment = -1;
+pos = (555,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+alignment = -1;
+pos = (272,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+attr = {
+lineCapStart = 3;
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(1249,6,l),
+(1249,257,l)
+);
+},
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(531,44,l),
+(531,477,l)
+);
 }
 );
 width = 2000;

@@ -5,7 +5,31 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = .notdef;
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1539,1097,o),
+(1332,1375,o),
+(1002,1375,cs),
+(680,1375,o),
+(479,1097,o),
+(479,654,c),
+(1539,654,l)
+);
+},
+{
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(998,-25,l),
+(998,589,l)
+);
 }
 );
 width = 2000;

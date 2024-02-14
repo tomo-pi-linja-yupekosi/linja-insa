@@ -2,13 +2,7 @@
 glyphname = "esun-sp";
 layers = (
 {
-backgroundImage = {
-imagePath = "../../../../var/folders/z_/jbxjqhss1jxbphlj51fmcfg80000gr/T/TemporaryItems/NSIRD_screencaptureui_DRc12M/Screenshot 2024-01-30 at 5.19.07 PM.png";
-locked = 1;
-pos = (173,-77);
-scale = (2.7964,2.7964);
-};
-layerId = m01;
+background = {
 shapes = (
 {
 closed = 1;
@@ -110,6 +104,39 @@ nodes = (
 (823,940,o),
 (465,1237,o),
 (410,1388,c)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../var/folders/z_/jbxjqhss1jxbphlj51fmcfg80000gr/T/TemporaryItems/NSIRD_screencaptureui_DRc12M/Screenshot 2024-01-30 at 5.19.07 PM.png";
+locked = 1;
+pos = (173,-77);
+scale = (2.7964,2.7964);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(430,1425,l),
+(733,725,o),
+(1677,884,o),
+(1709,1234,cs),
+(1731,1481,o),
+(1269,1498,o),
+(1157,1191,c),
+(837,311,l),
+(725,4,o),
+(263,21,o),
+(285,268,cs),
+(317,618,o),
+(1261,777,o),
+(1564,77,c)
 );
 }
 );

@@ -34,9 +34,17 @@ nodes = (
 );
 },
 {
-alignment = -1;
-pos = (492,0);
-ref = "interpunct-sp";
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(1517,977,l),
+(1293,819,o),
+(1293,662,o),
+(1517,504,c)
+);
 }
 );
 width = 2000;

@@ -13,7 +13,7 @@ strokeWidth = 150;
 };
 closed = 0;
 nodes = (
-(828,257,l),
+(908,257,l),
 (943,6,l),
 (401,6,l),
 (284,6,o),
@@ -64,8 +64,19 @@ strokeWidth = 150;
 };
 closed = 0;
 nodes = (
-(531,44,l),
-(531,477,l)
+(703,73,l),
+(703,506,l)
+);
+},
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(439,73,l),
+(439,506,l)
 );
 }
 );

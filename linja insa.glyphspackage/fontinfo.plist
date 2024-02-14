@@ -307,6 +307,157 @@ wawa-sp.cart
 weka-sp.cart
 wile-sp.cart";
 name = cartouched;
+},
+{
+code = "space-han.kcart
+comma-han.kcart
+cornerbracketleft.kcart
+cornerbracketright.kcart
+colon-sp.kcart
+interpunct-sp.kcart
+apeja-sp.kcart
+majuna-sp.kcart
+pake-sp.kcart
+powe-sp.kcart
+epiku-sp.kcart
+jasima-sp.kcart
+kijetesantakalu-sp.kcart
+kin-sp.kcart
+kipisi-sp.kcart
+kokosila-sp.kcart
+ku-sp.kcart
+lanpan-sp.kcart
+leko-sp.kcart
+meso-sp.kcart
+misikeke-sp.kcart
+monsuta-sp.kcart
+n-sp.kcart
+namako-sp.kcart
+oko-sp.kcart
+soko-sp.kcart
+tonsi-sp.kcart
+a-sp.kcart
+akesi-sp.kcart
+ala-sp.kcart
+alasa-sp.kcart
+ale-sp.kcart
+anpa-sp.kcart
+ante-sp.kcart
+anu-sp.kcart
+awen-sp.kcart
+e-sp.kcart
+en-sp.kcart
+esun-sp.kcart
+ijo-sp.kcart
+ike-sp.kcart
+ilo-sp.kcart
+insa-sp.kcart
+jaki-sp.kcart
+jan-sp.kcart
+jelo-sp.kcart
+jo-sp.kcart
+kala-sp.kcart
+kalama-sp.kcart
+kama-sp.kcart
+kasi-sp.kcart
+ken-sp.kcart
+kepeken-sp.kcart
+kili-sp.kcart
+kiwen-sp.kcart
+ko-sp.kcart
+kon-sp.kcart
+kule-sp.kcart
+kulupu-sp.kcart
+kute-sp.kcart
+la-sp.kcart
+lape-sp.kcart
+laso-sp.kcart
+lawa-sp.kcart
+len-sp.kcart
+lete-sp.kcart
+li-sp.kcart
+lili-sp.kcart
+linja-sp.kcart
+lipu-sp.kcart
+loje-sp.kcart
+lon-sp.kcart
+luka-sp.kcart
+lukin-sp.kcart
+lupa-sp.kcart
+ma-sp.kcart
+mama-sp.kcart
+mani-sp.kcart
+meli-sp.kcart
+mi-sp.kcart
+mije-sp.kcart
+moku-sp.kcart
+moli-sp.kcart
+monsi-sp.kcart
+mu-sp.kcart
+mun-sp.kcart
+musi-sp.kcart
+mute-sp.kcart
+nanpa-sp.kcart
+nasa-sp.kcart
+nasin-sp.kcart
+nena-sp.kcart
+ni-sp.kcart
+nimi-sp.kcart
+noka-sp.kcart
+o-sp.kcart
+olin-sp.kcart
+ona-sp.kcart
+open-sp.kcart
+pakala-sp.kcart
+pali-sp.kcart
+palisa-sp.kcart
+pan-sp.kcart
+pana-sp.kcart
+pi-sp.kcart
+pilin-sp.kcart
+pimeja-sp.kcart
+pini-sp.kcart
+pipi-sp.kcart
+poka-sp.kcart
+poki-sp.kcart
+pona-sp.kcart
+pu-sp.kcart
+sama-sp.kcart
+seli-sp.kcart
+selo-sp.kcart
+seme-sp.kcart
+sewi-sp.kcart
+sijelo-sp.kcart
+sike-sp.kcart
+sin-sp.kcart
+sina-sp.kcart
+sinpin-sp.kcart
+sitelen-sp.kcart
+sona-sp.kcart
+soweli-sp.kcart
+suli-sp.kcart
+suno-sp.kcart
+supa-sp.kcart
+suwi-sp.kcart
+tan-sp.kcart
+taso-sp.kcart
+tawa-sp.kcart
+telo-sp.kcart
+tenpo-sp.kcart
+toki-sp.kcart
+tomo-sp.kcart
+tu-sp.kcart
+unpa-sp.kcart
+uta-sp.kcart
+utala-sp.kcart
+walo-sp.kcart
+wan-sp.kcart
+waso-sp.kcart
+wawa-sp.kcart
+weka-sp.kcart
+wile-sp.kcart
+";
+name = kcartouched;
 }
 );
 date = "2024-01-25 21:59:19 +0000";
@@ -329,6 +480,11 @@ tag = aalt;
 {
 code = "sub [cartouchestart-sp @cartouched] @cartouchable' by @cartouched;
 rsub @cartouchable' [cartoucheend-sp @cartouched] by @cartouched;
+
+sub kijetesantakalu-sp longstart-sp by kijetesantakalu-sp.start;
+
+sub [kijetesantakalu-sp.start @kcartouched] @cartouchable' by @kcartouched;
+sub @kcartouched longend-sp' by kijetesantakalu-sp.cartoucheend;
 ";
 tag = calt;
 }
@@ -434,7 +590,7 @@ stemValues = (
 186
 );
 userData = {
-GSCornerRadius = 400;
+GSCornerRadius = 200;
 GSExtrudeAngle = 0;
 GSExtrudeOffset = 500;
 GSOffsetHorizontal = 93;

@@ -1,0 +1,20 @@
+{
+glyphname = "musi-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "musi-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

@@ -1,0 +1,20 @@
+{
+glyphname = "pakala-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "pakala-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

@@ -1,0 +1,25 @@
+{
+glyphname = _cap.smallButt;
+layers = (
+{
+anchors = (
+{
+name = origin;
+pos = (112,139);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(112,139,l),
+(186,76,l),
+(262,139,l)
+);
+}
+);
+width = 600;
+}
+);
+}

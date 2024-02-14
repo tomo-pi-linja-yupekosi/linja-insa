@@ -1,0 +1,20 @@
+{
+glyphname = "pilin-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "pilin-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

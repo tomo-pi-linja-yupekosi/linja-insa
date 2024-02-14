@@ -1,0 +1,20 @@
+{
+glyphname = cornerbracketleft.kcart;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = cornerbracketleft;
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

@@ -1,0 +1,20 @@
+{
+glyphname = "kama-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "kama-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2001;
+}
+);
+tags = (
+kcart
+);
+}

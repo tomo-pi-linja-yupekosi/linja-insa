@@ -1,0 +1,20 @@
+{
+glyphname = "seli-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "seli-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

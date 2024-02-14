@@ -1,0 +1,20 @@
+{
+glyphname = "kipisi-sp.kcart";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "kipisi-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche;
+}
+);
+width = 2000;
+}
+);
+tags = (
+kcart
+);
+}

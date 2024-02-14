@@ -118,8 +118,8 @@ layerId = m01;
 shapes = (
 {
 attr = {
-strokeHeight = 150;
-strokeWidth = 150;
+strokeHeight = 176;
+strokeWidth = 186;
 };
 closed = 0;
 nodes = (

@@ -1,0 +1,17 @@
+{
+glyphname = "lili-sp.cart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "lili-sp";
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

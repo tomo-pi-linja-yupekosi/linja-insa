@@ -1,0 +1,17 @@
+{
+glyphname = "soweli-sp.kcart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "soweli-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

@@ -3,6 +3,7 @@ glyphname = "joinerscale-sp";
 layers = (
 {
 layerId = m01;
+vertWidth = 0;
 width = 0;
 }
 );

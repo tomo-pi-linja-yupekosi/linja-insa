@@ -1,0 +1,52 @@
+{
+export = 0;
+glyphname = _part.kijetesantakaluCartouche.vert;
+layers = (
+{
+hints = (
+{
+name = _cap.smallButt;
+origin = (0,0);
+type = Cap;
+},
+{
+name = _cap.smallButt;
+origin = (1,0);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1933,-494,l),
+(2083,-494,l),
+(2083,1984,l),
+(1933,1984,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-84,-494,l),
+(66,-494,l),
+(66,1984,l),
+(-84,1984,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(41,-234,l),
+(41,-384,l),
+(1942,-384,l),
+(1931,-234,l)
+);
+}
+);
+width = 2000;
+}
+);
+script = han;
+}

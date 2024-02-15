@@ -1,0 +1,17 @@
+{
+glyphname = "kute-sp.cart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "kute-sp";
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

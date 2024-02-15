@@ -1,0 +1,17 @@
+{
+glyphname = "sewi-sp.cart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "sewi-sp";
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

@@ -1,0 +1,24 @@
+{
+glyphname = cornerbracketleft.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(2000,-184,l),
+(2000,567,l),
+(1072,567,l),
+(1072,381,l),
+(1825,381,l),
+(1825,-184,l)
+);
+}
+);
+width = 2000;
+}
+);
+script = han;
+unicode = 65089;
+}

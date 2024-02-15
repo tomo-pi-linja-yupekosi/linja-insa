@@ -3,6 +3,7 @@ glyphname = "longstart-sp";
 layers = (
 {
 layerId = m01;
+vertWidth = 0;
 width = 0;
 }
 );

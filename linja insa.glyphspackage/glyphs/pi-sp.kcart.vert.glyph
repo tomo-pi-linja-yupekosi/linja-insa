@@ -1,0 +1,17 @@
+{
+glyphname = "pi-sp.kcart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "pi-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

@@ -1,0 +1,44 @@
+{
+glyphname = "kijetesantakalu-sp.cartoucheend.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(2008,1984,l),
+(2008,1494,o),
+(469,1680,o),
+(469,784,c),
+(469,482,l),
+(469,365,o),
+(359,273,o),
+(219,273,c),
+(79,273,o),
+(-9,365,o),
+(-9,482,c),
+(-9,1024,l),
+(-9,1984,l)
+);
+},
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(29,612,l),
+(440,612,l)
+);
+}
+);
+width = 2000;
+}
+);
+}

@@ -1,0 +1,17 @@
+{
+glyphname = "mun-sp.kcart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "mun-sp";
+},
+{
+ref = _part.kijetesantakaluCartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

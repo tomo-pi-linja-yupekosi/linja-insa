@@ -1,0 +1,17 @@
+{
+glyphname = "apeja-sp.cart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "apeja-sp";
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

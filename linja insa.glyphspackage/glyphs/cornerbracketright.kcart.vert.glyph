@@ -1,0 +1,18 @@
+{
+glyphname = cornerbracketright.kcart.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _part.kijetesantakaluCartouche.vert;
+},
+{
+pos = (128,0);
+ref = cornerbracketright.vert;
+}
+);
+width = 2000;
+}
+);
+}

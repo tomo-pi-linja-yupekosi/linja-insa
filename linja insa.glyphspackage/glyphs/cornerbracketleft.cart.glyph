@@ -5,6 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (0,-128);
 ref = cornerbracketleft;
 },
 {

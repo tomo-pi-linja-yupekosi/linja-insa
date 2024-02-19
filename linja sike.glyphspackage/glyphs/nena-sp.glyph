@@ -1,0 +1,18 @@
+{
+glyphname = "nena-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,1554);
+ref = "lupa-sp";
+scale = (1,-1);
+}
+);
+width = 2048;
+}
+);
+unicode = 989504;
+}

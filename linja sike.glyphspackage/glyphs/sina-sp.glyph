@@ -1,0 +1,17 @@
+{
+glyphname = "sina-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,1520);
+ref = "mi-sp";
+scale = (1,-1);
+}
+);
+width = 2048;
+}
+);
+unicode = 989534;
+}

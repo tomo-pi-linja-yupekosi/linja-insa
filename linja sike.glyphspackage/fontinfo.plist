@@ -1,0 +1,72 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+date = "2024-02-19 19:04:46 +0000";
+familyName = "linja sike";
+fontMaster = (
+{
+customParameters = (
+{
+name = "CJK Grid";
+value = "8";
+},
+{
+name = "Default Layer Width";
+value = "2048";
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1118;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = Regular;
+userData = {
+GSOffsetHorizontal = 50;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 50;
+};
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+name = Midline;
+}
+);
+unitsPerEm = 2048;
+versionMajor = 1;
+versionMinor = 0;
+}

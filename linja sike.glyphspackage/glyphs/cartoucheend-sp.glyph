@@ -1,0 +1,29 @@
+{
+glyphname = "cartoucheend-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 100;
+strokeWidth = 100;
+};
+closed = 1;
+nodes = (
+(743,-317,o),
+(1218,158,o),
+(1218,745,cs),
+(1218,1331,o),
+(743,1807,o),
+(156,1807,c),
+(1194,745,l),
+(156,-317,l)
+);
+}
+);
+width = 2048;
+}
+);
+unicode = 989585;
+}

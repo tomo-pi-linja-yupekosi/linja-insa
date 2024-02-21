@@ -1,0 +1,30 @@
+{
+glyphname = newGlyph;
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(566,-328,o),
+(796,-369,o),
+(1041,-369,cs),
+(1249,-369,o),
+(1448,-340,o),
+(1624,-285,c),
+(1045,348,l),
+(369,-254,l)
+);
+}
+);
+};
+layerId = m01;
+width = 600;
+}
+);
+}

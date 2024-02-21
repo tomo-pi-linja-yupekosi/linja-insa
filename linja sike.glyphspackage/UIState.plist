@@ -1,6 +1,8 @@
 {
 displayStrings = (
-"/musi-sp/cartouchestart-sp/pona-sp/ike-sp/pu-sp/cartoucheend-sp/cartouchestart-sp/li-sp/pona-sp/cartoucheend-sp",
+"/musi-sp/cartouchestart-sp/pona-sp/ike-sp/pu-sp/cartoucheend-sp/cartouchestart-sp/li-sp/pona-sp/cartoucheend-sp 
+/ona-sp/li-sp/pona-sp/e-sp/mi-sp 
+/lili-sp/suli-sp",
 "/mi-sp",
 "/toki-sp",
 "/sike-sp",
@@ -12,6 +14,9 @@ displayStrings = (
 "/alasa-sp",
 "/a-sp",
 "/li-sp",
-"/e-sp"
+"/e-sp",
+"/linja-sp",
+"/pini-sp",
+"/nanpa-sp"
 );
 }

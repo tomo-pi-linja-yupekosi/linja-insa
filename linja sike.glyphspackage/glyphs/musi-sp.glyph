@@ -6,8 +6,8 @@ layerId = m01;
 shapes = (
 {
 attr = {
-strokeHeight = 100;
-strokeWidth = 100;
+strokeHeight = 30;
+strokeWidth = 30;
 };
 closed = 1;
 nodes = (
@@ -25,7 +25,8 @@ nodes = (
 },
 {
 attr = {
-strokeWidth = 100;
+strokeHeight = 30;
+strokeWidth = 30;
 };
 closed = 1;
 nodes = (
@@ -45,7 +46,8 @@ nodes = (
 },
 {
 attr = {
-strokeWidth = 100;
+strokeHeight = 30;
+strokeWidth = 30;
 };
 closed = 1;
 nodes = (

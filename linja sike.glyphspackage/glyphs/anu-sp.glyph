@@ -1,0 +1,44 @@
+{
+glyphname = "anu-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(536,1531,l),
+(428,1348,o),
+(400,1120,o),
+(477,905,cs),
+(556,690,o),
+(725,534,o),
+(924,463,c)
+);
+},
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(772,9,l),
+(1076,-23,o),
+(1380,138,o),
+(1516,430,cs),
+(1652,722,o),
+(1580,1058,o),
+(1361,1270,c)
+);
+}
+);
+width = 2048;
+}
+);
+unicode = 989447;
+}

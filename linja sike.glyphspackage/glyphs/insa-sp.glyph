@@ -1,0 +1,52 @@
+{
+glyphname = "insa-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+identifier = ID0x139c86570;
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(1428,303,o),
+(1756,631,o),
+(1756,1035,c),
+(1024,467,l),
+(292,1035,l),
+(292,631,o),
+(620,303,o),
+(1024,303,cs)
+);
+},
+{
+attr = {
+identifier = ID0x139c86570;
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(1116,874,o),
+(1190,948,o),
+(1190,1040,cs),
+(1190,1132,o),
+(1116,1206,o),
+(1024,1206,cs),
+(932,1206,o),
+(858,1132,o),
+(858,1040,cs),
+(858,948,o),
+(932,874,o),
+(1024,874,cs)
+);
+}
+);
+width = 2048;
+}
+);
+unicode = 989455;
+}

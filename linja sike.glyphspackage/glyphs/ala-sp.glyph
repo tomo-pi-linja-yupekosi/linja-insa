@@ -1,0 +1,68 @@
+{
+glyphname = "ala-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(1809,566,o),
+(1802,901,o),
+(1621,1148,c),
+(1214,741,l),
+(1642,313,l)
+);
+},
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(1066,889,l),
+(1474,1297,l),
+(1227,1487,o),
+(886,1497,o),
+(628,1327,c)
+);
+},
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(249,899,o),
+(248,533,o),
+(448,271,c),
+(894,717,l),
+(450,1161,l)
+);
+},
+{
+attr = {
+strokeHeight = 30;
+strokeWidth = 30;
+};
+closed = 1;
+nodes = (
+(1042,569,l),
+(598,125,l),
+(859,-67,o),
+(1218,-64,o),
+(1476,135,c)
+);
+}
+);
+width = 2048;
+}
+);
+unicode = 989442;
+}

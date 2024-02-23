@@ -6,10 +6,10 @@ displayStrings = (
 /linja-sp/sina-sp/li-sp/weka-sp/tan-sp/ni-sp/sina-sp/pali-sp/sitelen-sp 　",
 "/mi-sp/utala-sp/e-sp/kijetesantakalu-sp/sina-sp 
 /ona-sp/li-sp/moli-sp",
-"/cartouchestart-sp.vert",
+"",
 "/cartoucheend-sp",
-"/kijetesantakalu-sp.start.vert",
-"/_part.kijetesantakaluCartouche.vert",
+"",
+"",
 "/kijetesantakalu-sp/longstart-sp/tonsi-sp/pi-sp/lanpan-sp/soko-sp/longend-sp/li-sp/lukin-sp/e-sp/lipu-sp/ni-sp 
 /jan-sp/cartouchestart-sp/o-sp/suli-sp/uta-sp/cartoucheend-sp/pi-sp/wawa-sp/nasa-sp 
 /ona-sp/li-sp/toki-sp/e-sp/ni-sp/colon-sp 「/lipu-sp/li-sp/pona-sp 、/li-sp/suli-sp 」",
@@ -18,6 +18,7 @@ displayStrings = (
 "/colon-sp",
 "︑",
 "、",
-"/colon-sp.vert"
+"",
+"/ma-sp/unpa-sp/pi-sp/toki-sp/unpa-sp"
 );
 }

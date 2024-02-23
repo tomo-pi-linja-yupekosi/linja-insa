@@ -2,28 +2,45 @@
 glyphname = "loje-sp";
 layers = (
 {
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(480,143,l),
+(1520,143,l),
+(1000,708,l)
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1245,152,l),
-(755,152,l),
-(1000,440,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(437,0,l),
-(1563,0,l),
-(1000,674,l)
-);
-},
-{
 alignment = -1;
-pos = (143,488);
+pos = (143,600);
 ref = _closedMouth;
+},
+{
+closed = 1;
+nodes = (
+(1315.732,231,l),
+(684.268,231,l),
+(1000,574.055,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(895,728,l),
+(275.732,55,l),
+(1724.268,55,l),
+(1105,728,l)
+);
 }
 );
 width = 2000;

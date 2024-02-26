@@ -1,0 +1,19 @@
+{
+glyphname = four.cart;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = four;
+},
+{
+ref = _part.cartouche;
+}
+);
+width = 2000;
+}
+);
+metricLeft = four;
+metricRight = four;
+}

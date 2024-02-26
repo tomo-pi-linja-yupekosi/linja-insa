@@ -9,7 +9,17 @@ tag = wght;
 );
 classes = (
 {
-code = "space-han
+code = "zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+space-han
 comma-han
 cornerbracketleft
 cornerbracketright
@@ -155,11 +165,22 @@ wan-sp
 waso-sp
 wawa-sp
 weka-sp
-wile-sp";
+wile-sp
+";
 name = cartouchable;
 },
 {
-code = "space-han.cart
+code = "zero.cart
+one.cart
+two.cart
+three.cart
+four.cart
+five.cart
+six.cart
+seven.cart
+eight.cart
+nine.cart
+space-han.cart
 comma-han.cart
 cornerbracketleft.cart
 cornerbracketright.cart
@@ -305,11 +326,22 @@ wan-sp.cart
 waso-sp.cart
 wawa-sp.cart
 weka-sp.cart
-wile-sp.cart";
+wile-sp.cart
+";
 name = cartouched;
 },
 {
-code = "space-han.kcart
+code = "zero.kcart
+one.kcart
+two.kcart
+three.kcart
+four.kcart
+five.kcart
+six.kcart
+seven.kcart
+eight.kcart
+nine.kcart
+space-han.kcart
 comma-han.kcart
 cornerbracketleft.kcart
 cornerbracketright.kcart
@@ -1254,6 +1286,7 @@ name = Midline;
 }
 );
 settings = {
+disablesAutomaticAlignment = 1;
 gridLength = 16;
 gridSubDivision = 16;
 keyboardIncrementBig = 8;

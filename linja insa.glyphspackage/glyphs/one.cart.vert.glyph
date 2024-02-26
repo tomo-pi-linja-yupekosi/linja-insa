@@ -1,0 +1,19 @@
+{
+glyphname = one.cart.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one;
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+metricLeft = one;
+metricRight = one;
+}

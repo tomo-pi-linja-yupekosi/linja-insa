@@ -1,0 +1,21 @@
+{
+glyphname = _part.tally1;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(900,-549,l),
+(1100,-549,l),
+(1100,-9,l),
+(900,-9,l)
+);
+}
+);
+width = 2000;
+}
+);
+script = han;
+}

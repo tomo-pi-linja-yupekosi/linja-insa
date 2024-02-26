@@ -1,0 +1,15 @@
+{
+glyphname = _tally5;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-2000,0);
+ref = _part.tally5;
+}
+);
+width = 0;
+}
+);
+}

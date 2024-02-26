@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = _part.tally1;
+glyphname = _tally1.vert;
 layers = (
 {
 layerId = m01;
@@ -8,13 +7,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(900,-606,l),
-(1100,-606,l),
-(1100,-322,l),
-(900,-322,l)
+(2000,3323,l),
+(2000,3123,l),
+(2412,3123,l),
+(2412,3323,l)
 );
 }
 );
+vertWidth = 0;
 width = 2000;
 }
 );

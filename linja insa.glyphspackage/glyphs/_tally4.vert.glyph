@@ -1,0 +1,29 @@
+{
+glyphname = _tally4.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,576);
+ref = _tally1.vert;
+},
+{
+pos = (0,192);
+ref = _tally1.vert;
+},
+{
+pos = (0,-192);
+ref = _tally1.vert;
+},
+{
+pos = (0,-576);
+ref = _tally1.vert;
+}
+);
+vertWidth = 0;
+width = 2000;
+}
+);
+script = han;
+}

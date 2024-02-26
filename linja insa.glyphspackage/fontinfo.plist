@@ -166,6 +166,11 @@ waso-sp
 wawa-sp
 weka-sp
 wile-sp
+_tally1
+_tally2
+_tally3
+_tally4
+_tally5
 ";
 name = cartouchable;
 },
@@ -327,6 +332,11 @@ waso-sp.cart
 wawa-sp.cart
 weka-sp.cart
 wile-sp.cart
+_tally1.cart
+_tally2.cart
+_tally3.cart
+_tally4.cart
+_tally5.cart
 ";
 name = cartouched;
 },
@@ -488,6 +498,11 @@ waso-sp.kcart
 wawa-sp.kcart
 weka-sp.kcart
 wile-sp.kcart
+_tally1.kcart
+_tally2.kcart
+_tally3.kcart
+_tally4.kcart
+_tally5.kcart
 ";
 name = kcartouched;
 }
@@ -506,13 +521,27 @@ features = (
 {
 automatic = 1;
 code = "feature calt;
+feature calt;
 feature vert;
 feature vrt2;
 ";
 tag = aalt;
 },
 {
-code = "sub [cartouchestart-sp @cartouched] @cartouchable' by @cartouched;
+code = "# turn zwj-numbers into tally marks
+
+sub zerowidthjoiner one by _tally1;
+sub zerowidthjoiner two by _tally2;
+sub zerowidthjoiner three by _tally3;
+sub zerowidthjoiner four by _tally4;
+sub zerowidthjoiner five by _tally5;
+";
+tag = calt;
+},
+{
+code = "# substitute glyphs surrounded by cartouche starts/ends with their cartouched variant
+
+sub [cartouchestart-sp @cartouched] @cartouchable' by @cartouched;
 rsub @cartouchable' [cartoucheend-sp @cartouched] by @cartouched;
 
 sub kijetesantakalu-sp longstart-sp by kijetesantakalu-sp.start;
@@ -524,7 +553,27 @@ tag = calt;
 },
 {
 automatic = 1;
-code = "sub space-han.cart by space-han.cart.vert;
+code = "sub zero.cart by zero.cart.vert;
+sub one.cart by one.cart.vert;
+sub two.cart by two.cart.vert;
+sub three.cart by three.cart.vert;
+sub four.cart by four.cart.vert;
+sub five.cart by five.cart.vert;
+sub six.cart by six.cart.vert;
+sub seven.cart by seven.cart.vert;
+sub eight.cart by eight.cart.vert;
+sub nine.cart by nine.cart.vert;
+sub zero.kcart by zero.kcart.vert;
+sub one.kcart by one.kcart.vert;
+sub two.kcart by two.kcart.vert;
+sub three.kcart by three.kcart.vert;
+sub four.kcart by four.kcart.vert;
+sub five.kcart by five.kcart.vert;
+sub six.kcart by six.kcart.vert;
+sub seven.kcart by seven.kcart.vert;
+sub eight.kcart by eight.kcart.vert;
+sub nine.kcart by nine.kcart.vert;
+sub space-han.cart by space-han.cart.vert;
 sub space-han.kcart by space-han.kcart.vert;
 sub comma-han.cart by comma-han.cart.vert;
 sub comma-han.kcart by comma-han.kcart.vert;
@@ -826,12 +875,47 @@ sub weka-sp.cart by weka-sp.cart.vert;
 sub weka-sp.kcart by weka-sp.kcart.vert;
 sub wile-sp.cart by wile-sp.cart.vert;
 sub wile-sp.kcart by wile-sp.kcart.vert;
+sub _tally1.cart by _tally1.cart.vert;
+sub _tally1.kcart by _tally1.kcart.vert;
+sub _tally1 by _tally1.vert;
+sub _tally2.cart by _tally2.cart.vert;
+sub _tally2.kcart by _tally2.kcart.vert;
+sub _tally2 by _tally2.vert;
+sub _tally3.cart by _tally3.cart.vert;
+sub _tally3.kcart by _tally3.kcart.vert;
+sub _tally3 by _tally3.vert;
+sub _tally4.cart by _tally4.cart.vert;
+sub _tally4.kcart by _tally4.kcart.vert;
+sub _tally4 by _tally4.vert;
+sub _tally5.cart by _tally5.cart.vert;
+sub _tally5.kcart by _tally5.kcart.vert;
+sub _tally5 by _tally5.vert;
 ";
 tag = vert;
 },
 {
 automatic = 1;
-code = "sub space-han.cart by space-han.cart.vert;
+code = "sub zero.cart by zero.cart.vert;
+sub one.cart by one.cart.vert;
+sub two.cart by two.cart.vert;
+sub three.cart by three.cart.vert;
+sub four.cart by four.cart.vert;
+sub five.cart by five.cart.vert;
+sub six.cart by six.cart.vert;
+sub seven.cart by seven.cart.vert;
+sub eight.cart by eight.cart.vert;
+sub nine.cart by nine.cart.vert;
+sub zero.kcart by zero.kcart.vert;
+sub one.kcart by one.kcart.vert;
+sub two.kcart by two.kcart.vert;
+sub three.kcart by three.kcart.vert;
+sub four.kcart by four.kcart.vert;
+sub five.kcart by five.kcart.vert;
+sub six.kcart by six.kcart.vert;
+sub seven.kcart by seven.kcart.vert;
+sub eight.kcart by eight.kcart.vert;
+sub nine.kcart by nine.kcart.vert;
+sub space-han.cart by space-han.cart.vert;
 sub space-han.kcart by space-han.kcart.vert;
 sub comma-han.cart by comma-han.cart.vert;
 sub comma-han.kcart by comma-han.kcart.vert;
@@ -1133,6 +1217,21 @@ sub weka-sp.cart by weka-sp.cart.vert;
 sub weka-sp.kcart by weka-sp.kcart.vert;
 sub wile-sp.cart by wile-sp.cart.vert;
 sub wile-sp.kcart by wile-sp.kcart.vert;
+sub _tally1.cart by _tally1.cart.vert;
+sub _tally1.kcart by _tally1.kcart.vert;
+sub _tally1 by _tally1.vert;
+sub _tally2.cart by _tally2.cart.vert;
+sub _tally2.kcart by _tally2.kcart.vert;
+sub _tally2 by _tally2.vert;
+sub _tally3.cart by _tally3.cart.vert;
+sub _tally3.kcart by _tally3.kcart.vert;
+sub _tally3 by _tally3.vert;
+sub _tally4.cart by _tally4.cart.vert;
+sub _tally4.kcart by _tally4.kcart.vert;
+sub _tally4 by _tally4.vert;
+sub _tally5.cart by _tally5.cart.vert;
+sub _tally5.kcart by _tally5.kcart.vert;
+sub _tally5 by _tally5.vert;
 ";
 tag = vrt2;
 },

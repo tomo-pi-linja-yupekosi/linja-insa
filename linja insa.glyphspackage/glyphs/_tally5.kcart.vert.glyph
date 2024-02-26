@@ -1,0 +1,16 @@
+{
+glyphname = _tally5.kcart.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = _tally5.vert;
+}
+);
+vertWidth = 0;
+width = 2000;
+}
+);
+script = han;
+}

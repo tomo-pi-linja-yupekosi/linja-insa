@@ -174,4 +174,10 @@
 	<glyph unicode="F19A1" production="uniF19A1" description="sitelen pona ideograph apeja" name="apeja-sp" sortName="apeja" category="sitelen pona, nimi ku lili" subCategory="" script="han" direction="LTR" />
 	<glyph unicode="F19A2" production="uniF19A2" description="sitelen pona ideograph majuna" name="majuna-sp" sortName="majuna" category="sitelen pona, nimi ku lili" subCategory="" script="han" direction="LTR" />
 	<glyph unicode="F19A3" production="uniF19A3" name="powe-sp" sortName="powe" category="sitelen pona, nimi ku lili" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A4" production="uniF19A4" name="isipin-sp" description="sitelen pona ideograph isipin" sortName="isipin" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A5" production="uniF19A5" name="kan-sp" description="sitelen pona ideograph kan" sortName="kan" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A6" production="uniF19A6" name="oke-sp" description="sitelen pona ideograph oke" sortName="oke" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A7" production="uniF19A7" name="pasila-sp" description="sitelen pona ideograph pasila" sortName="pasila" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A8" production="uniF19A8" name="po-sp" description="sitelen pona ideograph po" sortName="po" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
+	<glyph unicode="F19A9" production="uniF19A9" name="san-sp" description="sitelen pona ideograph san" sortName="san" category="sitelen pona, lipu kule extensions" subCategory="" script="han" direction="LTR" />
 </glyphData>

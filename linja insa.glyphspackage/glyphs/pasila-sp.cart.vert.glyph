@@ -1,0 +1,17 @@
+{
+glyphname = "pasila-sp.cart.vert";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "pasila-sp";
+},
+{
+ref = _part.cartouche.vert;
+}
+);
+width = 2000;
+}
+);
+}

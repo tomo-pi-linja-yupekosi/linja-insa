@@ -171,7 +171,12 @@ _tally2
 _tally3
 _tally4
 _tally5
-";
+isipin-sp
+kan-sp
+oke-sp
+pasila-sp
+po-sp
+san-sp";
 name = cartouchable;
 },
 {
@@ -337,7 +342,12 @@ _tally2.cart
 _tally3.cart
 _tally4.cart
 _tally5.cart
-";
+isipin-sp.cart
+kan-sp.cart
+oke-sp.cart
+pasila-sp.cart
+po-sp.cart
+san-sp.cart";
 name = cartouched;
 },
 {
@@ -503,7 +513,12 @@ _tally2.kcart
 _tally3.kcart
 _tally4.kcart
 _tally5.kcart
-";
+isipin-sp.kcart
+kan-sp.kcart
+oke-sp.kcart
+pasila-sp.kcart
+po-sp.kcart
+san-sp.kcart";
 name = kcartouched;
 }
 );
@@ -591,6 +606,18 @@ sub colon-sp.kcart by colon-sp.kcart.vert;
 sub colon-sp by colon-sp.vert;
 sub interpunct-sp.cart by interpunct-sp.cart.vert;
 sub interpunct-sp.kcart by interpunct-sp.kcart.vert;
+sub isipin-sp.cart by isipin-sp.cart.vert;
+sub isipin-sp.kcart by isipin-sp.kcart.vert;
+sub kan-sp.cart by kan-sp.cart.vert;
+sub kan-sp.kcart by kan-sp.kcart.vert;
+sub oke-sp.cart by oke-sp.cart.vert;
+sub oke-sp.kcart by oke-sp.kcart.vert;
+sub pasila-sp.cart by pasila-sp.cart.vert;
+sub pasila-sp.kcart by pasila-sp.kcart.vert;
+sub po-sp.cart by po-sp.cart.vert;
+sub po-sp.kcart by po-sp.kcart.vert;
+sub san-sp.cart by san-sp.cart.vert;
+sub san-sp.kcart by san-sp.kcart.vert;
 sub apeja-sp.cart by apeja-sp.cart.vert;
 sub apeja-sp.kcart by apeja-sp.kcart.vert;
 sub majuna-sp.cart by majuna-sp.cart.vert;
@@ -933,6 +960,18 @@ sub colon-sp.kcart by colon-sp.kcart.vert;
 sub colon-sp by colon-sp.vert;
 sub interpunct-sp.cart by interpunct-sp.cart.vert;
 sub interpunct-sp.kcart by interpunct-sp.kcart.vert;
+sub isipin-sp.cart by isipin-sp.cart.vert;
+sub isipin-sp.kcart by isipin-sp.kcart.vert;
+sub kan-sp.cart by kan-sp.cart.vert;
+sub kan-sp.kcart by kan-sp.kcart.vert;
+sub oke-sp.cart by oke-sp.cart.vert;
+sub oke-sp.kcart by oke-sp.kcart.vert;
+sub pasila-sp.cart by pasila-sp.cart.vert;
+sub pasila-sp.kcart by pasila-sp.kcart.vert;
+sub po-sp.cart by po-sp.cart.vert;
+sub po-sp.kcart by po-sp.kcart.vert;
+sub san-sp.cart by san-sp.cart.vert;
+sub san-sp.kcart by san-sp.kcart.vert;
 sub apeja-sp.cart by apeja-sp.cart.vert;
 sub apeja-sp.kcart by apeja-sp.kcart.vert;
 sub majuna-sp.cart by majuna-sp.cart.vert;

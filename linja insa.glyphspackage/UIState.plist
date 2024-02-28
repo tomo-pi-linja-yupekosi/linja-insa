@@ -1,12 +1,23 @@
 {
 displayStrings = (
-"/cartouchestart-sp",
+"/jan-sp/cartouchestart-sp/isipin-sp/kan-sp/oke-sp/pasila-sp/po-sp/san-sp/cartoucheend-sp",
 "/waso-sp",
 "​/o-sp ​/pilin-sp ​/e-sp ​/waso-sp ​/kepeken-sp ​/len-sp ​/pi-sp ​/moku-sp ​/telo-sp ​/interpunct-sp 
 /len-sp ​/li-sp ​/wile-sp ​/weka-sp ​/e-sp ​/telo-sp ​/tan-sp ​/waso-sp ​/li-sp ​/pona-sp ​/e-sp ​/waso-sp 
 /sina-sp ​/wile-sp ​/kule-sp ​/suno-sp ​/lon-sp ​/waso-sp ​/seli-sp ​/sina-sp ​/la-sp ​/o-sp ​/weka-sp ​/e-sp ​/telo-sp ​/tan-sp ​/ona-sp ​/a-sp ​
 /telo-sp ​/mute-sp ​/li-sp ​/lon-sp ​/la-sp ​/ona-sp ​/li-sp ​/kama-sp ​/walo-sp ​/taso-sp ​/li-sp ​/lukin-sp ​/pona-sp ​/ala-sp 
 /mi-sp/supa-sp/e-sp/sijelo-sp/pi-sp/selo-sp/sina-sp",
-"/mani-sp"
+"/mani-sp",
+"/mi-sp/isipin-sp/e-sp/ni-sp/ona-sp/li-sp/kan-sp/kijetesantakalu-sp/po-sp/san-sp 
+/sona-sp/ni-sp/li-sp/pasila-sp 
+/oke-sp/a-sp",
+"/sona-sp",
+"/kan-sp",
+"/oke-sp",
+"/moku-sp",
+"/pasila-sp",
+"/san-sp",
+"/po-sp",
+"/isipin-sp/kan-sp/oke-sp/pasila-sp/po-sp/san-sp"
 );
 }

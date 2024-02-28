@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (263,150);
+pos = (311,150);
 ref = _part.pronoun;
 scale = (1,-1);
 }

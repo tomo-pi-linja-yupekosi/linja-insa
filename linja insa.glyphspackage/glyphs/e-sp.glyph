@@ -5,15 +5,15 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (-439,0);
+pos = (-279,0);
 ref = "li-sp";
 },
 {
-pos = (189,0);
+pos = (349,0);
 ref = "li-sp";
 }
 );
-width = 2000;
+width = 2001;
 }
 );
 tags = (

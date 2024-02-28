@@ -5,11 +5,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (37,-320);
+pos = (-10,-320);
 ref = "linja-sp";
 },
 {
-pos = (37,320);
+pos = (-10,320);
 ref = "linja-sp";
 }
 );

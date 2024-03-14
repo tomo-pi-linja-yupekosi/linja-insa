@@ -1,0 +1,99 @@
+{
+glyphname = "mun-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(708,30,o),
+(631,43,o),
+(559,68,c),
+(834,172,o),
+(1030,436,o),
+(1030,745,c),
+(1030,1054,o),
+(834,1318,o),
+(559,1422,c),
+(631,1447,o),
+(708,1460,o),
+(792,1460,c),
+(1195,1460,o),
+(1502,1153,o),
+(1502,745,c),
+(1502,337,o),
+(1195,30,o),
+(792,30,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,1293,l),
+(617,1288,o),
+(844,1058,o),
+(844,745,c),
+(844,432,o),
+(617,202,o),
+(309,197,c),
+(309,-6,l),
+(448,-94,o),
+(615,-146,o),
+(792,-146,c),
+(1287,-146,o),
+(1688,255,o),
+(1688,745,c),
+(1688,1235,o),
+(1287,1636,o),
+(792,1636,c),
+(615,1636,o),
+(448,1584,o),
+(309,1496,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1137,1044,o),
+(1145,434,o),
+(402,68,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(786,-246,o),
+(1597,8,o),
+(1597,748,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1597,1425,o),
+(820,1666,o),
+(430,1433,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989498;
+}

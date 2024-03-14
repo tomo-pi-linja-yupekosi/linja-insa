@@ -1,0 +1,123 @@
+{
+glyphname = "loje-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1612,1355,l),
+(1612,1356,l),
+(435,1356,l),
+(435,1355,l),
+(255,1355,l),
+(255,944,o),
+(590,611,o),
+(1001,611,cs),
+(1413,611,o),
+(1745,944,o),
+(1745,1355,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(1535,1181,l),
+(1466,949,o),
+(1260,786,o),
+(1001,786,cs),
+(741,786,o),
+(535,950,o),
+(465,1181,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(1315.732,231,l),
+(684.268,231,l),
+(1000,574.055,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(895,728,l),
+(275.732,55,l),
+(1724.268,55,l),
+(1105,728,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1598,1272,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1598,1005,o),
+(1421,707,o),
+(1019,700,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(617,693,o),
+(385,1046,o),
+(363,1262,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(1554,148,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(479,126,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1014,661,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989483;
+}

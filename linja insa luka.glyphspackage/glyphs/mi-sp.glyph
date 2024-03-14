@@ -1,0 +1,121 @@
+{
+glyphname = "mi-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+identifier = ID0x12a5fb780;
+strokeHeight = 176;
+strokePos = "1";
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1258,567,o),
+(1467,773,o),
+(1467,1035,cs),
+(1467,1297,o),
+(1258,1502,o),
+(993,1502,cs),
+(728,1502,o),
+(520,1297,o),
+(520,1035,cs),
+(520,773,o),
+(728,567,o),
+(993,567,cs)
+);
+},
+{
+attr = {
+identifier = ID0x12a5fb780;
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(982,41,l),
+(765,338,o),
+(610,697,o),
+(613,1035,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1216,631,o),
+(1394,814,o),
+(1394,1039,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1394,1264,o),
+(1216,1447,o),
+(996,1447,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(775,1447,o),
+(597,1264,o),
+(597,1039,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(597,814,o),
+(775,631,o),
+(996,631,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(597,1014,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(565,624,o),
+(801,182,o),
+(972,52,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989492;
+}

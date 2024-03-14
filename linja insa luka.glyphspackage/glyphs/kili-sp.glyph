@@ -1,0 +1,136 @@
+{
+glyphname = "kili-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(746,1208,ls),
+(468,1366,o),
+(243,1238,o),
+(298,767,cs),
+(348,337,o),
+(562,82,o),
+(1000,82,cs),
+(1438,82,o),
+(1652,337,o),
+(1702,767,cs),
+(1757,1238,o),
+(1532,1366,o),
+(1254,1208,cs),
+(1000,1064,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(42,1384,o),
+(418,1593,o),
+(827,1354,cs),
+(1000,1253,l),
+(1173,1354,ls),
+(1582,1593,o),
+(1958,1384,o),
+(1878,767,cs),
+(1805,207,o),
+(1460,-94,o),
+(1000,-94,cs),
+(540,-94,o),
+(195,207,o),
+(122,767,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1089,1592,l),
+(1089,1186,l),
+(903,1186,l),
+(903,1592,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(829,1228,o),
+(594,1359,o),
+(468,1350,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 146.04245;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(98,1321,o),
+(-85,47,o),
+(1005,2,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 311.00302;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(2086,35,o),
+(1867,1232,o),
+(1601,1338,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 113.71482;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1495,1379,o),
+(1191,1316,o),
+(1009,1159,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 88.66884;
+MainAxisWidth = 76.76939;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1013,1551,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 218.58918;
+MainAxisWidth = 137.29777;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(989,1445,o),
+(991,1332,o),
+(1001,1216,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989466;
+}

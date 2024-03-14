@@ -1,0 +1,110 @@
+{
+glyphname = "monsi-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1540,1490,l),
+(837,1490,l),
+(837,0,l),
+(1540,0,l),
+(1540,175,l),
+(1023,175,l),
+(1023,1315,l),
+(1540,1315,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(671,595,o),
+(743,662,o),
+(743,745,cs),
+(743,828,o),
+(671,895,o),
+(584,895,cs),
+(498,895,o),
+(426,828,o),
+(426,745,cs),
+(426,662,o),
+(498,595,o),
+(584,595,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1463,1408,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1292,1433,o),
+(1115,1433,o),
+(927,1406,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(889,960,o),
+(890,523,o),
+(932,94,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1119,55,o),
+(1307,48,o),
+(1498,78,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(572,756,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 270;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(583,747,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 270;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989496;
+}

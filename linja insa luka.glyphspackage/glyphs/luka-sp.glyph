@@ -1,0 +1,98 @@
+{
+glyphname = "luka-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(406,771,l),
+(276,641,l),
+(645,0,l),
+(920,0,l),
+(920,856,l),
+(920,1189,o),
+(1023,1363,o),
+(1229,1363,c),
+(1435,1363,o),
+(1538,1193,o),
+(1538,867,c),
+(1538,0,l),
+(1724,0,l),
+(1724,867,l),
+(1724,1294,o),
+(1559,1514,o),
+(1229,1514,c),
+(899,1514,o),
+(734,1292,o),
+(734,861,c),
+(734,187,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1638,65,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1699,490,o),
+(1683,1466,o),
+(1250,1462,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(786,1458,o),
+(767,578,o),
+(812,87,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(384,640,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(504,439,o),
+(644,268,o),
+(796,116,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989485;
+}

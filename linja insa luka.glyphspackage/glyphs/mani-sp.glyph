@@ -1,0 +1,139 @@
+{
+glyphname = "mani-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1781,1392,o),
+(1711,1287,o),
+(1546,1222,c),
+(1614,1060,l),
+(1846,1150,o),
+(1966,1331,o),
+(1971,1584,c),
+(1785,1588,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(29,1584,l),
+(34,1331,o),
+(154,1150,o),
+(386,1060,c),
+(454,1222,l),
+(289,1287,o),
+(219,1392,o),
+(215,1588,c)
+);
+},
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1547,1251,l),
+(1530,532,l),
+(1530,187,o),
+(1305,-74,o),
+(1005,-76,cs),
+(705,-78,o),
+(480,187,o),
+(480,532,c),
+(480,1251,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1542,1262,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1633,510,o),
+(1537,-81,o),
+(1019,-81,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(525,-95,o),
+(379,405,o),
+(474,1261,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1890,1510,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1874,1323,o),
+(1789,1189,o),
+(1588,1139,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(121,1518,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(158,1279,o),
+(271,1178,o),
+(429,1152,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989490;
+}

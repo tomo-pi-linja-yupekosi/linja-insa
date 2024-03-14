@@ -1,0 +1,124 @@
+{
+glyphname = "kon-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(712,577,ls),
+(880,277,o),
+(876,238,o),
+(659,26,c),
+(781,-106,l),
+(1050,155,o),
+(1067,308,o),
+(866,667,cs),
+(728,913,ls),
+(560,1213,o),
+(564,1252,o),
+(781,1464,c),
+(659,1596,l),
+(390,1335,o),
+(373,1182,o),
+(574,823,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1272,577,ls),
+(1440,277,o),
+(1436,238,o),
+(1219,26,c),
+(1341,-106,l),
+(1610,155,o),
+(1627,308,o),
+(1426,667,cs),
+(1288,913,ls),
+(1120,1213,o),
+(1124,1252,o),
+(1341,1464,c),
+(1219,1596,l),
+(950,1335,o),
+(933,1182,o),
+(1134,823,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(667,1483,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(557,1335,o),
+(518,1085,o),
+(717,747,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(916,409,o),
+(959,183,o),
+(763,-5,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1226,1481,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1086,1333,o),
+(1066,1036,o),
+(1276,745,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1532,391,o),
+(1552,181,o),
+(1322,-7,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989469;
+}

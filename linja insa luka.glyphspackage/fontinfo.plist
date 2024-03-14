@@ -70,6 +70,9 @@ stemValues = (
 175,
 186
 );
+userData = {
+GSCornerRadius = 15;
+};
 }
 );
 metrics = (

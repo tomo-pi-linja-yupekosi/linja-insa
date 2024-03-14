@@ -1,0 +1,68 @@
+{
+glyphname = "la-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(971.253,1257.5,o),
+(1161.5,1021.497,o),
+(1161.5,745,c),
+(1161.5,468.503,o),
+(971.253,232.5,o),
+(653,232.5,c),
+(653,57.5,l),
+(1070.547,57.5,o),
+(1346.5,392.897,o),
+(1346.5,745,c),
+(1346.5,1097.103,o),
+(1070.547,1432.5,o),
+(653,1432.5,c),
+(653,1257.5,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(712,1334,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(933,1334,o),
+(1261,1123,o),
+(1249,737,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1237,351,o),
+(933,152,o),
+(737,146,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989473;
+}

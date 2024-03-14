@@ -1,0 +1,159 @@
+{
+glyphname = "meli-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1252,614,o),
+(1450,812,o),
+(1450,1064,cs),
+(1450,1316,o),
+(1252,1514,o),
+(1000,1514,cs),
+(748,1514,o),
+(550,1316,o),
+(550,1064,cs),
+(550,812,o),
+(748,614,o),
+(1000,614,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(846,789,o),
+(725,910,o),
+(725,1064,cs),
+(725,1218,o),
+(846,1339,o),
+(1000,1339,cs),
+(1154,1339,o),
+(1275,1218,o),
+(1275,1064,cs),
+(1275,910,o),
+(1154,789,o),
+(1000,789,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(916,720,l),
+(918,0,l),
+(1080,0,l),
+(1082,720,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(699,278,l),
+(1299,280,l),
+(1299,442,l),
+(699,444,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1195,682,o),
+(1354,850,o),
+(1354,1057,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1354,1264,o),
+(1195,1432,o),
+(999,1432,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(804,1432,o),
+(645,1264,o),
+(645,1057,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(645,850,o),
+(804,682,o),
+(999,682,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1000,650,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1009,445,o),
+(1008,253,o),
+(1017,55,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(752,362,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(934,348,o),
+(1106,344,o),
+(1251,362,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989491;
+}

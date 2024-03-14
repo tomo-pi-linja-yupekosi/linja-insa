@@ -1,0 +1,100 @@
+{
+glyphname = "noka-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(935,507,l),
+(1157,501,ls),
+(1321,502,o),
+(1387,448,o),
+(1387,338,cs),
+(1387,229,o),
+(1322,175,o),
+(1159,175,cs),
+(613,175,l),
+(613,1490,l),
+(427,1490,l),
+(427,0,l),
+(1159,0,ls),
+(1391,0,o),
+(1573,149,o),
+(1573,338,cs),
+(1573,527,o),
+(1391,676,o),
+(1159,676,cs),
+(1121,677,l),
+(1121,1490,l),
+(935,1490,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(503,1408,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(518,109,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1103,100,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1233,100,o),
+(1475,136,o),
+(1479,332,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1483,528,o),
+(1243,601,o),
+(1064,599,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1064,1438,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989507;
+}

@@ -1,0 +1,95 @@
+{
+glyphname = "kiwen-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1245,1365,l),
+(1635,903,l),
+(1000,215,l),
+(364,903,l),
+(752,1365,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(123,898,l),
+(1000,-52,l),
+(1877,898,l),
+(1335,1540,l),
+(662,1540,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(538,1303,o),
+(387,1109,o),
+(247,899,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 253.02782;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(489,595,o),
+(738,334,o),
+(991,90,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1257,335,o),
+(1511,600,o),
+(1746,901,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 75.05314;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1621,1105,o),
+(1479,1282,o),
+(1321,1440,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 121.09401;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1121,1473,o),
+(918,1478,o),
+(712,1462,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 142.17975;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989467;
+}

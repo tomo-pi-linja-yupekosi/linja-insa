@@ -1,0 +1,145 @@
+{
+glyphname = "moku-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(281,771,l),
+(151,641,l),
+(520,0,l),
+(795,0,l),
+(795,333,o),
+(898,507,o),
+(1104,507,cs),
+(1310,507,o),
+(1413,337,o),
+(1413,11,cs),
+(1413,0,l),
+(1599,0,l),
+(1599,11,ls),
+(1599,438,o),
+(1434,658,o),
+(1104,658,cs),
+(824,658,o),
+(663,498,o),
+(620,187,c),
+(609,187,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1716,1251,l),
+(1716,1252,l),
+(539,1252,l),
+(539,1251,l),
+(359,1251,l),
+(359,840,o),
+(694,507,o),
+(1105,507,cs),
+(1517,507,o),
+(1849,840,o),
+(1849,1251,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(1639,1077,l),
+(1570,845,o),
+(1364,682,o),
+(1105,682,cs),
+(845,682,o),
+(639,846,o),
+(569,1077,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(266,636,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(645,52,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(645,358,o),
+(821,579,o),
+(1091,579,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1446,579,o),
+(1506,265,o),
+(1512,77,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(904,1189,o),
+(1333,1200,o),
+(1749,1181,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1719,887,o),
+(1544,567,o),
+(1091,580,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(670,592,o),
+(474,998,o),
+(468,1163,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989494;
+}

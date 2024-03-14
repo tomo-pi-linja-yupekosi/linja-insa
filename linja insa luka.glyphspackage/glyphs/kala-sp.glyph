@@ -1,0 +1,90 @@
+{
+glyphname = "kala-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(558,593,o),
+(828,1099,o),
+(1235,1099,cs),
+(1447,1099,o),
+(1657,960,o),
+(1657,745,cs),
+(1657,530,o),
+(1447,392,o),
+(1235,392,cs),
+(828,392,o),
+(558,897,o),
+(297,1243,c),
+(149,1137,l),
+(399,806,o),
+(712,217,o),
+(1235,217,cs),
+(1550,217,o),
+(1843,435,o),
+(1843,745,cs),
+(1843,1055,o),
+(1550,1274,o),
+(1235,1274,cs),
+(712,1274,o),
+(399,684,o),
+(149,353,c),
+(297,247,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(290,1130,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(503,774,o),
+(825,308,o),
+(1250,308,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1934,352,o),
+(1914,1189,o),
+(1240,1200,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(833,1202,o),
+(351,507,o),
+(266,361,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989460;
+}

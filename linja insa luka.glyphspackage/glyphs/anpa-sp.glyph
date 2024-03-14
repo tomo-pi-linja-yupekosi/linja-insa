@@ -1,0 +1,114 @@
+{
+glyphname = "anpa-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1098,78,o),
+(1170,145,o),
+(1170,228,cs),
+(1170,311,o),
+(1098,378,o),
+(1011,378,cs),
+(925,378,o),
+(853,311,o),
+(853,228,cs),
+(853,145,o),
+(925,78,o),
+(1011,78,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1405,1034,l),
+(1405,631,l),
+(594,631,l),
+(594,1034,l),
+(408,1034,l),
+(408,456,l),
+(1591,456,l),
+(1591,1034,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(489,1017,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(476,858,o),
+(478,701,o),
+(493,546,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(817,528,o),
+(1153,519,o),
+(1481,546,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1502,696,o),
+(1499,861,o),
+(1493,1012,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(990,214,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 220;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(977,240,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 220;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989445;
+}

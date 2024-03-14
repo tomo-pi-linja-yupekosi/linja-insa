@@ -1,0 +1,109 @@
+{
+glyphname = "jaki-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(1526,1448,l),
+(708,1374,o),
+(380,1262,o),
+(642,989,cs),
+(957,661,o),
+(1561,586,o),
+(1492,911,cs),
+(1412,1289,o),
+(304,1113,o),
+(535,719,cs),
+(725,395,o),
+(1403,41,o),
+(1403,353,cs),
+(1403,670,o),
+(708,609,o),
+(516,73,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1526,1448,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 139.17125;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(708,1374,o),
+(380,1262,o),
+(642,989,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 272.03088;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(957,661,o),
+(1561,586,o),
+(1492,911,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 67.31248;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1412,1289,o),
+(304,1113,o),
+(535,719,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 257.66293;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(725,395,o),
+(1403,41,o),
+(1403,353,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 60.47559;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1403,670,o),
+(708,609,o),
+(516,73,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 205.10236;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989456;
+}

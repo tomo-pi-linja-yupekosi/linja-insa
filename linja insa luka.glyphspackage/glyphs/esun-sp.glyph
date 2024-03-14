@@ -1,0 +1,112 @@
+{
+glyphname = "esun-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(430,1425,l),
+(733,725,o),
+(1677,884,o),
+(1709,1234,cs),
+(1731,1481,o),
+(1269,1498,o),
+(1157,1191,c),
+(837,311,l),
+(725,4,o),
+(263,21,o),
+(285,268,cs),
+(317,618,o),
+(1261,777,o),
+(1564,77,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(406,1425,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 261.5444;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(471,1070,o),
+(1428,617,o),
+(1668,1171,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 25.47196;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1806,1490,o),
+(1205,1635,o),
+(1055,1023,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 197.50169;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(810,293,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 200.14073;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(699,64,o),
+(316,-23,o),
+(269,248,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 37.42199;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(195,671,o),
+(1325,735,o),
+(1542,78,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 240.5295;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989451;
+}

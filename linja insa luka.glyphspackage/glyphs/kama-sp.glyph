@@ -1,0 +1,82 @@
+{
+glyphname = "kama-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(663,1330,l),
+(663,176,l),
+(335,176,l),
+(335,0,l),
+(848,0,l),
+(848,1151,l),
+(1406,427,l),
+(1071,124,l),
+(1201,0,l),
+(1666,427,l),
+(842,1490,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(427,76,l,{
+"Letterink-NibData" = {
+AngleInDegrees = -31.84199;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(755,85,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 51.22749;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(811,1329,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 258.06586;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1552,462,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 185.09853;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1191,114,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 178.24374;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989462;
+}

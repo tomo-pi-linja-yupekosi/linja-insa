@@ -1,0 +1,182 @@
+{
+glyphname = "kalama-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(908,935,l),
+(1093,935,l),
+(1093,1479,l),
+(908,1479,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1247,935,l),
+(1378,804,l),
+(1763,1189,l),
+(1632,1319,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(238,1189,l),
+(623,804,l),
+(754,935,l),
+(369,1319,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1611,755,l),
+(1611,756,l),
+(434,756,l),
+(434,755,l),
+(254,755,l),
+(254,344,o),
+(589,11,o),
+(1000,11,cs),
+(1412,11,o),
+(1744,344,o),
+(1744,755,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(1534,581,l),
+(1465,349,o),
+(1259,186,o),
+(1000,186,cs),
+(740,186,o),
+(534,350,o),
+(464,581,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(312,1190,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 269.74054;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(435,1105,o),
+(550,1002,o),
+(654,869,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 261.87378;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(985,1440,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 242.00385;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1021,1295,o),
+(1029,1137,o),
+(1012,968,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 206.87796;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1318,896,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 162.36131;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1450,999,o),
+(1570,1119,o),
+(1680,1256,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 172.88368;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(1657,696,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 223.45796;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1619,431,o),
+(1350,112,o),
+(1012,112,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 124.88835;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(576,112,o),
+(371,485,o),
+(371,682,c,{
+"Letterink-NibData" = {
+AngleInDegrees = -34.0202;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989461;
+}

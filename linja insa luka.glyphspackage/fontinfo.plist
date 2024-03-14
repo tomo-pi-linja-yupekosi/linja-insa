@@ -1,0 +1,131 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = "Default Layer Width";
+value = "2000";
+}
+);
+date = "2024-03-14 18:53:30 +0000";
+familyName = "linja insa luka";
+fontMaster = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = underlineThickness;
+value = 140;
+},
+{
+name = underlinePosition;
+value = -348;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = "CJK Grid";
+value = "8";
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1118;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = Regular;
+stemValues = (
+175,
+186
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+name = Midline;
+}
+);
+stems = (
+{
+name = cap_h;
+},
+{
+horizontal = 1;
+name = cap_v;
+}
+);
+unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+han3 = "120";
+han5 = "140";
+};
+};
+"Letterink-ComputationAllowed" = YES_BY_DEFAULT;
+"Letterink-FileVersion" = 9;
+"Letterink-MinimumCompatibleMarketingVersion" = "1.0.12 (2021-11-02)";
+"Letterink-NibStyles" = (
+{
+Id = 1;
+NibData = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+Title = "linja luka";
+}
+);
+"Letterink-StrokeType" = Brush;
+};
+versionMajor = 1;
+versionMinor = 0;
+}

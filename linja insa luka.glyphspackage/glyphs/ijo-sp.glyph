@@ -1,0 +1,99 @@
+{
+glyphname = "ijo-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1358,-20,o),
+(1711,272,o),
+(1711,744,cs),
+(1711,1217,o),
+(1358,1510,o),
+(976,1510,cs),
+(594,1510,o),
+(241,1217,o),
+(241,744,cs),
+(241,272,o),
+(594,-20,o),
+(976,-20,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(708,156,o),
+(426,364,o),
+(426,744,cs),
+(426,1126,o),
+(708,1334,o),
+(976,1334,cs),
+(1242,1334,o),
+(1526,1126,o),
+(1526,744,cs),
+(1526,364,o),
+(1242,156,o),
+(976,156,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1328,65,o),
+(1614,368,o),
+(1614,742,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 37.49637;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(1614,1114,o),
+(1328,1417,o),
+(977,1417,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 125.27353;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(624,1417,o),
+(339,1114,o),
+(339,742,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 222.73672;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+}),
+(339,368,o),
+(624,65,o),
+(977,65,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 312.76495;
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989452;
+}

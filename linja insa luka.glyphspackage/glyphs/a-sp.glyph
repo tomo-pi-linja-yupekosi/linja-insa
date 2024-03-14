@@ -1,0 +1,143 @@
+{
+glyphname = "a-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(906,1490,l),
+(906,816,l),
+(1096,816,l),
+(1096,1490,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1076,-8,o),
+(1141,52,o),
+(1168,111,c),
+(1177,111,l),
+(1178,0,l),
+(1348,0,l),
+(1347,619,l),
+(1175,619,l),
+(1176,499,l),
+(1169,499,l),
+(1143,562,o),
+(1077,625,o),
+(949,625,cs),
+(792,625,o),
+(654,530,o),
+(653,309,cs),
+(653,100,o),
+(782,-8,o),
+(949,-8,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(890,124,o),
+(829,202,o),
+(830,311,cs),
+(831,414,o),
+(888,492,o),
+(1005,492,cs),
+(1116,492,o),
+(1177,419,o),
+(1177,309,cs),
+(1178,199,o),
+(1116,124,o),
+(1005,124,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1004,1495,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(967,1312,o),
+(969,981,o),
+(1004,815,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(1045,688,o),
+(805,490,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(534,268,o),
+(855,-116,o),
+(1105,130,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1327,348,o)
+);
+},
+{
+closed = 0;
+nodes = (
+(1259,583,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1243,508,o),
+(1238,44,o),
+(1242,6,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989440;
+}

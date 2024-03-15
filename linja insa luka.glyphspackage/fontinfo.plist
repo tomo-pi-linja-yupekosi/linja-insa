@@ -223,10 +223,10 @@ tag = calt;
 code = "sub [cartouchestart-sp cartouche] @cartouchable' by @cartouchable cartouche;
 sub [cartouchestart-sp cartouche] @tally @cartouchable' by @cartouchable cartouche;
 
-# sub kijetesantakalu-sp longstart-sp by kijetesantakalu-sp.start;
+sub kijetesantakalu-sp longstart-sp by kijetesantakalu-sp.open;
 
-# sub [kijetesantakalu-sp.start @kcartouched] @cartouchable' by @kcartouched;
-# sub @kcartouched longend-sp' by kijetesantakalu-sp.cartoucheend;
+sub [kijetesantakalu-sp.open cartouche.kijetesantakalu] @cartouchable' by @cartouchable cartouche.kijetesantakalu;
+sub cartouche.kijetesantakalu longend-sp' by kijetesantakalu-sp.pini;
 ";
 tag = calt;
 },
@@ -240,6 +240,7 @@ sub tally2 by tally2.vert;
 sub tally3 by tally3.vert;
 sub tally4 by tally4.vert;
 sub tally5 by tally5.vert;
+sub cartouche.kijetesantakalu by cartouche.kijetesantakalu.vert;
 ";
 tag = vert;
 },
@@ -253,6 +254,7 @@ sub tally2 by tally2.vert;
 sub tally3 by tally3.vert;
 sub tally4 by tally4.vert;
 sub tally5 by tally5.vert;
+sub cartouche.kijetesantakalu by cartouche.kijetesantakalu.vert;
 ";
 tag = vrt2;
 }

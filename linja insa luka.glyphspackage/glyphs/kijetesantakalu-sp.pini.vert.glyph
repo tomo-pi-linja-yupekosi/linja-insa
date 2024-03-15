@@ -1,0 +1,152 @@
+{
+glyphname = "kijetesantakalu-sp.pini.vert";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(2008,1984,l),
+(2008,1494,o),
+(469,1680,o),
+(469,784,c),
+(469,482,l),
+(469,365,o),
+(359,273,o),
+(219,273,c),
+(79,273,o),
+(-9,365,o),
+(-9,482,c),
+(-9,1024,l),
+(-9,1984,l)
+);
+},
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(29,612,l),
+(440,612,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-10,1984,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(-10,567,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(-23,174,o),
+(464,174,o),
+(464,614,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(464,953,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(464,1406,o),
+(2010,1491,o),
+(2010,1984,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(2,659,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(143,624,o),
+(284,625,o),
+(430,677,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(8,1390,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(160,1254,o),
+(778,1312,o),
+(1080,1390,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+}

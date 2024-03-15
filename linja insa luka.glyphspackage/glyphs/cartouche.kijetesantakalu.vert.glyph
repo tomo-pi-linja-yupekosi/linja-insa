@@ -1,0 +1,83 @@
+{
+glyphname = cartouche.kijetesantakalu.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-10,1984,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = "1";
+}),
+(-10,4462,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(2010,4462,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = "1";
+}),
+(2010,1984,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(26,2128,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(745,2103,o),
+(1490,2070,o),
+(1977,2126,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+vertWidth = 0;
+width = 2048;
+}
+);
+}

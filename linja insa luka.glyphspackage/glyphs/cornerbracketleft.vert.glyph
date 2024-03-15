@@ -1,0 +1,64 @@
+{
+glyphname = cornerbracketleft.vert;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(2000,-184,l),
+(2000,567,l),
+(1072,567,l),
+(1072,381,l),
+(1825,381,l),
+(1825,-184,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(835,380,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1184,424,o),
+(1532,441,o),
+(1877,396,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1913,178,o),
+(1910,-22,o),
+(1893,-214,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+script = han;
+unicode = 65089;
+}

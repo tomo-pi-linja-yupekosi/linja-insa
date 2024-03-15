@@ -36,7 +36,7 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(0,1742,l,{
+(0,1740,l,{
 "Letterink-NibData" = {
 MainAxisWidth = 110;
 MinorAxisWidth = 105;
@@ -45,7 +45,7 @@ ValidForParentMinorAxisWidth = 15;
 };
 "Letterink-NibStyleId" = 1;
 }),
-(671,1742,l,{
+(671,1740,l,{
 "Letterink-NibData" = {
 MainAxisWidth = 110;
 MinorAxisWidth = 105;
@@ -54,9 +54,9 @@ ValidForParentMinorAxisWidth = 15;
 };
 "Letterink-NibStyleId" = 1;
 }),
-(1372,1742,o),
-(1456,-277,o),
-(671,-277,c,{
+(1372,1740,o),
+(1456,-280,o),
+(671,-280,c,{
 "Letterink-NibData" = {
 MainAxisWidth = 110;
 MinorAxisWidth = 105;
@@ -65,7 +65,7 @@ ValidForParentMinorAxisWidth = 15;
 };
 "Letterink-NibStyleId" = 1;
 }),
-(0,-277,l,{
+(0,-280,l,{
 "Letterink-NibData" = {
 MainAxisWidth = 110;
 MinorAxisWidth = 105;

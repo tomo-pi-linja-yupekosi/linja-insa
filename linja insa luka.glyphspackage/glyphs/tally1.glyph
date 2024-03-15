@@ -1,0 +1,49 @@
+{
+glyphname = tally1;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1827,-606,l),
+(-1827,-322,l),
+(-2027,-322,l),
+(-2027,-606,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-1004,-326,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(-991,-429,o),
+(-990,-523,o),
+(-993,-612,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 0;
+}
+);
+}

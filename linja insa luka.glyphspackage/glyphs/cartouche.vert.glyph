@@ -1,5 +1,5 @@
 {
-glyphname = "cartouchestart-sp";
+glyphname = cartouche.vert;
 layers = (
 {
 layerId = m01;
@@ -7,7 +7,7 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(2000,-280,l,{
+(-10,1984,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -16,7 +16,21 @@ ValidForParentMinorAxisWidth = "15";
 };
 "Letterink-NibStyleId" = "1";
 }),
-(1329,-280,l,{
+(-10,4462,l,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(2010,4462,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -25,18 +39,7 @@ ValidForParentMinorAxisWidth = "15";
 };
 "Letterink-NibStyleId" = "1";
 }),
-(397,-280,o),
-(476,1740,o),
-(1329,1740,c,{
-"Letterink-NibData" = {
-MainAxisWidth = "110";
-MinorAxisWidth = "105";
-ValidForParentMainAxisWidth = "30";
-ValidForParentMinorAxisWidth = "15";
-};
-"Letterink-NibStyleId" = "1";
-}),
-(2000,1740,l,{
+(2010,1984,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -48,8 +51,8 @@ ValidForParentMinorAxisWidth = "15";
 );
 }
 );
+vertWidth = 0;
 width = 2000;
 }
 );
-unicode = 989584;
 }

@@ -7,6 +7,184 @@ name = Weight;
 tag = wght;
 }
 );
+classes = (
+{
+code = "zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+space-han
+comma-han
+cornerbracketleft
+cornerbracketright
+colon-sp
+interpunct-sp
+apeja-sp
+majuna-sp
+pake-sp
+powe-sp
+epiku-sp
+jasima-sp
+kijetesantakalu-sp
+kin-sp
+kipisi-sp
+kokosila-sp
+ku-sp
+lanpan-sp
+leko-sp
+meso-sp
+misikeke-sp
+monsuta-sp
+n-sp
+namako-sp
+oko-sp
+soko-sp
+tonsi-sp
+a-sp
+akesi-sp
+ala-sp
+alasa-sp
+ale-sp
+anpa-sp
+ante-sp
+anu-sp
+awen-sp
+e-sp
+en-sp
+esun-sp
+ijo-sp
+ike-sp
+ilo-sp
+insa-sp
+jaki-sp
+jan-sp
+jelo-sp
+jo-sp
+kala-sp
+kalama-sp
+kama-sp
+kasi-sp
+ken-sp
+kepeken-sp
+kili-sp
+kiwen-sp
+ko-sp
+kon-sp
+kule-sp
+kulupu-sp
+kute-sp
+la-sp
+lape-sp
+laso-sp
+lawa-sp
+len-sp
+lete-sp
+li-sp
+lili-sp
+linja-sp
+lipu-sp
+loje-sp
+lon-sp
+luka-sp
+lukin-sp
+lupa-sp
+ma-sp
+mama-sp
+mani-sp
+meli-sp
+mi-sp
+mije-sp
+moku-sp
+moli-sp
+monsi-sp
+mu-sp
+mun-sp
+musi-sp
+mute-sp
+nanpa-sp
+nasa-sp
+nasin-sp
+nena-sp
+ni-sp
+nimi-sp
+noka-sp
+o-sp
+olin-sp
+ona-sp
+open-sp
+pakala-sp
+pali-sp
+palisa-sp
+pan-sp
+pana-sp
+pi-sp
+pilin-sp
+pimeja-sp
+pini-sp
+pipi-sp
+poka-sp
+poki-sp
+pona-sp
+pu-sp
+sama-sp
+seli-sp
+selo-sp
+seme-sp
+sewi-sp
+sijelo-sp
+sike-sp
+sin-sp
+sina-sp
+sinpin-sp
+sitelen-sp
+sona-sp
+soweli-sp
+suli-sp
+suno-sp
+supa-sp
+suwi-sp
+tan-sp
+taso-sp
+tawa-sp
+telo-sp
+tenpo-sp
+toki-sp
+tomo-sp
+tu-sp
+unpa-sp
+uta-sp
+utala-sp
+walo-sp
+wan-sp
+waso-sp
+wawa-sp
+weka-sp
+wile-sp
+isipin-sp
+kan-sp
+oke-sp
+pasila-sp
+po-sp
+san-sp
+";
+name = cartouchable;
+},
+{
+code = "tally1
+tally2
+tally3
+tally4
+tally5
+";
+name = tally;
+}
+);
 customParameters = (
 {
 name = "Default Layer Width";
@@ -15,6 +193,70 @@ value = "2000";
 );
 date = "2024-03-14 18:53:30 +0000";
 familyName = "linja insa luka";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature calt;
+feature calt;
+feature vert;
+feature vrt2;
+";
+tag = aalt;
+},
+{
+code = "sub zerowidthjoiner one by tally1;
+sub zerowidthjoiner two by tally2;
+sub zerowidthjoiner three by tally3;
+sub zerowidthjoiner four by tally4;
+sub zerowidthjoiner five by tally5;";
+tag = calt;
+},
+{
+code = "sub [cartouchestart-sp cartouche] @cartouchable' by @cartouchable cartouche;
+sub [cartouchestart-sp cartouche] @tally @cartouchable' by @cartouchable cartouche;
+
+# sub kijetesantakalu-sp longstart-sp by kijetesantakalu-sp.start;
+
+# sub [kijetesantakalu-sp.start @kcartouched] @cartouchable' by @kcartouched;
+# sub @kcartouched longend-sp' by kijetesantakalu-sp.cartoucheend;
+";
+tag = calt;
+},
+{
+automatic = 1;
+code = "sub cartoucheend-sp by cartoucheend-sp.vert;
+sub cartouchestart-sp by cartouchestart-sp.vert;
+sub cartouche by cartouche.vert;
+sub tally1 by tally1.vert;
+sub tally2 by tally2.vert;
+sub tally3 by tally3.vert;
+sub tally4 by tally4.vert;
+sub tally5 by tally5.vert;
+";
+tag = vert;
+},
+{
+automatic = 1;
+code = "sub cartoucheend-sp by cartoucheend-sp.vert;
+sub cartouchestart-sp by cartouchestart-sp.vert;
+sub cartouche by cartouche.vert;
+sub tally1 by tally1.vert;
+sub tally2 by tally2.vert;
+sub tally3 by tally3.vert;
+sub tally4 by tally4.vert;
+sub tally5 by tally5.vert;
+";
+tag = vrt2;
+}
+);
 fontMaster = (
 {
 axesValues = (

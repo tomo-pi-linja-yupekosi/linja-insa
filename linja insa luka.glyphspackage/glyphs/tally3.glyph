@@ -1,5 +1,5 @@
 {
-glyphname = "cartouchestart-sp";
+glyphname = tally3;
 layers = (
 {
 layerId = m01;
@@ -7,7 +7,7 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(2000,-280,l,{
+(-1413,-326,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -16,7 +16,23 @@ ValidForParentMinorAxisWidth = "15";
 };
 "Letterink-NibStyleId" = "1";
 }),
-(1329,-280,l,{
+(-1387,-463,o),
+(-1389,-549,o),
+(-1402,-612,c,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(-1013,-326,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -25,9 +41,23 @@ ValidForParentMinorAxisWidth = "15";
 };
 "Letterink-NibStyleId" = "1";
 }),
-(397,-280,o),
-(476,1740,o),
-(1329,1740,c,{
+(-995,-371,o),
+(-993,-460,o),
+(-1002,-612,c,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(-613,-326,l,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -36,7 +66,9 @@ ValidForParentMinorAxisWidth = "15";
 };
 "Letterink-NibStyleId" = "1";
 }),
-(2000,1740,l,{
+(-590,-462,o),
+(-587,-572,o),
+(-602,-612,c,{
 "Letterink-NibData" = {
 MainAxisWidth = "110";
 MinorAxisWidth = "105";
@@ -48,8 +80,7 @@ ValidForParentMinorAxisWidth = "15";
 );
 }
 );
-width = 2000;
+width = 0;
 }
 );
-unicode = 989584;
 }

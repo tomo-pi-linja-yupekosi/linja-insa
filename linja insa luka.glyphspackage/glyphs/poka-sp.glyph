@@ -1,0 +1,116 @@
+{
+glyphname = "poka-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1762,595,o),
+(1834,662,o),
+(1834,745,cs),
+(1834,828,o),
+(1762,895,o),
+(1675,895,cs),
+(1589,895,o),
+(1517,828,o),
+(1517,745,cs),
+(1517,662,o),
+(1589,595,o),
+(1675,595,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1195,1034,l),
+(1195,631,l),
+(384,631,l),
+(384,1034,l),
+(198,1034,l),
+(198,456,l),
+(1381,456,l),
+(1381,1034,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(267,958,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(250,814,o),
+(249,668,o),
+(262,520,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(625,516,o),
+(1012,499,o),
+(1305,532,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1326,682,o),
+(1325,827,o),
+(1306,969,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(1658,763,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 270;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 2;
+}),
+(1673,754,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 270;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 2;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989522;
+}

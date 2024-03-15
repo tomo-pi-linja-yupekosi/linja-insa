@@ -5,9 +5,6 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = "lipu-sp";
-},
-{
 closed = 1;
 nodes = (
 (1321,825,l),
@@ -19,6 +16,9 @@ nodes = (
 (765,106,l),
 (909,36,l)
 );
+},
+{
+ref = "lipu-sp";
 }
 );
 width = 2000;

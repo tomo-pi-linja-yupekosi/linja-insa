@@ -1,0 +1,55 @@
+{
+glyphname = "cartouchestart-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(2000,-277,l,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+}),
+(1329,-277,l,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+}),
+(397,-280,o),
+(476,1739,o),
+(1329,1742,c,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+}),
+(2000,1742,l,{
+"Letterink-NibData" = {
+MainAxisWidth = "110";
+MinorAxisWidth = "105";
+ValidForParentMainAxisWidth = "30";
+ValidForParentMinorAxisWidth = "15";
+};
+"Letterink-NibStyleId" = "1";
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989584;
+}

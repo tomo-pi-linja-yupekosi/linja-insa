@@ -125,6 +125,16 @@ ValidForParentMainAxisWidth = 30;
 ValidForParentMinorAxisWidth = 15;
 };
 Title = "linja luka";
+},
+{
+Id = 2;
+NibData = {
+MainAxisWidth = 270;
+MinorAxisWidth = 235;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+Title = sike;
 }
 );
 "Letterink-StrokeType" = Brush;

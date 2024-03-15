@@ -1,0 +1,67 @@
+{
+glyphname = "palisa-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokePos = "0";
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(865,658,ls),
+(865,333,o),
+(913,158,o),
+(1001,158,cs),
+(1089,158,o),
+(1136,333,o),
+(1136,658,cs),
+(1136,831,ls),
+(1136,1156,o),
+(1088,1331,o),
+(1001,1331,cs),
+(913,1331,o),
+(865,1156,o),
+(865,831,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(615,1395,o),
+(669,58,o),
+(999,58,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1346,58,o),
+(1366,1424,o),
+(1005,1424,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989514;
+}

@@ -22,6 +22,11 @@ nodes = (
 );
 },
 {
+alignment = -1;
+pos = (19,0);
+ref = _part.smallLuka;
+},
+{
 closed = 1;
 nodes = (
 (944,667,o),
@@ -37,11 +42,6 @@ nodes = (
 (1284,667,o),
 (1114,667,cs)
 );
-},
-{
-alignment = -1;
-pos = (19,0);
-ref = _part.smallLuka;
 }
 );
 width = 2000;

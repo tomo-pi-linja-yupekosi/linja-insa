@@ -1,0 +1,60 @@
+{
+glyphname = "pona-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1560,1117,l),
+(1560,797,o),
+(1321,548,o),
+(1001,548,cs),
+(680,548,o),
+(440,799,o),
+(440,1117,c),
+(255,1117,l),
+(255,706,o),
+(590,373,o),
+(1001,373,cs),
+(1413,373,o),
+(1745,706,o),
+(1745,1117,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(342,1077,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(464,244,o),
+(1581,251,o),
+(1625,1092,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989524;
+}

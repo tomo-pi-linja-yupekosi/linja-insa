@@ -1,0 +1,106 @@
+{
+glyphname = "soko-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1539,654,l),
+(1539,1097,o),
+(1332,1375,o),
+(1002,1375,cs),
+(680,1375,o),
+(479,1097,o),
+(479,654,c)
+);
+},
+{
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(998,-25,l),
+(998,589,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(910,624,o),
+(1326,626,o),
+(1555,677,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1509,1163,o),
+(1309,1398,o),
+(1010,1390,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(612,1380,o),
+(456,1099,o),
+(465,631,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(972,584,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(963,374,o),
+(988,177,o),
+(1044,-5,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989569;
+}

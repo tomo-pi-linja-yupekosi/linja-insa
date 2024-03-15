@@ -5,11 +5,15 @@ layers = (
 layerId = m01;
 shapes = (
 {
-attr = {
-strokeHeight = 186;
-strokePos = 1;
-strokeWidth = 175;
-};
+closed = 1;
+nodes = (
+(475,1258,l),
+(1525,1258,l),
+(1525,230,l),
+(475,230,l)
+);
+},
+{
 closed = 1;
 nodes = (
 (1700,44,l),
@@ -19,16 +23,20 @@ nodes = (
 );
 },
 {
-attr = {
-strokeHeight = 186;
-strokePos = "1";
-strokeWidth = 175;
-};
 closed = 1;
 nodes = (
-(650,1094,l),
-(1350,1094,l),
+(825,908,l),
+(1175,908,l),
+(1175,580,l),
+(825,580,l)
+);
+},
+{
+closed = 1;
+nodes = (
 (1350,394,l),
+(1350,1094,l),
+(650,1094,l),
 (650,394,l)
 );
 }

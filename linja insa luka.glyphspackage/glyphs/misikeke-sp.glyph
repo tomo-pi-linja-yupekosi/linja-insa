@@ -1,0 +1,124 @@
+{
+glyphname = "misikeke-sp";
+layers = (
+{
+background = {
+shapes = (
+{
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1211,119,o),
+(1323,259,o),
+(1323,519,cs),
+(1323,957,ls),
+(1323,1217,o),
+(1211,1357,o),
+(1004,1357,cs),
+(797,1357,o),
+(685,1217,o),
+(685,957,cs),
+(685,519,ls),
+(685,259,o),
+(797,119,o),
+(1004,119,cs)
+);
+},
+{
+attr = {
+strokeHeight = 175;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(1385,745,l),
+(633,745,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(893,1354,o),
+(691,1354,o),
+(686,755,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(685,259,o),
+(797,119,o),
+(983,119,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1211,119,o),
+(1329,376,o),
+(1329,742,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1341,1354,o),
+(1171,1354,o),
+(992,1354,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+},
+{
+closed = 0;
+nodes = (
+(726,759,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(910,724,o),
+(1091,725,o),
+(1271,766,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 989575;
+}

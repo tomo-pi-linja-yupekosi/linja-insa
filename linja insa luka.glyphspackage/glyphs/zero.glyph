@@ -1,0 +1,110 @@
+{
+glyphname = zero;
+layers = (
+{
+background = {
+anchors = (
+{
+name = center;
+pos = (646,745);
+},
+{
+name = top;
+pos = (646,1490);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(1333,-20,o),
+(1524,259,o),
+(1524,744,cs),
+(1524,1227,o),
+(1330,1510,o),
+(1000,1510,cs),
+(670,1510,o),
+(476,1227,o),
+(476,744,cs),
+(476,258,o),
+(668,-20,o),
+(1000,-20,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(782,146,o),
+(659,366,o),
+(659,744,cs),
+(659,1123,o),
+(782,1345,o),
+(1000,1345,cs),
+(1218,1345,o),
+(1341,1124,o),
+(1341,744,cs),
+(1341,366,o),
+(1218,146,o),
+(1000,146,cs)
+);
+}
+);
+};
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1247,41,o),
+(1448,360,o),
+(1448,742,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1448,1124,o),
+(1247,1423,o),
+(995,1423,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(743,1423,o),
+(556,1127,o),
+(556,745,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(556,363,o),
+(743,41,o),
+(995,41,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 48;
+}

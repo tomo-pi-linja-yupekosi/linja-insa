@@ -128,12 +128,17 @@ nodes = (
 hints = (
 {
 name = _cap.smallButt;
-origin = (0,25);
+origin = (4,25);
 type = Cap;
 },
 {
 name = _cap.smallButt;
 origin = (5,27);
+type = Cap;
+},
+{
+name = _cap.smallButt;
+origin = (0,27);
 type = Cap;
 }
 );

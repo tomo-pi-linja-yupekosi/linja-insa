@@ -1,0 +1,135 @@
+{
+glyphname = nine;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1305,-20,o),
+(1513,277,o),
+(1513,804,cs),
+(1513,1352,o),
+(1238,1506,o),
+(993,1510,cs),
+(687,1515,o),
+(487,1288,o),
+(487,1010,cs),
+(487,723,o),
+(699,517,o),
+(956,517,cs),
+(1112,517,o),
+(1243,594,o),
+(1323,716,c),
+(1335,716,l),
+(1335,355,o),
+(1195,148,o),
+(968,148,cs),
+(811,148,o),
+(718,247,o),
+(687,379,c),
+(499,379,l),
+(534,141,o),
+(715,-20,o),
+(968,-20,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(804,683,o),
+(673,828,o),
+(673,1011,cs),
+(673,1195,o),
+(810,1343,o),
+(990,1343,cs),
+(1173,1343,o),
+(1308,1186,o),
+(1308,1015,cs),
+(1308,840,o),
+(1165,683,o),
+(984,683,cs)
+);
+}
+);
+};
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 0;
+nodes = (
+(619,305,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(725,-154,o),
+(1365,30,o),
+(1416,671,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1391,1225,o),
+(1365,1432,o),
+(1003,1432,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(690,1432,o),
+(583,1231,o),
+(583,998,cs,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(583,689,o),
+(755,597,o),
+(977,597,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(1194,590,o),
+(1355,745,o),
+(1393,943,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+note = "six mirrored";
+unicode = 57;
+}

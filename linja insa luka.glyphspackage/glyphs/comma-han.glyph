@@ -1,0 +1,69 @@
+{
+glyphname = "comma-han";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,446,o),
+(560,561,o),
+(560,754,cs),
+(560,872,o),
+(500,943,o),
+(407,943,cs),
+(326,943,o),
+(268,888,o),
+(268,808,cs),
+(268,730,o),
+(323,676,o),
+(391,676,cs),
+(440,676,o),
+(471,727,o),
+(471,772,c),
+(452,772,l),
+(452,767,o),
+(452,764,o),
+(452,759,cs),
+(452,597,o),
+(397,539,o),
+(285,480,c),
+(329,388,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(375,742,l,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+}),
+(517,660,o),
+(631,537,o),
+(732,394,c,{
+"Letterink-NibData" = {
+MainAxisWidth = 110;
+MinorAxisWidth = 105;
+ValidForParentMainAxisWidth = 30;
+ValidForParentMinorAxisWidth = 15;
+};
+"Letterink-NibStyleId" = 1;
+})
+);
+}
+);
+width = 2000;
+}
+);
+unicode = 12289;
+}

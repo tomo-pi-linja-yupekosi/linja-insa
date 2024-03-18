@@ -27,10 +27,9 @@ pos = (743,86);
 ref = _part.dot;
 }
 );
-width = 1999;
+width = 2000;
 }
 );
-metricLeft = "|=";
 tags = (
 "can cartouche"
 );

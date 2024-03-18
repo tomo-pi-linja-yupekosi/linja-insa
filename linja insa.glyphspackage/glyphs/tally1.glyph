@@ -1,0 +1,20 @@
+{
+glyphname = tally1;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-900,-606,l),
+(-900,-322,l),
+(-1100,-322,l),
+(-1100,-606,l)
+);
+}
+);
+width = 0;
+}
+);
+}

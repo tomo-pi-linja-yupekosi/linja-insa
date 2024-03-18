@@ -7,17 +7,17 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (1475,1491);
+pos = (1451,1491);
 ref = _part.dot;
 },
 {
 alignment = -1;
 angle = 180;
-pos = (999,1491);
+pos = (975,1491);
 ref = _part.dot;
 }
 );
-width = 2048;
+width = 2000;
 }
 );
 }

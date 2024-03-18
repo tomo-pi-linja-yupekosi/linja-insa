@@ -1,0 +1,24 @@
+{
+glyphname = tally3.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,384);
+ref = tally1.vert;
+},
+{
+ref = tally1.vert;
+},
+{
+pos = (0,-384);
+ref = tally1.vert;
+}
+);
+vertWidth = 0;
+width = 2000;
+}
+);
+script = han;
+}

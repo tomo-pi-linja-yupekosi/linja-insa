@@ -1,0 +1,22 @@
+{
+glyphname = tally1.vert;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(2412,3123,l),
+(2412,3323,l),
+(2000,3323,l),
+(2000,3123,l)
+);
+}
+);
+vertWidth = 0;
+width = 2000;
+}
+);
+script = han;
+}

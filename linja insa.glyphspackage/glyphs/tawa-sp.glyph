@@ -5,15 +5,14 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (1778,0);
+pos = (1777,0);
 ref = _part.walking;
 scale = (-1,1);
 }
 );
-width = 2001;
+width = 2000;
 }
 );
-metricLeft = "=|";
 tags = (
 "can cartouche"
 );

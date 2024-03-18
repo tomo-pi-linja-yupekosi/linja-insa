@@ -1,0 +1,42 @@
+{
+glyphname = cartouche;
+layers = (
+{
+hints = (
+{
+name = _cap.butt;
+origin = (0,0);
+type = Cap;
+},
+{
+name = _cap.butt;
+origin = (1,0);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,1675,l),
+(0,1850,l),
+(-2000,1850,l),
+(-2000,1675,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,-360,l),
+(0,-185,l),
+(-2000,-185,l),
+(-2000,-360,l)
+);
+}
+);
+width = 0;
+}
+);
+script = han;
+}

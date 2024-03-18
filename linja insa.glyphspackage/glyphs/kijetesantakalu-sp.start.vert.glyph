@@ -133,7 +133,7 @@ type = Cap;
 },
 {
 name = _cap.smallButt;
-origin = (5,27);
+origin = (5,3);
 type = Cap;
 },
 {

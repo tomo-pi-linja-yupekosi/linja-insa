@@ -232,8 +232,12 @@ tag = calt;
 },
 {
 automatic = 1;
-code = "sub cartoucheend-sp by cartoucheend-sp.vert;
+code = "sub cornerbracketleft by cornerbracketleft.vert;
+sub cornerbracketright by cornerbracketright.vert;
+sub cartoucheend-sp by cartoucheend-sp.vert;
 sub cartouchestart-sp by cartouchestart-sp.vert;
+sub kijetesantakalu-sp.open by kijetesantakalu-sp.open.vert;
+sub kijetesantakalu-sp.pini by kijetesantakalu-sp.pini.vert;
 sub cartouche by cartouche.vert;
 sub tally1 by tally1.vert;
 sub tally2 by tally2.vert;
@@ -246,8 +250,12 @@ tag = vert;
 },
 {
 automatic = 1;
-code = "sub cartoucheend-sp by cartoucheend-sp.vert;
+code = "sub cornerbracketleft by cornerbracketleft.vert;
+sub cornerbracketright by cornerbracketright.vert;
+sub cartoucheend-sp by cartoucheend-sp.vert;
 sub cartouchestart-sp by cartouchestart-sp.vert;
+sub kijetesantakalu-sp.open by kijetesantakalu-sp.open.vert;
+sub kijetesantakalu-sp.pini by kijetesantakalu-sp.pini.vert;
 sub cartouche by cartouche.vert;
 sub tally1 by tally1.vert;
 sub tally2 by tally2.vert;

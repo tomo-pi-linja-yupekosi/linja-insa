@@ -122,8 +122,8 @@ ValidForParentMinorAxisWidth = 15;
 };
 "Letterink-NibStyleId" = 1;
 }),
-(1243,508,o),
-(1238,44,o),
+(1196,496,o),
+(1214,42,o),
 (1242,6,c,{
 "Letterink-NibData" = {
 MainAxisWidth = 110;

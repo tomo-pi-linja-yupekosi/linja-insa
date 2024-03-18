@@ -11,6 +11,8 @@ displayStrings = (
 "‍",
 "﹁",
 "﹂",
-"「/lon-sp 」"
+"「/lon-sp 」",
+"/ko-sp",
+"/a-sp"
 );
 }

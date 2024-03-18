@@ -292,6 +292,10 @@ value = 0;
 {
 name = "CJK Grid";
 value = "8";
+},
+{
+name = "Master Icon Glyph Name";
+value = "laso-sp";
 }
 );
 id = m01;
@@ -317,7 +321,7 @@ pos = -494;
 pos = 745;
 }
 );
-name = Regular;
+name = "linja meso";
 stemValues = (
 175,
 186
@@ -325,6 +329,17 @@ stemValues = (
 userData = {
 GSCornerRadius = 15;
 };
+}
+);
+instances = (
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = "linja meso";
 }
 );
 metrics = (

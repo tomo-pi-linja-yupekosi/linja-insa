@@ -44,9 +44,36 @@ ref = _closedMouth;
 }
 );
 width = 2000;
+},
+{
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1566,72,l),
+(1035,766,l),
+(965,766,l),
+(434,72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1000,735,l),
+(1474,118,l),
+(526,118,l)
+);
+},
+{
+alignment = -1;
+pos = (143,664);
+ref = _closedMouth;
 }
 );
-metricLeft = "=|";
+width = 2000;
+}
+);
 tags = (
 "can cartouche"
 );

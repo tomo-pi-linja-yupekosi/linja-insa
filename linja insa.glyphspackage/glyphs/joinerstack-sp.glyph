@@ -5,6 +5,10 @@ layers = (
 layerId = m01;
 vertWidth = 0;
 width = 0;
+},
+{
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+width = 0;
 }
 );
 unicode = 989589;

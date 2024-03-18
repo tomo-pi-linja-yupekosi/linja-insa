@@ -198,9 +198,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;
-feature calt;
-feature vert;
+code = "feature vert;
 feature vrt2;
 ";
 tag = aalt;
@@ -278,7 +276,104 @@ tag = valt;
 fontMaster = (
 {
 axesValues = (
-500
+100
+);
+customParameters = (
+{
+name = underlineThickness;
+value = 46;
+},
+{
+name = underlinePosition;
+value = -348;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+0,
+5,
+3,
+0,
+0,
+0,
+2,
+0,
+4
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
+},
+{
+name = "CJK Grid";
+value = "8";
+},
+{
+name = TTFStems;
+value = (
+{
+filter = "category == \"UCSUR\"";
+horizontal = 1;
+name = HStem;
+width = 46;
+},
+{
+filter = "category == \"UCSUR\"";
+horizontal = 0;
+name = VStem;
+width = 46;
+}
+);
+}
+);
+iconName = Light;
+id = "6D287F59-47E8-4638-B138-818E25D25DE1";
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 16;
+pos = 1490;
+},
+{
+over = 16;
+pos = 1118;
+},
+{
+over = -16;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = "linja lili";
+stemValues = (
+46,
+46
+);
+},
+{
+axesValues = (
+400
 );
 customParameters = (
 {
@@ -315,10 +410,6 @@ value = (
 {
 name = "Axis Location";
 value = (
-{
-Axis = "Optical size";
-Location = 14;
-},
 {
 Axis = Weight;
 Location = 400;
@@ -370,7 +461,7 @@ pos = -494;
 pos = 745;
 }
 );
-name = Regular;
+name = "linja meso";
 stemValues = (
 175,
 186
@@ -390,12 +481,119 @@ GSOffsetVertical = 87.5;
 instances = (
 {
 axesValues = (
-0
+100
+);
+customParameters = (
+{
+name = "Keep Glyphs";
+value = (
+"a-sp",
+"akesi-sp",
+"ala-sp",
+"alasa-sp",
+"ale-sp",
+"anpa-sp",
+"ante-sp",
+"anu-sp",
+"awen-sp",
+"e-sp",
+"en-sp",
+"esun-sp",
+"ijo-sp",
+"ike-sp",
+"ilo-sp",
+"insa-sp",
+"jaki-sp",
+"jan-sp",
+"jelo-sp",
+"jo-sp",
+"kala-sp",
+"kalama-sp",
+"kama-sp",
+"kasi-sp",
+"ken-sp",
+"kepeken-sp",
+"kili-sp",
+"kiwen-sp",
+"ko-sp",
+"kon-sp",
+"kule-sp",
+"kulupu-sp",
+"kute-sp",
+"la-sp",
+"li-sp",
+"linja-sp",
+"lipu-sp",
+"loje-sp",
+"lon-sp",
+"luka-sp",
+"lukin-sp",
+"lupa-sp",
+"ma-sp",
+"mama-sp",
+"mani-sp",
+"meli-sp",
+"mi-sp",
+"mije-sp",
+"moku-sp",
+"moli-sp",
+"monsi-sp",
+"mu-sp",
+"mun-sp",
+"musi-sp",
+"mute-sp",
+"nanpa-sp",
+"nasa-sp",
+"nasin-sp",
+"nena-sp",
+"ni-sp",
+"nimi-sp",
+"noka-sp",
+"o-sp",
+"pona-sp",
+"lape-sp",
+"colon-sp",
+"interpunct-sp",
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine
+);
+},
+{
+name = "Remove Features";
+value = (
+calt
+);
+},
+{
+name = "Remove Classes";
+value = (
+cartouchable,
+tally
+);
+}
+);
+instanceInterpolations = {
+"6D287F59-47E8-4638-B138-818E25D25DE1" = 1;
+};
+name = Variable;
+type = variable;
+},
+{
+axesValues = (
+400
 );
 instanceInterpolations = {
 m01 = 1;
 };
-name = Regular;
+name = "linja meso";
 }
 );
 metrics = (
@@ -437,6 +635,10 @@ name = cap_v;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
+"6D287F59-47E8-4638-B138-818E25D25DE1" = {
+han3 = "46";
+han5 = "46";
+};
 m01 = {
 HH = "168";
 HV = "190";

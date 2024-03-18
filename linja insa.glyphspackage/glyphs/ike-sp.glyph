@@ -11,9 +11,19 @@ ref = "pona-sp";
 }
 );
 width = 2000;
+},
+{
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+angle = 180;
+pos = (2000,1490);
+ref = "pona-sp";
 }
 );
-metricLeft = "=|";
+width = 2000;
+}
+);
 tags = (
 "can cartouche"
 );

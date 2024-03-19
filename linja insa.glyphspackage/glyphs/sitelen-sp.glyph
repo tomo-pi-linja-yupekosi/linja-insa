@@ -27,6 +27,26 @@ width = 2000;
 },
 {
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+ref = "lipu-sp";
+},
+{
+pos = (592,0);
+ref = _part.dot;
+scale = (0.65,1);
+},
+{
+pos = (846,0);
+ref = _part.dot;
+scale = (0.65,1);
+},
+{
+pos = (1099,0);
+ref = _part.dot;
+scale = (0.65,1);
+}
+);
 width = 2000;
 }
 );

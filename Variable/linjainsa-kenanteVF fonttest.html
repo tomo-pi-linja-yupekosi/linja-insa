@@ -4,11 +4,11 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9" />
 	<head>
-		<title>OTVar Test: linja insa Variable</title>
+		<title>OTVar Test: linja insa ken ante</title>
 		<style id="font-declaration">
 			@font-face {
-				font-family: "linja insa Variable";
-				src: url("linjainsa-VariableVF.ttf");
+				font-family: "linja insa ken ante";
+				src: url("linjainsa-kenanteVF.ttf");
 			}
 		</style>
 		<style>
@@ -153,7 +153,7 @@
 				line-height: 1em;
 				width: 100%;
 				color: black;
-				font: 40px "linja insa Variable";
+				font: 40px "linja insa ken ante";
 				font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
 				-moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
 				-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
@@ -416,8 +416,8 @@
 				newFontStyleSheet.id = styleId;
 				newFontStyleSheet.textContent = `
 				@font-face {
-					font-family: "linja insa Variable";
-					src: url("linjainsa-VariableVF.${suffix}");
+					font-family: "linja insa ken ante";
+					src: url("linjainsa-kenanteVF.${suffix}");
 				}`;
 				fontStyleSheet.replaceWith(newFontStyleSheet);
 			}
@@ -458,6 +458,9 @@
 			<!-- style menu -->
 			<select id='styleMenu' name='styleMenu' onchange='setStyle(this.value);'>
 				<option value='wght: 100.0'>Origin</option>
+				<option value='wght: 100.0'>linja lili lili lili</option>
+				<option value='wght: 200.0'>linja lili lili</option>
+				<option value='wght: 300.0'>linja lili</option>
 				<option value='wght: 400.0'>linja meso</option>
 {tabbing}</select>
 

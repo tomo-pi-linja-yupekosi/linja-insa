@@ -22,7 +22,23 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = origin;
+pos = (274,328);
+}
+);
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+closed = 0;
+nodes = (
+(274,328,l),
+(297,299,l),
+(320,328,l)
+);
+}
+);
 width = 600;
 }
 );

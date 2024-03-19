@@ -5,6 +5,16 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
+ref = four;
+}
+);
+width = 2000;
+},
+{
+background = {
+shapes = (
+{
 closed = 1;
 nodes = (
 (1510,431,l),
@@ -31,10 +41,14 @@ nodes = (
 );
 }
 );
-width = 2000;
-},
-{
+};
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+alignment = -1;
+ref = four;
+}
+);
 width = 2000;
 }
 );

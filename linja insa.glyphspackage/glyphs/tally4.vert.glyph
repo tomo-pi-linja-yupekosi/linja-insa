@@ -26,7 +26,26 @@ width = 2000;
 },
 {
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
-width = 600;
+shapes = (
+{
+pos = (0,576);
+ref = tally1.vert;
+},
+{
+pos = (0,192);
+ref = tally1.vert;
+},
+{
+pos = (0,-192);
+ref = tally1.vert;
+},
+{
+pos = (0,-576);
+ref = tally1.vert;
+}
+);
+vertWidth = 0;
+width = 2000;
 }
 );
 script = han;

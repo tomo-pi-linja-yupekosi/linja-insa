@@ -48,8 +48,52 @@ vertWidth = 0;
 width = 2000;
 },
 {
+hints = (
+{
+name = _cap.smallButt;
+options = 8;
+origin = (0,3);
+type = Cap;
+},
+{
+name = _cap.smallButt;
+options = 8;
+origin = (2,3);
+type = Cap;
+}
+);
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(2031,1984,l),
+(2031,4462,l),
+(1985,4462,l),
+(1985,1984,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(2004,2146,l),
+(1993,2192,l),
+(1,2192,l),
+(1,2146,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(14,1984,l),
+(14,4462,l),
+(-32,4462,l),
+(-32,1984,l)
+);
+}
+);
+vertWidth = 0;
+width = 2000;
 }
 );
 script = han;

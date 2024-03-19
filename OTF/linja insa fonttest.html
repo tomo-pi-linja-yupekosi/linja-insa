@@ -5,7 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=9" />
 	<title>linja insa</title>
 	<style type="text/css" media="screen">
-		@font-face { font-family: 'TTF linja insa-linja meso'; src: url('linjainsa-linjameso.ttf'); }
+		@font-face { font-family: 'OTF linja insa-linja lili lili lili'; src: url('linjainsa-linjalililililili.otf'); }
+		@font-face { font-family: 'OTF linja insa-linja lili lili'; src: url('linjainsa-linjalililili.otf'); }
+		@font-face { font-family: 'OTF linja insa-linja lili'; src: url('linjainsa-linjalili.otf'); }
+		@font-face { font-family: 'OTF linja insa-linja meso'; src: url('linjainsa-linjameso.otf'); }
 		body {
 			background: white;
 			color: black;
@@ -65,7 +68,7 @@
 			color: black;
 			overflow-x: hidden;
 			overflow-y: scroll;
-			font-family: "TTF linja insa-linja meso";
+			font-family: "OTF linja insa-linja lili lili lili";
 			font-feature-settings: "kern" on, "liga" on, "calt" on;
 			-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
 			-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
@@ -229,7 +232,10 @@
 <div id="controls">
 	<div>
 		<select size="1" id="fontFamilySelector" name="fontFamilySelector" onchange="changeFont()">
-			<option value="linjainsa-linjameso.ttf">TTF linja insa-linja meso</option>
+			<option value="linjainsa-linjalililililili.otf">OTF linja insa-linja lili lili lili</option>
+			<option value="linjainsa-linjalililili.otf">OTF linja insa-linja lili lili</option>
+			<option value="linjainsa-linjalili.otf">OTF linja insa-linja lili</option>
+			<option value="linjainsa-linjameso.otf">OTF linja insa-linja meso</option>
 		</select>
 		<div class="wrapper" spellcheck="false">
 			<input type="text" value="Type Text Here." id="textInput" onkeyup="updateParagraph()" />

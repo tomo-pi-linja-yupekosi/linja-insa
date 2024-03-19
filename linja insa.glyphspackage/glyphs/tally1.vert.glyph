@@ -19,7 +19,19 @@ width = 2000;
 },
 {
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(2412,3200,l),
+(2412,3246,l),
+(2000,3246,l),
+(2000,3200,l)
+);
+}
+);
+vertWidth = 0;
+width = 2000;
 }
 );
 script = han;

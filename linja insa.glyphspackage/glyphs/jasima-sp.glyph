@@ -23,6 +23,22 @@ width = 2000;
 },
 {
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+alignment = -1;
+ref = "telo-sp";
+},
+{
+attr = {
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(998,1580,l),
+(998,-89,l)
+);
+}
+);
 width = 2000;
 }
 );

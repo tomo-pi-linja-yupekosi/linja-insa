@@ -28,6 +28,27 @@ width = 2000;
 },
 {
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1538,1256,l),
+(1506,1288,l),
+(452,234,l),
+(484,202,l)
+);
+},
+{
+alignment = -1;
+pos = (335,-467);
+ref = "interpunct-sp";
+},
+{
+alignment = -1;
+pos = (-346,347);
+ref = "interpunct-sp";
+}
+);
 width = 2000;
 }
 );

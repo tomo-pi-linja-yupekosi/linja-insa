@@ -28,6 +28,20 @@ ref = "li-sp";
 }
 );
 width = 2000;
+},
+{
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+pos = (-334,0);
+ref = "li-sp";
+},
+{
+pos = (294,0);
+ref = "li-sp";
+}
+);
+width = 2000;
 }
 );
 tags = (

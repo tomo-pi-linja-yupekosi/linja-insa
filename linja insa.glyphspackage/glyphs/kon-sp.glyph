@@ -40,6 +40,26 @@ scale = (1,-1);
 }
 );
 width = 2000;
+},
+{
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+alignment = -1;
+angle = 90;
+pos = (-25,-255);
+ref = "linja-sp";
+scale = (1,-1);
+},
+{
+alignment = -1;
+angle = 90;
+pos = (535,-255);
+ref = "linja-sp";
+scale = (1,-1);
+}
+);
+width = 2000;
 }
 );
 metricLeft = "|=";

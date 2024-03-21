@@ -69,6 +69,28 @@ nodes = (
 }
 );
 width = 2000;
+},
+{
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 260;
+strokeWidth = 300;
+};
+closed = 0;
+nodes = (
+(213,749,l),
+(427,1017,o),
+(694,972,o),
+(937,749,cs),
+(1254,459,o),
+(1616,459,o),
+(1782,749,c)
+);
+}
+);
+width = 2000;
 }
 );
 metricLeft = "|=";

@@ -192,8 +192,38 @@ value = {
 wght = {
 100 = 100;
 400 = 400;
+500 = 490;
+600 = 580;
+700 = 670;
+800 = 780;
+900 = 900;
 };
 };
+},
+{
+name = openTypeOS2Panose;
+value = (
+2,
+11,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+4
+);
+},
+{
+name = "Variable Font Origin";
+value = m01;
+},
+{
+name = fsType;
+value = (
+3
+);
 }
 );
 date = "2024-01-25 21:59:19 +0000";
@@ -312,12 +342,12 @@ value = 0;
 name = panose;
 value = (
 2,
-0,
-5,
+11,
+2,
 3,
+2,
 0,
-0,
-0,
+2,
 2,
 0,
 4
@@ -489,15 +519,179 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 87.5;
 };
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = underlineThickness;
+value = 232;
+},
+{
+name = underlinePosition;
+value = -302;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+0,
+10,
+3,
+0,
+0,
+0,
+2,
+0,
+4
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
+},
+{
+name = "CJK Grid";
+value = "8";
+},
+{
+name = TTFStems;
+value = (
+{
+filter = "category == \"UCSUR\"";
+horizontal = 1;
+name = HStem;
+width = 326;
+},
+{
+filter = "category == \"UCSUR\"";
+horizontal = 0;
+name = VStem;
+width = 404;
+}
+);
+}
+);
+iconName = Bold;
+id = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 32;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1118;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = "linja suli";
+stemValues = (
+326,
+404
+);
 }
 );
 instances = (
 {
 axesValues = (
-100
+400
+);
+customParameters = (
+{
+name = "Remove Features";
+value = (
+calt
+);
+},
+{
+name = "Remove Classes";
+value = (
+cartouchable,
+tally
+);
+},
+{
+name = "Keep Glyphs";
+value = (
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
+"comma-han",
+"comma-han.vert",
+cornerbracketleft,
+cornerbracketleft.vert,
+cornerbracketright,
+cornerbracketright.vert,
+"a-sp",
+"akesi-sp",
+"ala-sp",
+"alasa-sp",
+"ale-sp",
+"anpa-sp",
+"ante-sp",
+"anu-sp",
+"awen-sp",
+"e-sp",
+"en-sp",
+"esun-sp",
+"ijo-sp",
+"ike-sp",
+"ilo-sp",
+"insa-sp",
+"jaki-sp",
+"jan-sp",
+"jelo-sp",
+"jo-sp",
+"kala-sp",
+"kalama-sp",
+"kasi-sp",
+"ken-sp",
+"kili-sp",
+"kiwen-sp",
+"ko-sp",
+"kon-sp",
+"li-sp",
+"linja-sp",
+"lipu-sp",
+"pona-sp"
+);
+}
 );
 instanceInterpolations = {
-"6D287F59-47E8-4638-B138-818E25D25DE1" = 1;
+m01 = 1;
 };
 name = "ken ante";
 type = variable;
@@ -583,6 +777,10 @@ name = cap_v;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = {
+han3 = "260";
+han5 = "300";
+};
 "6D287F59-47E8-4638-B138-818E25D25DE1" = {
 han3 = "46";
 han5 = "46";

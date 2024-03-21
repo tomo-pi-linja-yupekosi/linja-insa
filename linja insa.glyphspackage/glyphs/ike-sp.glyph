@@ -22,6 +22,17 @@ ref = "pona-sp";
 }
 );
 width = 2000;
+},
+{
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+angle = 180;
+pos = (2000,1490);
+ref = "pona-sp";
+}
+);
+width = 2000;
 }
 );
 tags = (

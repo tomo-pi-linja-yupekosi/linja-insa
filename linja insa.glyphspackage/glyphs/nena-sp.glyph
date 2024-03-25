@@ -27,6 +27,14 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+alignment = -1;
+pos = (0,1470);
+ref = "lupa-sp";
+scale = (1,-1);
+}
+);
 width = 2000;
 }
 );

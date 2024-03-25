@@ -141,6 +141,52 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 260;
+strokeWidth = 300;
+};
+closed = 1;
+nodes = (
+(1291,46,o),
+(1516,307,o),
+(1516,652,c),
+(1533,1243,l),
+(466,1243,l),
+(466,652,l),
+(466,307,o),
+(691,42,o),
+(991,44,cs)
+);
+},
+{
+attr = {
+strokeHeight = 260;
+strokeWidth = 300;
+};
+closed = 0;
+nodes = (
+(1886,1490,l),
+(1878,1271,o),
+(1735,1040,o),
+(1589,1040,c)
+);
+},
+{
+attr = {
+strokeHeight = 260;
+strokeWidth = 300;
+};
+closed = 0;
+nodes = (
+(113,1490,l),
+(121,1271,o),
+(264,1040,o),
+(410,1040,c)
+);
+}
+);
 width = 2000;
 }
 );

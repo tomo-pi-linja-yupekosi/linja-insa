@@ -56,6 +56,29 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 260;
+strokeWidth = 300;
+};
+closed = 1;
+nodes = (
+(1371,605,o),
+(1594,828,o),
+(1594,1231,c),
+(594,1231,l),
+(594,828,o),
+(818,605,o),
+(1095,605,cs)
+);
+},
+{
+alignment = -1;
+pos = (8,0);
+ref = _part.smallLuka;
+}
+);
 width = 2000;
 }
 );

@@ -33,6 +33,17 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+alignment = -1;
+pos = (142,538);
+ref = _closedMouth;
+},
+{
+pos = (700,-431);
+ref = _part.dot;
+}
+);
 width = 2000;
 }
 );

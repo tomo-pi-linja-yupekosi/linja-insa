@@ -15,8 +15,8 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (0,-506);
-ref = "interpunct-sp";
+pos = (762,-506);
+ref = _part.dot;
 },
 {
 closed = 1;
@@ -53,8 +53,8 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (0,-506);
-ref = "interpunct-sp";
+pos = (700,-506);
+ref = _part.dot;
 },
 {
 closed = 1;
@@ -79,6 +79,41 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1869,1333,l),
+(1598,1459,l),
+(1186,536,l),
+(1426,424,l)
+);
+},
+{
+alignment = -1;
+pos = (574,-873);
+ref = _part.dot;
+scale = (1.4192,1.4192);
+},
+{
+closed = 1;
+nodes = (
+(813,534,l),
+(401,1457,l),
+(130,1331,l),
+(573,422,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1132,549,l),
+(1150,1560,l),
+(850,1560,l),
+(867,549,l)
+);
+}
+);
 width = 2000;
 }
 );

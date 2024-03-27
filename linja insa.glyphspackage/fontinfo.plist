@@ -870,9 +870,12 @@ unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "6553A8EE-D982-49E3-AD79-1FB562774AD6" = {
+han2 = "400";
 han3 = "260";
 han4 = "280";
 han5 = "300";
+han7 = "325";
+han8 = "300";
 };
 "6D287F59-47E8-4638-B138-818E25D25DE1" = {
 han3 = "46";

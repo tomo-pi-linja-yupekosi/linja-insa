@@ -1,0 +1,529 @@
+﻿<html>
+	<!--<base href="..">--> <!-- uncomment for keeping the HTML in a subfolder -->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<head>
+		<title>OTVar Test: Inter</title>
+		<style id="font-declaration">
+			@font-face {
+				font-family: "Inter";
+				src: url("InterVF.ttf");
+			}
+		</style>
+		<style>
+			body {
+				padding: 0;
+				margin: auto;
+				overflow-x: hidden;
+			}
+			#flexbox {
+				display: flex;
+				flex-flow: column;
+				height: 100%;
+			}
+			#controls {
+				flex: 0 1 auto;
+				background-color: white;
+				margin: 2px 0 0 0;
+				padding: 0;
+				width: 100%;
+				border: 0px solid transparent;
+				height: auto;
+				user-select: none;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+			}
+
+/* OTVar Sliders: */
+			.labeldiv {
+				width: 49.2%;
+				padding: 0 0 0 0.2%;
+				margin: auto;
+				display: inline-block;
+			}
+			label {
+				z-index: 2;
+				position: absolute;
+				pointer-events: none;
+				height: 2em;
+				margin: 0;
+				padding: 0.5em 1em;
+				vertical-align: text-top;
+				font: x-small sans-serif;
+				color: black;
+				opacity: 0.5;
+			}
+			.slider {
+				z-index: 1;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				width: 100%;
+				height: 2em;
+				border-radius: 5px;
+				background: #eee;
+				padding: auto;
+				margin: auto;
+			}
+			.slider::-webkit-slider-thumb {
+				z-index: 3;
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				width: 16px;
+				height: 2em;
+				border-radius: 5px;
+				background: #777;
+				cursor: auto;
+			}
+
+/* Feature Buttons: */
+			#featureControls {
+				font-size: x-small;
+				font-family: sans-serif;
+				padding: 0 0.2%;
+			}
+			#featureControls .emojiButton {
+				vertical-align: -50%;
+				font-size: small;
+			}
+			.emojiButton {
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.otFeatureLabel, .otFeature {
+				font-size: small;
+				position: relative;
+				opacity: 1;
+				pointer-events: auto;
+				white-space: nowrap;
+			}
+			.otFeatureLabel, select {
+				padding: 0.2em 0.5em 0.3em 0.5em;
+				margin: 0 .04em;
+				line-height: 2em;
+				color: #666;
+				background-color: #ddd;
+				border-radius: 0.3em;
+				border: 0;
+				text-align: center;
+				z-index: 6;
+			}
+			select {
+				position: relative;
+				margin: 0.25em 0.15em;
+				height: 2.1em;
+				font: x-small sans-serif;
+				vertical-align: top;
+			}
+			.otFeature {
+				visibility: collapse;
+				margin: 0 -1em 0 0;
+			}
+			input[type=checkbox]:checked + label {
+				visibility: visible;
+				color: #eee;
+				background-color: #555;
+				position: relative;
+			}
+			.otFeatureLabel .tooltip {
+				visibility: hidden;
+				background-color: #333;
+				color: white;
+				text-align: center;
+				padding: 0px 5px;
+				top: -2em;
+				left: 0;
+				position: absolute;
+				z-index: 8;
+			}
+			.otFeatureLabel:hover .tooltip {
+				visibility: visible;
+			}
+
+/* Sample Text Area: */
+			#textarea {
+				flex: 1 1 auto;
+				border: 0 solid transparent;
+				margin: auto;
+				padding: 0 0 0.6em 0;
+				line-height: 1em;
+				width: 100%;
+				color: black;
+				font: 40px "Inter";
+				font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				-o-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+				font-variation-settings: "opsz" 14.0, "wght" 100.0;
+				overflow-x: hidden;
+				overflow-y: scroll;
+				word-wrap: break-word;
+			}
+			.○ {
+				-webkit-text-stroke: 1px black;
+				-webkit-text-fill-color: #FFF0;
+			}
+			div:focus {
+				outline: 0px solid transparent;
+			}
+/* Footer paragraph: */
+			#helptext {
+				position: fixed;
+				background: transparent;
+				bottom: 0;
+				width: 100%;
+				color: #888;
+				font: x-small sans-serif;
+			}
+			a {
+				color: #333;
+			}
+/* Dark Mode: */
+			@media (prefers-color-scheme: dark) {
+				body { background: #000; }
+				p { color: #eee; }
+				#textInput{
+					color: #eee;
+					background-color: #222;
+					background: #222;
+				}
+				label { color: #fff; }
+				.otFeatureLabel {
+					color: #999;
+					background-color: #333;
+				}
+				input[type=checkbox]:checked + label {
+					color: #111;
+					background-color: #888;
+				}
+
+				.slider { background: #333; }
+				.slider::-webkit-slider-thumb { background: #888; }
+				a { color: #ccc; }
+
+				#controls {
+					background-color: black;
+				}
+				#textarea {
+					color: white;
+					background-color: black;
+				}
+				.○ {
+					-webkit-text-stroke: 1px white;
+					-webkit-text-fill-color: #0000;
+				}
+			}
+
+		</style>
+		<script>
+			document.addEventListener('keyup', keyAnalysis);
+			document.addEventListener('keyup', sliderPrecision);
+			document.addEventListener('keydown', sliderPrecision);
+
+			const sliders = document.getElementsByClassName('slider');
+
+			function sliderPrecision(event) {
+				if (event.shiftKey) {
+					for (i = 0; i < sliders.length; i++) {
+						sliders[i].step = 0.005;
+					}
+				} else {
+					for (i = 0; i < sliders.length; i++) {
+						if (sliders[i].id == "ital") {
+							sliders[i].step = 0.05;
+						} else {
+							sliders[i].step = 1;
+						}
+					}
+				}
+			}
+			function keyAnalysis(event) {
+				const sizeSlider = document.getElementById("fontsize");
+				const lineheightSlider = document.getElementById("lineheight");
+				const styleMenu = document.getElementById("styleMenu");
+				const styleMenuLength = styleMenu.options.length;
+
+				if (event.ctrlKey) {
+					if (event.code == 'KeyR') {
+						resetParagraph();
+					} else if (event.code == 'KeyL') {
+						setLat1();
+					} else if (event.code == 'KeyJ') {
+						toggleLeftRight();
+					} else if (event.code == 'KeyX') {
+						toggleInverse();
+					} else if (event.code == 'KeyC') {
+						toggleCenter();
+					} else if (event.code == 'KeyM') {
+						toggleMenu();
+					} else if (event.code == 'Period') {
+						styleMenu.selectedIndex = (styleMenu.selectedIndex + 1) % styleMenuLength;
+						setStyle(styleMenu.value);
+					} else if (event.code == 'Comma') {
+						var newIndex = styleMenu.selectedIndex - 1;
+						if (newIndex<0) {
+							newIndex = styleMenuLength - 1;
+						}
+						styleMenu.selectedIndex = newIndex;
+						setStyle(styleMenu.value);
+					} else if (event.key == '+') {
+						sizeSlider.value = Math.round(sizeSlider.value*1.25);
+						if (sizeSlider.value > parseInt(sizeSlider.max)) {
+							sizeSlider.value = sizeSlider.max;
+						}
+						updateSlider();
+					} else if (event.key == '-') {
+						sizeSlider.value = Math.round(sizeSlider.value*0.8);
+						if (sizeSlider.value < parseInt(sizeSlider.min)) {
+							sizeSlider.value = sizeSlider.min;
+						}
+						updateSlider();
+					} else if (event.key == '1') {
+						lineheightSlider.value = Math.round(parseInt(lineheightSlider.value)-20);
+						if (lineheightSlider.value < parseInt(lineheightSlider.min)) {
+							lineheightSlider.value = lineheightSlider.min;
+						}
+						updateSlider();
+					} else if (event.key == '2') {
+						lineheightSlider.value = Math.round(parseInt(lineheightSlider.value)+20);
+						if (lineheightSlider.value > parseInt(lineheightSlider.max)) {
+							lineheightSlider.value = lineheightSlider.max;
+						}
+						updateSlider();
+					}
+				}
+			}
+			function setLanguage(lang) {
+				document.body.setAttribute('lang',lang);
+			}
+			function updateFeatures() {
+				// update features based on user input:
+				var testtext = getTestText();
+				var codeLine = "";
+				var checkboxes = document.getElementsByClassName("otFeature")
+				for (i = 0; i < checkboxes.length; i++) {
+					var checkbox = checkboxes[i];
+					if (i != 0) { codeLine += ", " };
+					codeLine += '"'+checkbox.name+'" ';
+					codeLine += checkbox.checked ? '1' : '0';
+					if (checkbox.name=="kern") {
+						testtext.style.setProperty("font-kerning", checkbox.checked ? 'normal' : 'none');
+					} else if (checkbox.name=="liga") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'common-ligatures contextual' : 'no-common-ligatures no-contextual');
+					} else if (checkbox.name=="dlig") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'discretionary-ligatures' : 'no-discretionary-ligatures');
+					} else if (checkbox.name=="hlig") {
+						testtext.style.setProperty("font-variant-ligatures", checkbox.checked ? 'historical-ligatures' : 'no-historical-ligatures');
+					} else if (checkbox.name=="case") {
+						testtext.style.textTransform = checkbox.checked ? "uppercase" : "none";
+					}
+				}
+				testtext.style.setProperty("font-feature-settings", codeLine);
+			}
+			function resetParagraph() {
+				const defaulttext = "&#x0000; &#x0041; &#x00C4; &#x00C3; &#x00C0; &#x00C1; &#x00C2; &#x00C5; &#x01FA; &#xEE02; &#x0100; &#x0102; &#x0104; &#x01CD; &#x01DE; &#x01E0; &#x0200; &#x0202; &#x0226; &#x1E00; &#x1EA0; &#x1EA2; &#x1EA4; &#x1EA6; &#x1EA8; &#x1EAA; &#x1EAC; &#x1EAE; &#x1EB0; &#x1EB2; &#x1EB4; &#x1EB6; &#x0391; &#x0386; &#x1F08; &#x1F09; &#x1F0A; &#x1F0B; &#x1F0C; &#x1F0D; &#x1F0E; &#x1F0F; &#x1FB8; &#x1FB9; &#x1FBA; &#x023A; &#x1FBB; &#x0410; &#x04D0; &#x04D2; &#x1F88; &#x1F89; &#x1F8A; &#x1F8B; &#x1F8C; &#x1F8D; &#x1F8E; &#x1F8F; &#x1FBC; &#x039B; &#x00C6; &#x01E2; &#x01FC; &#x04D4; &#x0042; &#x1E02; &#x1E04; &#x1E06; &#x0243; &#x0181; &#x0412; &#x0392; &#x0043; &#x0187; &#x00C7; &#x0106; &#x0108; &#x010A; &#x010C; &#x1E08; &#x023B; &#x0186; &#x03F9; &#x0044; &#x018A; &#x010E; &#x1E0A; &#x1E0C; &#x1E0E; &#x1E10; &#x1E12; &#x0189; &#x01F2; &#x01C5; &#x0045; &#x00C8; &#x00C9; &#x00CA; &#x00CB; &#x0112; &#x0114; &#x0116; &#x0118; &#x011A; &#x0204; &#x0206; &#x0228; &#x1E14; &#x1E16; &#x1E18; &#x1E1A; &#x1E1C; &#x1EB8; &#x1EBA; &#x1EBC; &#x1EBE; &#x1EC0; &#x1EC2; &#x1EC4; &#x1EC6; &#x0246; &#x018E; &#x0395; &#x0388; &#x1F18; &#x1F19; &#x1F1A; &#x1F1B; &#x1F1C; &#x1F1D; &#x1FC8; &#x1FC9; &#x0415; &#x0400; &#x0401; &#x04D6; &#x0046; &#x0191; &#x1E1E; &#x2132; &#x0047; &#x01E4; &#x0193; &#x011C; &#x011E; &#x0120; &#x0122; &#x01E6; &#x01F4; &#x1E20; &#xE002; &#xE003; &#xE004; &#xE005; &#xE006; &#xE007; &#xE008; &#xE009; &#xE00A; &#xE00B; &#x0048; &#x1E28; &#x0124; &#x021E; &#x1E22; &#x1E24; &#x1E26; &#x1E2A; &#x0126; &#x04C7; &#x04A2; &#x04C9; &#x04A4; &#x01F6; &#x0397; &#x0389; &#x1F28; &#x1F29; &#x1F2A; &#x1F2B; &#x1F2C; &#x1F2D; &#x1F2E; &#x1F2F; &#x1FCA; &#x1FCB; &#x041D; &#x1F98; &#x1F99; &#x1F9A; &#x1F9B; &#x1F9C; &#x1F9D; &#x1F9E; &#x1F9F; &#x1FCC; &#x0049; &#xEE0A; &#x00CF; &#x1E2E; &#xEE0B; &#x0197; &#x1E2C; &#x00CC; &#x00CD; &#x00CE; &#x0128; &#x012A; &#x012C; &#x012E; &#x0130; &#x01CF; &#x0208; &#x020A; &#x1EC8; &#x1ECA; &#x0196; &#x0399; &#x038A; &#x03AA; &#x1F38; &#x1F39; &#x1F3A; &#x1F3B; &#x1F3C; &#x1F3D; &#x1F3E; &#x1F3F; &#x1FD8; &#x1FD9; &#x1FDA; &#x1FDB; &#x0406; &#x0407; &#xE00C; &#xE00D; &#xE00E; &#xE00F; &#xE010; &#xE011; &#xE012; &#xE013; &#xE014; &#xE015; &#xE016; &#xE017; &#xE018; &#xE019; &#xE01A; &#xE01B; &#xE01C; &#xE01D; &#xE01E; &#xE01F; &#xE020; &#xE021; &#xE022; &#xE023; &#xE024; &#xE025; &#xE026; &#xE027; &#xE028; &#xE029; &#xE02A; &#xE02B; &#x004A; &#x0134; &#x0248; &#x037F; &#x0408; &#x004B; &#x0136; &#x01E8; &#x1E30; &#x1E32; &#x1E34; &#x04A0; &#x049A; &#x0198; &#x039A; &#x004C; &#x0139; &#x013B; &#x013D; &#x1E36; &#x1E38; &#x1E3A; &#x1E3C; &#x0141; &#x023D; &#x01C8; &#x004D; &#x1E3E; &#x1E40; &#x1E42; &#x04CD; &#x039C; &#x03FA; &#x041C; &#x004E; &#x00D1; &#x0143; &#x0145; &#x0147; &#x01F8; &#x1E44; &#x1E46; &#x1E48; &#x1E4A; &#x019D; &#x014A; &#x0418; &#x040D; &#x0419; &#x04E2; &#x04E4; &#x048A; &#x0376; &#x039D; &#x01CB; &#x004F; &#x00D6; &#x00D5; &#x00D8; &#x01A0; &#x00D2; &#x00D3; &#x00D4; &#x014C; &#x014E; &#x0150; &#x01D1; &#x01EA; &#x01EC; &#x020C; &#x020E; &#x022A; &#x022C; &#x022E; &#x0230; &#x1E4C; &#x1E4E; &#x1E50; &#x1E52; &#x1ECC; &#x1ECE; &#x1ED0; &#x1ED2; &#x1ED4; &#x1ED6; &#x1ED8; &#x1EDA; &#x1EDC; &#x1EDE; &#x1EE0; &#x1EE2; &#x01FE; &#x039F; &#x038C; &#x1F48; &#x1F49; &#x1F4A; &#x1F4B; &#x1F4C; &#x1F4D; &#x1FF8; &#x03F4; &#x1FF9; &#x041E; &#x04E6; &#x019F; &#x04E8; &#x04EA; &#x0152; &#x0050; &#x1E54; &#x1E56; &#x048E; &#x01A4; &#x03A1; &#x1FEC; &#x0051; &#x024A; &#x0052; &#x0154; &#x0156; &#x0158; &#x0210; &#x0212; &#x1E58; &#x1E5A; &#x1E5C; &#x1E5E; &#x211F; &#x211E; &#x024C; &#x0053; &#x015A; &#x015C; &#x015E; &#x0160; &#x0218; &#x1E60; &#x1E62; &#x1E64; &#x1E66; &#x1E68; &#x0405; &#x01A7; &#x1E9E; &#x0054; &#x0162; &#x0164; &#x021A; &#x1E6A; &#x1E6C; &#x1E6E; &#x1E70; &#x01AC; &#xEE0C; &#x01AE; &#x023E; &#x03A4; &#x0055; &#x01AF; &#x00D9; &#x00DA; &#x00DB; &#x00DC; &#x0168; &#x016A; &#x016C; &#x016E; &#x0170; &#x0172; &#x01D3; &#x01D5; &#x01D7; &#x01D9; &#x01DB; &#x0214; &#x0216; &#x1E72; &#x1E74; &#x1E76; &#x1E78; &#x1E7A; &#x1EE4; &#x1EE6; &#x1EE8; &#x1EEA; &#x1EEC; &#x1EEE; &#x1EF0; &#x0244; &#x0056; &#x1E7C; &#x1E7E; &#x0057; &#x0174; &#x1E80; &#x1E82; &#x1E84; &#x1E86; &#x1E88; &#x0058; &#x1E8A; &#x1E8C; &#x04B2; &#x04FC; &#x03A7; &#x0059; &#x01B3; &#x00DD; &#x0176; &#x0178; &#x0232; &#x1E8E; &#x1EF2; &#x1EF4; &#x1EF6; &#x1EF8; &#x024E; &#x03A5; &#x038E; &#x03AB; &#x1F59; &#x1F5B; &#x1F5D; &#x1F5F; &#x1FE8; &#x1FE9; &#x1FEA; &#x1FEB; &#xEE03; &#x005A; &#x0179; &#x017B; &#x017D; &#x1E90; &#x1E92; &#x1E94; &#x0224; &#x01B5; &#x0396; &#x2C7F; &#x0061; &#x00E1; &#x0103; &#x1EAF; &#x1EB7; &#x1EB1; &#x1EB3; &#x1EB5; &#x01CE; &#x00E2; &#x1EA5; &#x1EAD; &#x1EA7; &#x1EA9; &#x1EAB; &#x0201; &#x00E4; &#x01DF; &#x0227; &#x1EA1; &#x01E1; &#x00E0; &#x1EA3; &#x0203; &#x0101; &#x0105; &#x1E9A; &#x00E5; &#x01FB; &#xEE04; &#x1E01; &#x00E3; &#x0250; &#x0430; &#x04D1; &#x04D3; &#x00E6; &#x01E3; &#x01FD; &#x04D5; &#xE02C; &#xE02D; &#xE02E; &#xE02F; &#xE030; &#xE031; &#xE032; &#xE033; &#xE034; &#xE035; &#xE036; &#xE037; &#xE038; &#xE039; &#xE03A; &#xE03B; &#xE03C; &#xE03D; &#xE03E; &#xE03F; &#xE040; &#xE041; &#xE042; &#xE043; &#xE044; &#xE045; &#xE046; &#xE047; &#xE048; &#xE049; &#xE04A; &#x0062; &#x0180; &#x0183; &#x0253; &#x1E03; &#x1E05; &#x1E07; &#x00FE; &#x0063; &#x023C; &#x0188; &#x00E7; &#x0107; &#x0109; &#x010B; &#x010D; &#x1E09; &#x03F2; &#x0441; &#x0064; &#x0111; &#x0256; &#x0257; &#x018C; &#x0221; &#x010F; &#x1E0B; &#x1E0D; &#x1E0F; &#x1E11; &#x1E13; &#x01F3; &#x02A3; &#x01C6; &#x02A4; &#x20AB; &#x0065; &#x00EB; &#x0247; &#x00E8; &#x00E9; &#x00EA; &#x0113; &#x0115; &#x0117; &#x0119; &#x011B; &#x0205; &#x0207; &#x0229; &#x1E15; &#x1E17; &#x1E19; &#x1E1B; &#x1E1D; &#x1EB9; &#x1EBB; &#x1EBD; &#x1EBF; &#x1EC1; &#x1EC3; &#x1EC5; &#x1EC7; &#x0435; &#x0450; &#x0451; &#x04D7; &#x01DD; &#x0066; &#xEE0D; &#xEE0E; &#xEE0F; &#xEE10; &#xEE11; &#x017F; &#xEE12; &#x1E9B; &#x1E1F; &#x02A9; &#x0067; &#x0260; &#x01E5; &#x011D; &#x011F; &#x0121; &#x0123; &#x01E7; &#x01F5; &#x1E21; &#x0262; &#xEE13; &#x0068; &#x1E29; &#x045B; &#x0452; &#x0266; &#x0267; &#x0195; &#x0265; &#x02AE; &#x02AF; &#x0127; &#x0125; &#x021F; &#x1E23; &#x1E25; &#x1E27; &#x1E2B; &#x1E96; &#x04BB; &#x0069; &#x0131; &#xEE14; &#x00EF; &#x1E2F; &#xEE15; &#x0129; &#x1E2D; &#xE04B; &#x0268; &#x00EC; &#x00ED; &#x00EE; &#x012B; &#x012D; &#xE04C; &#x012F; &#x01D0; &#x0209; &#x020B; &#x1EC9; &#x1ECB; &#xE04D; &#x0237; &#x025F; &#x0249; &#xE04E; &#x0456; &#x0457; &#x0133; &#xEE16; &#x006A; &#xE04F; &#x029D; &#x0135; &#x01F0; &#x03F3; &#x0458; &#x01C9; &#x006B; &#x0199; &#x0137; &#x01E9; &#x1E31; &#x1E33; &#x1E35; &#x029E; &#xEE17; &#x006C; &#x0142; &#x019A; &#x026B; &#x026D; &#x026C; &#x0234; &#x0140; &#x013A; &#x013C; &#x013E; &#x1E37; &#x1E39; &#x1E3B; &#x1E3D; &#xE050; &#xE051; &#xE052; &#xE053; &#xE054; &#xE055; &#xE056; &#xE057; &#xE058; &#xE059; &#xE05A; &#xE05B; &#xE05C; &#x04CF; &#xEE18; &#x006D; &#x0271; &#x026F; &#x0270; &#x1E3F; &#x1E41; &#x1E43; &#x006E; &#x00F1; &#x0273; &#x014B; &#x0235; &#x0272; &#x019E; &#x0144; &#x0146; &#x0148; &#x01F9; &#x1E45; &#x1E47; &#x1E49; &#x1E4B; &#x01CC; &#xEE19; &#x006F; &#x00F6; &#x00F5; &#x00F8; &#x01A1; &#x00F2; &#x00F3; &#x00F4; &#x014D; &#x014F; &#x0151; &#x01D2; &#x01EB; &#x01ED; &#x020D; &#x020F; &#x022B; &#x022D; &#x022F; &#x0231; &#x1E4D; &#x1E4F; &#x1E51; &#x1E53; &#x1ECD; &#x1ECF; &#x1ED1; &#x1ED3; &#x1ED5; &#x1ED7; &#x1ED9; &#x1EDB; &#x1EDD; &#x1EDF; &#x1EE1; &#x1EE3; &#x01FF; &#x03BF; &#x03CC; &#x1F40; &#x1F41; &#x1F42; &#x1F43; &#x1F44; &#x1F45; &#x1F78; &#x0473; &#x0275; &#x043E; &#x04E7; &#x0153; &#xEE1A; &#x0479; &#x0070; &#x048F; &#x01A5; &#x1E55; &#x1E57; &#x0440; &#x0071; &#x02A0; &#x024B; &#x0072; &#xE05D; &#x024D; &#x0279; &#x027B; &#x027F; &#x027E; &#xE05E; &#x0155; &#x0157; &#x0159; &#x0211; &#x0213; &#x1E59; &#x1E5B; &#x1E5D; &#x1E5F; &#xEE1B; &#xEE1C; &#x0073; &#x0282; &#x023F; &#x015B; &#x015D; &#x015F; &#x0161; &#x0219; &#x1E61; &#x1E63; &#x1E65; &#x1E67; &#x1E69; &#x0455; &#x01A8; &#x00DF; &#xE06A; &#x0074; &#x01AB; &#x0288; &#x0236; &#x02A8; &#x0287; &#x0167; &#x0163; &#x0165; &#x021B; &#x1E6B; &#x1E6D; &#x1E6F; &#x1E71; &#x1E97; &#xEE06; &#xEE1D; &#xEE1E; &#xEE1F; &#xEE20; &#xEE21; &#xEE22; &#xEE23; &#xEE24; &#xEE25; &#x0075; &#x00FC; &#x0169; &#x01B0; &#x00B5; &#x0289; &#x00F9; &#x00FA; &#x00FB; &#x016B; &#x016D; &#x016F; &#x0171; &#x0173; &#x01D4; &#x01D6; &#x01D8; &#x01DA; &#x01DC; &#x0215; &#x0217; &#x1E73; &#x1E75; &#x1E77; &#x1E79; &#x1E7B; &#x1EE5; &#x1EE7; &#x1EE9; &#x1EEB; &#x1EED; &#x1EEF; &#x1EF1; &#xEE26; &#xEE27; &#xEE28; &#xEE29; &#xEE2A; &#xEE2B; &#xEE2C; &#xEE2D; &#xEE2E; &#xEE2F; &#xEE30; &#xEE31; &#xEE32; &#xEE33; &#xEE34; &#xEE35; &#xEE36; &#xEE37; &#xEE38; &#xEE39; &#xEE3A; &#xEE3B; &#xEE3C; &#xEE3D; &#xEE3E; &#xEE3F; &#xEE40; &#xEE41; &#xEE42; &#xEE43; &#xEE44; &#xEE45; &#x0076; &#x028C; &#x1E7D; &#x1E7F; &#x0077; &#x1E85; &#x028D; &#x0175; &#x1E81; &#x1E83; &#x1E87; &#x1E89; &#x1E98; &#x0078; &#x1E8B; &#x1E8D; &#x0445; &#x03C7; &#x0079; &#x00FF; &#x01B4; &#x024F; &#x00FD; &#x0177; &#x0233; &#x1E8F; &#x1E99; &#x1EF3; &#x1EF5; &#x1EF7; &#x1EF9; &#x0443; &#x045E; &#x04EF; &#x04F1; &#x04F3; &#x028E; &#x04EE; &#x04F0; &#x04F2; &#xEE05; &#xEE46; &#x007A; &#x01B6; &#x0225; &#x0240; &#x0290; &#x017A; &#x017C; &#x017E; &#x1E91; &#x1E93; &#x1E95; &#x00DE; &#x0393; &#x0394; &#x0398; &#x039E; &#x03A0; &#x03A3; &#x03A6; &#x03A8; &#x03A9; &#x1FFB; &#x038F; &#x1F68; &#x1F69; &#x1F6A; &#x1F6B; &#x1F6C; &#x1F6D; &#x1F6E; &#x1F6F; &#x1FFA; &#x1FA8; &#x1FA9; &#x1FAA; &#x1FAB; &#x1FAC; &#x1FAD; &#x1FAE; &#x1FAF; &#x1FFC; &#x01B1; &#x03D2; &#x03D3; &#x03D4; &#x0194; &#x0411; &#x0490; &#x04FA; &#x0414; &#x0416; &#x0496; &#x0417; &#x041A; &#x049C; &#x04C3; &#x041B; &#x0472; &#x040F; &#x0423; &#x0424; &#x0426; &#x04B4; &#x0427; &#x04B6; &#x04B8; &#x04BA; &#x040B; &#x0428; &#x0429; &#x042A; &#x042B; &#x042C; &#x0409; &#x040A; &#x042D; &#x042E; &#x042F; &#x0494; &#x04A6; &#x0404; &#x04A8; &#x04BC; &#x04D8; &#x04E0; &#x0474; &#x0402; &#x00F0; &#x03B1; &#x03AC; &#x1F00; &#x1F01; &#x1F02; &#x1F03; &#x1F04; &#x1F05; &#x1F06; &#x1F07; &#x1F70; &#x1F80; &#x1F81; &#x1F82; &#x1F83; &#x1F84; &#x1F85; &#x1F86; &#x1F87; &#x1FB0; &#x1FB1; &#x1FB2; &#x1FB3; &#x1FB4; &#x1FB6; &#x1FB7; &#x03B2; &#x03B3; &#x03B4; &#x03B5; &#x03AD; &#x029A; &#x025B; &#x025C; &#x025E; &#x025D; &#x1F10; &#x1F11; &#x1F12; &#x1F13; &#x1F14; &#x1F15; &#x1F72; &#x03B6; &#x03B7; &#x03AE; &#x1F20; &#x1F21; &#x1F22; &#x1F23; &#x1F24; &#x1F25; &#x1F26; &#x1F27; &#x1F74; &#x1F90; &#x1F91; &#x1F92; &#x1F93; &#x1F94; &#x1F95; &#x1F96; &#x1F97; &#x1FC2; &#x1FC3; &#x1FC4; &#x1FC6; &#x1FC7; &#x03B8; &#x03B9; &#x0390; &#x03AF; &#x03CA; &#x1F30; &#x1F31; &#x1F32; &#x1F33; &#x1F34; &#x1F35; &#x1F36; &#x1F37; &#x1F76; &#x1FD0; &#x1FD1; &#x1FD2; &#x1FD6; &#x1FD7; &#x03BB; &#x03BE; &#x03C0; &#x03C1; &#x1FE4; &#x1FE5; &#x03FC; &#x03C2; &#x03C3; &#x03C4; &#x03C5; &#x03B0; &#x03CB; &#x03CD; &#x1F50; &#x1F51; &#x1F52; &#x1F53; &#x1F54; &#x1F55; &#x1F56; &#x1F57; &#x1F7A; &#x1FE0; &#x1FE1; &#x1FE2; &#x1FE6; &#x1FE7; &#x03C6; &#x03D5; &#x03C8; &#x03C9; &#x03CE; &#x1F60; &#x1F61; &#x1F62; &#x1F63; &#x1F64; &#x1F65; &#x1F66; &#x1F67; &#x1F7C; &#x1FA0; &#x1FA1; &#x1FA2; &#x1FA3; &#x1FA4; &#x1FA5; &#x1FA6; &#x1FA7; &#x1FF2; &#x1FF3; &#x1FF4; &#x1FF6; &#x1FF7; &#x0263; &#x0431; &#x0432; &#x0433; &#x0491; &#x04FB; &#x0434; &#x0436; &#x0497; &#x0437; &#x0438; &#x048B; &#x043A; &#x04C4; &#x049B; &#x049D; &#x04A1; &#x043B; &#x04C6; &#x052F; &#x043C; &#x04CE; &#x043D; &#x04A3; &#x04A5; &#x04C8; &#x04CA; &#x043F; &#x0442; &#x0444; &#x04FD; &#x04B3; &#x0446; &#x045F; &#x0447; &#x04B7; &#x04B9; &#x0448; &#x0449; &#x044C; &#x044A; &#x044B; &#x048D; &#x0463; &#x0459; &#x045A; &#x044D; &#x044E; &#x044F; &#x0495; &#x04A7; &#x0454; &#x04A9; &#x04B5; &#x04BD; &#x04E1; &#x0475; &#x0024; &#x00A2; &#x00A5; &#x00A3; &#x0192; &#x20BA; &#x20BD; &#x20AC; &#x20B9; &#x20B8; &#x20A7; &#x20B1; &#x20AD; &#x20A9; &#x20A4; &#x20B3; &#x20B4; &#x20A6; &#x20B2; &#x20A1; &#x20B5; &#x20A2; &#x20AE; &#x20AF; &#x20A5; &#x20AA; &#x20BC; &#x20A8; &#x20BE; &#x20A3; &#x0E3F; &#x20BF; &#x0030; &#x0031; &#x0032; &#x01BB; &#x0033; &#x0034; &#x0035; &#x01BC; &#x0036; &#x0037; &#x0038; &#x0039; &#xE06B; &#xE06C; &#xE06D; &#xE06E; &#xE06F; &#xE070; &#xE071; &#xE072; &#xE073; &#xE074; &#xE075; &#xE076; &#xE077; &#xE078; &#xE079; &#xE07A; &#xE07B; &#xE07C; &#xE07D; &#xE07E; &#xE07F; &#xE080; &#xE093; &#xE094; &#xE095; &#xEE47; &#xE096; &#xEE48; &#xEE49; &#xEE4A; &#xEE4B; &#xEE4C; &#xEE4D; &#xEE4E; &#xEE4F; &#xEE50; &#xEE51; &#xEE52; &#xEE53; &#xEE54; &#xEE55; &#xEE56; &#xEE57; &#xEE58; &#xEE59; &#xEE5A; &#xEE5B; &#xEE5C; &#xEE5D; &#xEE5E; &#xEE5F; &#xEE60; &#xEE61; &#xEE62; &#xEE63; &#xEE64; &#xEE65; &#xEE66; &#xEE67; &#xEE68; &#xEE69; &#xEE6A; &#xEE6B; &#xEE6C; &#xEE6D; &#xEE6E; &#xEE6F; &#xEE70; &#xEE71; &#x0026; &#x204A; &#x0021; &#x203C; &#x00A1; &#x2049; &#x003F; &#x2047; &#x2048; &#x00BF; &#x203D; &#x2E18; &#x0028; &#x0029; &#x005B; &#x2045; &#x005D; &#x2046; &#x007B; &#x007D; &#x0040; &#xE081; &#xE082; &#xE083; &#xE084; &#xE085; &#xE086; &#xE087; &#x0023; &#x00A4; &#x002F; &#x007C; &#x00A6; &#x005C; &#x002D; &#x2013; &#x2012; &#x2014; &#x2015; &#x2022; &#x25E6; &#x2043; &#x2023; &#x204C; &#x204D; &#x25AA; &#xE088; &#xE089; &#xE08A; &#xE08B; &#xE08C; &#xE08D; &#xE08E; &#xE08F; &#xE090; &#xE091; &#xE1C3; &#x2018; &#x2019; &#x0027; &#x0022; &#x201C; &#x201D; &#x201E; &#x201A; &#x201B; &#x201F; &#x2032; &#x2033; &#x2034; &#x2057; &#x2035; &#x2036; &#x2037; &#x02B9; &#x02BA; &#x002C; &#x002E; &#x2026; &#x2025; &#x003A; &#xE092; &#x2236; &#x003B; &#x00B7; &#x0387; &#x037E; &#x2039; &#x203A; &#x00AB; &#x00BB; &#x003C; &#x003E; &#x2264; &#x2265; &#x003D; &#x2260; &#x002B; &#x2212; &#x00D7; &#x00F7; &#x00B1; &#x2248; &#x007E; &#xE097; &#xE098; &#xE099; &#xE09A; &#xE09B; &#xE09C; &#xE09D; &#xE09E; &#xE09F; &#xE0A0; &#xE0A1; &#xE0A2; &#xE0A3; &#x00AC; &#x005F; &#x2020; &#x2021; &#x005E; &#x002A; &#xE0A4; &#x00AE; &#x00A9; &#x1F12F; &#x2117; &#x2122; &#x2120; &#x2121; &#x213B; &#x1F16B; &#x1F16A; &#x00B0; &#x00AA; &#x00BA; &#xE0A5; &#xE0A6; &#x00B6; &#x204B; &#x00A7; &#x221E; &#x2202; &#x2211; &#x220F; &#x222B; &#x221A; &#x2205; &#x25CA; &#x1D43; &#x1D47; &#x1D9C; &#x1D48; &#x1D49; &#x1DA0; &#x1D4D; &#x02B0; &#x2071; &#x02B2; &#x1D4F; &#x02E1; &#x1D50; &#x207F; &#x1D52; &#x1D56; &#xE163; &#x02B3; &#x02E2; &#x1D57; &#x1D58; &#x1D5B; &#x02B7; &#x02E3; &#x02B8; &#x1DBB; &#x2070; &#x00B9; &#x00B2; &#x00B3; &#x2074; &#x2075; &#x2076; &#x2077; &#x2078; &#x2079; &#x207D; &#x207E; &#xE0A7; &#xE0A8; &#x207A; &#x207B; &#x207C; &#x2090; &#xE0A9; &#xE0AA; &#xE0AB; &#x2091; &#xE0AC; &#xE0AD; &#x2095; &#x1D62; &#x2C7C; &#x2096; &#x2097; &#x2098; &#x2099; &#x2092; &#x209A; &#xE0AE; &#x1D63; &#x209B; &#x209C; &#x1D64; &#x1D65; &#xE0AF; &#x2093; &#xE0B0; &#xE0B1; &#x2080; &#x2081; &#x2082; &#x2083; &#x2084; &#x2085; &#x2086; &#x2087; &#x2088; &#x2089; &#x208D; &#x208E; &#xE0B2; &#xE0B3; &#x208A; &#x208B; &#x208C; &#x2044; &#xE0B4; &#xE0B5; &#xE0B6; &#xE0B7; &#xE0B8; &#xE0B9; &#xE0BA; &#xE0BB; &#xE0BC; &#xE0BD; &#xE0C8; &#xE0C9; &#xE0CA; &#xE0CB; &#xE0CC; &#xE0DC; &#xE0DD; &#xE0DE; &#xE0DF; &#xE0E0; &#xE0E1; &#xE0E2; &#xE0E3; &#xE0E4; &#xE0E5; &#xE0D7; &#xE0D8; &#xE0D9; &#xE0DA; &#xE0DB; &#x215F; &#x00BD; &#x2189; &#x2153; &#x2154; &#x00BC; &#x00BE; &#x2155; &#x2156; &#x2157; &#x2158; &#x2159; &#x215A; &#x2150; &#x215B; &#x215C; &#x215D; &#x215E; &#x2151; &#x2152; &#x0025; &#x2030; &#x2031; &#x214D; &#x2106; &#x2105; &#x2100; &#x2101; &#x00B4; &#x02DD; &#x0060; &#x0384; &#x00A8; &#xEE72; &#x02C6; &#x02DC; &#x00AF; &#x02D8; &#xE0E6; &#x02D9; &#x02DA; &#x02C7; &#x0385; &#x00B8; &#x02DB; &#xF6C3; &#x0301; &#x0300; &#x030F; &#x0304; &#x0303; &#x0323; &#x0326; &#x0020; &#x00A0; &#x202F; &#x205F; &#x2000; &#x2001; &#x2002; &#x2003; &#x2004; &#x2005; &#x2006; &#x2007; &#x2008; &#x2009; &#x200A; &#x200B; &#x2116; &#x2103; &#x2109; &#x212A; &#x212B; &#x0298; &#x212E; &#x2190; &#x27F5; &#x1F850; &#x21D0; &#x27F8; &#x2192; &#x27F6; &#x1F852; &#x21D2; &#x27F9; &#x2196; &#x2197; &#x2198; &#x2199; &#x2194; &#x27F7; &#x21D4; &#x27FA; &#x2191; &#x2193; &#x2913; &#x2195; &#x21A9; &#x21AA; &#xE1D2; &#xE1D3; &#xE1D4; &#xE1D5; &#xE1D6; &#xE1D7; &#xE1D8; &#xE1D9; &#xE1DA; &#xE1DB; &#xE1DC; &#xE1DD; &#xE1DE; &#xE1DF; &#x2713; &#x2717; &#x25BC; &#x25B2; &#x25C0; &#x25BA; &#x25BD; &#x25B3; &#x25C1; &#x25B7; &#x26A0; &#x25CF; &#x25CB; &#x25A0; &#x25A1; &#x25A2; &#x2B12; &#x2B13; &#x25C6; &#x2756; &#x25C7; &#xE000; &#x263C; &#x2600; &#x2661; &#x2665; &#x2764; &#x2605; &#x2606; &#x2B06; &#x21E7; &#x21EA; &#x2318; &#x2303; &#x2305; &#x2304; &#x2380; &#x2325; &#x2387; &#x238B; &#x21BA; &#x21BB; &#x232B; &#x2326; &#x2327; &#x23CF; &#x23CE; &#x21B5; &#x21B3; &#x21B0; &#x21B1; &#x21B4; &#x21E4; &#x21E5; &#x21DE; &#x21DF; &#x2B24; &#x25EF; &#x2B1C; &#x20DD; &#x20DE; &#x24B6; &#x24B7; &#x24B8; &#x24B9; &#x24BA; &#x24BB; &#x24BC; &#x24BD; &#x24BE; &#x24BF; &#x24C0; &#x24C1; &#x24C2; &#x24C3; &#x24C4; &#x24C5; &#x24C6; &#x24C7; &#x24C8; &#x24C9; &#x24CA; &#x24CB; &#x24CC; &#x24CD; &#x24CE; &#x24CF; &#x24EA; &#x2460; &#x2461; &#x2462; &#x2463; &#x2464; &#x2465; &#x2466; &#x2467; &#x2468; &#xE12B; &#xE12C; &#xE12D; &#xE12E; &#xE12F; &#xE130; &#xE131; &#xE132; &#xE133; &#xE134; &#xE135; &#xE136; &#xE137; &#x2295; &#x2296; &#x2298; &#x2297; &#x2A38; &#xE138; &#xE139; &#xEE73; &#xE13A; &#xE13B; &#xE13C; &#xE13D; &#x1F130; &#x1F131; &#x1F132; &#x1F133; &#x1F134; &#x1F135; &#x1F136; &#xEE74; &#x1F137; &#x1F138; &#x1F139; &#x1F13A; &#x1F13B; &#x1F13C; &#x1F13D; &#x1F13E; &#x1F13F; &#x1F140; &#x1F141; &#x1F142; &#x1F143; &#x1F144; &#x1F145; &#x1F146; &#x1F147; &#x1F148; &#x1F149; &#xE13E; &#xE13F; &#xE140; &#xE141; &#xE142; &#xE143; &#xE144; &#xE145; &#xE146; &#xE147; &#xE148; &#xE149; &#xE14A; &#xE14B; &#xE14C; &#xE14D; &#xE14E; &#xE14F; &#xE150; &#xE151; &#xE152; &#xE153; &#xE154; &#xE155; &#xE156; &#xEE09; &#xE157; &#xE158; &#xE159; &#xE15A; &#xEE75; &#xE15B; &#xE15C; &#xE15D; &#xE15E; &#xEE76; &#xEE7C; &#xEE77; &#xEE78; &#xEE79; &#xEE7A; &#xEE7B; &#xEE7D; &#xEE7E; &#xEE83; &#xEE7F; &#xEE80; &#xEE81; &#xEE82; &#xEE84; &#xEE9C; &#xEE88; &#xEE89; &#xEE8A; &#xEE8B; &#xEE8C; &#xEE8D; &#xEE8E; &#xEE8F; &#xEEDF; &#xE1E2; &#xE1E3; &#xE1E4; &#xE1E5; &#xE1E6; &#xE1E7; &#xE1E8; &#xE1E9; &#xE1EA; &#xE1EB; &#xE1EC; &#xE1ED; &#xE1EE; &#xE1EF; &#xE1F0; &#xE1F1; &#xE1F2; &#xE1F3; &#xE1F4; &#xE1F5; &#xE1F6; &#xE1F7; &#xE1F8; &#xE1F9; &#xE1FA; &#xE1FB; &#xE1FC; &#xE1FD; &#xE1FE; &#xE1FF; &#xE200; &#xE201; &#xE202; &#xE203; &#xE204; &#xE205; &#xE206; &#xE207; &#xE208; &#xE209; &#xE20A; &#xE20B; &#xE20C; &#xE20D; &#xE20E; &#xE20F; &#xE210; &#xE211; &#xE212; &#xE213; &#xE214; &#xE215; &#xE216; &#xE217; &#xE218; &#xE219; &#xE21A; &#xE21B; &#xE21C; &#xE21D; &#xE21E; &#xE21F; &#xE220; &#xE221; &#xE222; &#xE223; &#xE224; &#xE225; &#xE226; &#xE227; &#xE228; &#xE229; &#xE22A; &#xE22B; &#xE22C; &#xE22D; &#xE22E; &#xE22F; &#xE230; &#xE231; &#xE232; &#xE233; &#xE234; &#xE235; &#xE236; &#xE237; &#xE238; &#xE239; &#xE23A; &#xE23B; &#xE23C; &#xE23D; &#xE23E; &#xE23F; &#xE240; &#xE241; &#xE242; &#xE243; &#xE244; &#xE245; &#xE246; &#xE247; &#xE248; &#xE249; &#xE24A; &#xE24B; &#xE24C; &#xE24D; &#xE24E; &#xE24F; &#xE250; &#xE251; &#xE252; &#xE253; &#xE254; &#xE255; &#xE256; &#xE257; &#xE258; &#xE259; &#xE25A; &#xE25B; &#xE25C; &#xE25D; &#xE25E; &#xE25F; &#xE260; &#xE261; &#xE262; &#xE263; &#xE264; &#xE265; &#xE266; &#xE267; &#xE268; &#xE269; &#xE26A; &#xE26B; &#xE26C; &#xE26D; &#xE26E; &#xE26F; &#xE270; &#xE271; &#xE272; &#xE273; &#xE274; &#xE275; &#xE276; &#xE277; &#xE278; &#xE279; &#xE27A; &#xE27B; &#xE27C; &#xE27D; &#xE27E; &#xE27F; &#xE280; &#xE281; &#xE282; &#xE283; &#xE284; &#xE285; &#xE286; &#xE287; &#xE288; &#xE289; &#xE28A; &#xE28B; &#xE28C; &#xE28D; &#xE28E; &#xE28F; &#xE290; &#xE291; &#xE292; &#xE293; &#xE294; &#xE295; &#xE296; &#xE297; &#xE298; &#xE299; &#xE29A; &#xE29B; &#xE29C; &#xE29D; &#xE29E; &#xE29F; &#xE2A0; &#xE2A1; &#xE2A2; &#xE2A3; &#xE2A4; &#xE2A5; &#xE2A6; &#xE2A7; &#xE2A8; &#xE2A9; &#xE2AA; &#xE2AB; &#xE2AC; &#xE2AD; &#xE2AE; &#xE2AF; &#xE2B0; &#xE2B1; &#xE2B2; &#xE2B3; &#xE2B4; &#xE2B5; &#xE2B6; &#xE2B7; &#xE2B8; &#xE2B9; &#xE2BA; &#xE2BB; &#xE2BC; &#xE2BD; &#xE2BE; &#xE2BF; &#xE2C0; &#xE2C1; &#xE2C2; &#xE2C3; &#xE2C4; &#xE2C5; &#xE2C6; &#xE2C7; &#xE2D9; &#xE2DA; &#xE2DB; &#xE2DC; &#xE2C8; &#xE2C9; &#xE2CA; &#xE2CB; &#xE2CC; &#xE2CD; &#xE2CE; &#xE2CF; &#xE2D0; &#xE2D1; &#xE2D2; &#xE2D3; &#xE2D4; &#xE2D5; &#xE2D6; &#xE2D7; &#xE2D8; &#x0182; &#x01F1; &#x00D0; &#x0110; &#x018B; &#x0190; &#x01A9; &#x018F; &#x01B7; &#x01EE; &#x01B8; &#x021C; &#x0132; &#x01C7; &#x013F; &#x01CA; &#x01A2; &#x0166; &#x0184; &#x01B2; &#x01A6; &#x019C; &#x01F7; &#x0220; &#x0222; &#x0241; &#x0245; &#x1EFA; &#x1EFC; &#x1EFE; &#x0251; &#x0252; &#x0264; &#x0297; &#x018D; &#x0258; &#x0283; &#x0286; &#x01AA; &#x0259; &#x025A; &#x0292; &#x01EF; &#x0293; &#x01B9; &#x01BA; &#x02AA; &#x02AD; &#x0261; &#x0294; &#x02A1; &#x01BE; &#x02A2; &#x0296; &#x0295; &#x021D; &#x0284; &#x0138; &#x019B; &#x026E; &#x01A3; &#x0277; &#x0254; &#x0278; &#x027A; &#x02A7; &#x01AD; &#x01BD; &#x0185; &#x02A6; &#x0223; &#x0238; &#x0239; &#x0242; &#x0299; &#x02AB; &#x02AC; &#x1E9D; &#x1E9F; &#x1EFB; &#x1EFD; &#x1EFF; &#x2184; &#x028A; &#x028B; &#x01BF; &#x029C; &#x2094; &#x02B6; &#x02B5; &#x02B1; &#x02B4; &#x01C3; &#x01C0; &#x01C1; &#x01C2; &#xA7FF; &#x0413; &#x0403; &#x04F6; &#x0492; &#x040C; &#x041F; &#x0420; &#x0421; &#x0422; &#x040E; &#x0425; &#x0460; &#x0462; &#x0464; &#x0466; &#x0468; &#x046A; &#x046C; &#x046E; &#x0470; &#x0476; &#x0478; &#x0498; &#x04AA; &#x04AC; &#x04AE; &#x04B0; &#x04BE; &#x04C0; &#x04C1; &#x04C5; &#x04CB; &#x04DA; &#x04DC; &#x04DE; &#x04EC; &#x04F4; &#x04F8; &#x04FE; &#x0480; &#x048C; &#x0453; &#x04F7; &#x0493; &#x0439; &#x045D; &#x045C; &#x0461; &#x0465; &#x0467; &#x0469; &#x046B; &#x046D; &#x046F; &#x0471; &#x0477; &#x0499; &#x04AB; &#x04AD; &#x04AF; &#x04B1; &#x04BF; &#x04C2; &#x04CC; &#x04D9; &#x04DB; &#x04DD; &#x04DF; &#x04E3; &#x04E5; &#x04E9; &#x04EB; &#x04ED; &#x04F5; &#x04F9; &#x04FF; &#x0481; &#x03DC; &#x03CF; &#x03FD; &#x03FE; &#x03FF; &#x03BA; &#x03BC; &#x03BD; &#x037B; &#x037C; &#x037D; &#x03DD; &#x03D7; &#x03D0; &#x03D1; &#x03D6; &#x03F0; &#x03F1; &#x03F5; &#x1F71; &#x1F73; &#x1F75; &#x1F77; &#x1FD3; &#x1F79; &#x1F7B; &#x1FE3; &#x1F7D; &#x1FBE; &#x037A; &#x1DBF; &#x2160; &#x2161; &#x2162; &#x2163; &#x2164; &#x2165; &#x2166; &#x2167; &#x2168; &#x2169; &#x216A; &#x216B; &#x216C; &#x216D; &#x216E; &#x216F; &#x2170; &#x2171; &#x2172; &#x2173; &#x2174; &#x2175; &#x2176; &#x2177; &#x2178; &#x2179; &#x217A; &#x217B; &#x217C; &#x217D; &#x217E; &#x217F; &#x2183; &#x2185; &#x2186; &#xFEFF; &#xA92E; &#x27EF; &#x2042; &#x2038; &#x2041; &#x2040; &#x2027; &#x2024; &#x203E; &#x203B; &#x204F; &#x203F; &#x204E; &#x2050; &#x2051; &#x2053; &#x2054; &#x2055; &#x2016; &#x2010; &#x2011; &#x2017; &#x02E0; &#x0482; &#x0374; &#x0375; &#x03F6; &#x02C5; &#x02C2; &#x02C3; &#x02C4; &#x02D5; &#x02EF; &#x02D7; &#x02D6; &#x02F8; &#x02D3; &#x02D2; &#x02EC; &#x02ED; &#x02F0; &#x02F1; &#x02F2; &#x02F3; &#x02F4; &#x02F5; &#x02F6; &#x02F7; &#x02F9; &#x02FA; &#x02FB; &#x02FC; &#x02FD; &#x02FE; &#x02FF; &#x02D4; &#x02E5; &#x02E9; &#x02E6; &#x02E8; &#x02E7; &#x02DF; &#x02DE; &#x02E4; &#x2113; &#x2423; &#x20A0; &#x2052; &#x0363; &#x0364; &#x0365; &#x0366; &#x0367; &#x0368; &#x0369; &#x036A; &#x036B; &#x036C; &#x036D; &#x036E; &#x036F; &#x1DCA; &#x1DD3; &#x1DD4; &#x1DD5; &#x1DD6; &#x1DD7; &#x1DD8; &#x1DD9; &#x1DDA; &#x1DDB; &#x1DDC; &#x1DDD; &#x1DDE; &#x1DDF; &#x1DE0; &#x1DE1; &#x1DE2; &#x1DE3; &#x1DE4; &#x1DE5; &#x1DE6; &#x1DE7; &#x1DE9; &#x0488; &#x0489; &#x0483; &#x0484; &#x0485; &#x0486; &#x0487; &#xA69F; &#x0342; &#x0343; &#x1FBF; &#x1FBD; &#x1FFE; &#x1FCD; &#x1FDD; &#x1FCE; &#x1FDE; &#x1FCF; &#x1FDF; &#x1FED; &#x1FEE; &#x1FC1; &#x1FEF; &#x1FFD; &#x1FC0; &#x0308; &#x0307; &#x0302; &#x030C; &#x0306; &#x030A; &#x0309; &#x0313; &#x0315; &#x031B; &#x0327; &#x0328; &#x032C; &#x0337; &#x0338; &#x0346; &#x0347; &#x0348; &#x0349; &#x034A; &#x034B; &#x034C; &#x034D; &#x034E; &#x034F; &#x0350; &#x0351; &#x0352; &#x0353; &#x0354; &#x0355; &#x0356; &#x0357; &#x0358; &#x0359; &#x035A; &#x035B; &#x035C; &#x035D; &#x035E; &#x035F; &#x0360; &#x0361; &#x0362; &#x20DC; &#x1DC4; &#x20DB; &#x20E8; &#x1DC0; &#x1DC1; &#x1DC2; &#x1DC3; &#x1DC5; &#x1DC6; &#x1DC7; &#x1DC8; &#x1DC9; &#x1DCB; &#x1DCC; &#x1DCD; &#x1DCE; &#x1DCF; &#x1DD0; &#x1DD1; &#x1DD2; &#x1DE8; &#x1DEA; &#x1DEB; &#x1DEC; &#x1DED; &#x1DEE; &#x1DEF; &#x1DF0; &#x1DF1; &#x1DF2; &#x1DF3; &#x1DF4; &#x1DF5; &#x1DFC; &#x1DFD; &#x1DFE; &#x1DFF; &#x20F0; &#xE106; &#xE109; &#xE10C; &#xE10D; &#xE10E; &#xE111; &#xE112; &#xE113; &#xE117; &#xE118; &#xE121; &#xE122; &#xE124; &#xE12A; &#xEE07; &#xEE9A; &#xEEA7; &#xEEA8; &#xEEA9; &#xEEAA; &#xEEAB; &#xEEAC; &#xEEAD; &#xEEAE; &#xEEAF; &#xEEB0; &#xEEB1; &#xEEB2; &#xEEB3; &#xEEB4; &#xEEB5; &#xEEB6; &#xEEB7; &#xEEB8; &#xEEB9; &#xEEBA; &#xEEBB; &#xEEBC; &#xEEBD; &#xEEBE; &#xEEBF; &#xEEC0; &#xEEC1; &#xEEC2; &#xEEC3; &#xEEC4; &#xEEC5; &#xEEC6; &#xEEC7; &#xEEC8; &#xEEC9; &#xEECA; &#xEECB; &#xEECC; &#xEECD; &#xEECE; &#xEECF; &#xEED0; &#xEED1; &#xEED2; &#x02C9; &#x02CA; &#x02CB; &#x02EA; &#x02EB; &#x02CF; &#x02D1; &#x02D0; &#x02BD; &#x02BB; &#x02C0; &#x02C1; &#x02CE; &#x02C8; &#x02CD; &#x02BF; &#x02BE; &#x02CC; &#x2DFF; &#xEED3; &#xE0F3; &#xE0F4; &#xE0F5; &#xE10A; &#xE10F; &#xE1E0; &#xE1E1; &#xEE85; &#xEE86; &#xEE87; &#xEE90; &#xEE91; &#xEE92; &#xEE93; &#xEE94; &#xEE95; &#xEE96; &#xEE97; &#xEE98; &#xEE99; &#xEE9B; &#xEE9D; &#xEE9E; &#xEE9F; &#xEEA0; &#xEEA1; &#xEEA2; &#xEEA3; &#xEEA4; &#xEEA5; &#xEEA6; &#xEED4; &#xEED5; &#xEED6; &#xEED7; &#xEED8; &#xEED9; &#xEEDA; &#xEEDB; &#xEEDC; &#xEEDD; &#xEEDE; &#xEEE0; &#xEEE1;";
+				const testtext = getTestText();
+				testtext.innerHTML = defaulttext;
+			}
+			function setLat1() {
+				const lat1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz &Agrave;&Aacute;&Acirc;&Atilde;&Auml;&Aring;&AElig;&Ccedil;&Egrave;&Eacute;&Ecirc;&Euml;&Igrave;&Iacute;&Icirc;&Iuml;&ETH;&Ntilde;&Ograve;&Oacute;&Ocirc;&Otilde;&Ouml;&Oslash;&OElig;&THORN;&Ugrave;&Uacute;&Ucirc;&Uuml;&Yacute;&Yuml; &agrave;&aacute;&acirc;&atilde;&auml;&aring;&aelig;&ccedil;&egrave;&eacute;&ecirc;&euml;&igrave;&iacute;&icirc;&iuml;&eth;&ntilde;&ograve;&oacute;&ocirc;&otilde;&ouml;&oslash;&oelig;&thorn;&szlig;&ugrave;&uacute;&ucirc;&uuml;&yacute;&yuml; .,:;&middot;&hellip;&iquest;?&iexcl;!&laquo;&raquo;&lsaquo;&rsaquo; /|&brvbar;\()[]{}_-&ndash;&mdash;&sbquo;&bdquo;&lsquo;&rsquo;&ldquo;&rdquo;&quot;&#x27; #&amp;&sect;@&bull;&shy;*&dagger;&Dagger;&para; +&times;&divide;&plusmn;=&lt;&gt;&not;&mu; ^~&acute;`&circ;&macr;&tilde;&uml;&cedil; &yen;&euro;&pound;$&cent;&curren;&fnof; &trade;&reg;&copy; 1234567890 &ordf;&ordm;&deg;%&permil; &sup1;&sup2;&sup3;&frac14;&frac12;&frac34;";
+				const testtext = getTestText();
+				testtext.innerHTML = lat1;
+			}
+			function getTestText() {
+				return document.getElementById("textarea");
+			}
+			function updateSlider() {
+				var body = getTestText();
+				var sliders = document.getElementsByClassName("slider");
+				var settingtext = "";
+				for (var i = 0; i < sliders.length; i++) {
+					var sliderID = sliders[i].id;
+					var sliderValue = sliders[i].value;
+					var label = document.getElementById("label_"+sliderID);
+					var labelName = label.getAttribute("name");
+
+					label.textContent = ""+labelName+": "+sliderValue;
+
+					if (sliderID == "fontsize") {
+						// Text Size Slider
+						body.style.setProperty("font-size", ""+sliderValue+"px");
+						label.textContent += "px";
+					} else if (sliderID == "lineheight") {
+						// Line Height Slider
+						body.style.setProperty("line-height", ""+sliderValue/100.0+"em");
+						label.textContent += "%";
+					} else {
+						// OTVar Slider: collect settings
+						if (settingtext != "") { settingtext += ", " };
+						settingtext += '"' + sliderID + '" ' + sliderValue;
+					}
+				}
+				// apply OTVar slider settings:
+				body.style.setProperty("font-variation-settings", settingtext);
+			}
+			function vanish(item) {
+				item.style.setProperty("display", "none");
+			}
+			function toggleLeftRight() {
+				const waterfall = document.getElementById("textarea");
+				if (waterfall.dir != "rtl") {
+					waterfall.dir = "rtl";
+					waterfall.align = "right";
+				} else {
+					waterfall.dir = "";
+					waterfall.align = "";
+				}
+			}
+			function toggleCenter() {
+				const waterfall = document.getElementById("textarea");
+				if (waterfall.align != "center") {
+					waterfall.align = "center";
+				} else {
+					if (waterfall.dir == "rtl") {
+						waterfall.align = "right";
+					} else {
+						waterfall.align = "left";
+					}
+				}
+			}
+			function toggleInverse() {
+				const testText = document.getElementById("textarea");
+				if (testText) {
+					const link = document.getElementById("invert");
+					if (testText.className == "●") {
+						testText.className = "○";
+						link.textContent = "🔳";
+					} else {
+						testText.className = "●";
+						link.textContent = "🔲";
+					}
+				}
+			}
+			function toggleMenu() {
+				const menu = document.getElementById("featureControls");
+				menu.hidden = !menu.hidden;
+			}
+			function setFontTypeTo(suffix) {
+				const styleId = "font-declaration";
+				var fontStyleSheet = document.getElementById(styleId);
+				var newFontStyleSheet = document.createElement("style");
+				newFontStyleSheet.id = styleId;
+				newFontStyleSheet.textContent = `
+				@font-face {
+					font-family: "Inter";
+					src: url("InterVF.${suffix}");
+				}`;
+				fontStyleSheet.replaceWith(newFontStyleSheet);
+			}
+			function toggleType() {
+				const link = document.getElementById("type");
+				if (link.textContent == "TT") {
+					link.textContent = "W1";
+					setFontTypeTo("woff");
+				} else if (link.textContent == "W1") {
+					link.textContent = "W2";
+					setFontTypeTo("woff2");
+				} else {
+					link.textContent = "TT";
+					setFontTypeTo("ttf");
+				}
+			}
+			function setStyle(styleString) {
+				const axisStrings = styleString.split(",");
+				for (var i = axisStrings.length - 1; i >= 0; i--) {
+					const axisSetting = axisStrings[i].split(":");
+					const axisTag = axisSetting[0];
+					const axisValue = parseInt(axisSetting[1]);
+					document.getElementById(axisTag).value=axisValue;
+					updateSlider();
+				}
+			}
+		</script>
+	</head>
+	<body onload="updateSlider();resetParagraph();document.getElementById('textarea').focus()">
+	<div id="flexbox">
+		<div id="controls">
+			<!-- OTVar sliders -->
+			<div class="labeldiv"><label class="sliderlabel" id="label_fontsize" name="Font Size">Font Size</label><input type="range" min="10" max="1000" value="40" class="slider" id="fontsize" oninput="updateSlider();"></div>
+			<div class="labeldiv"><label class="sliderlabel" id="label_lineheight" name="Line Height">Line Height</label><input type="range" min="30" max="300" value="120" class="slider" id="lineheight" oninput="updateSlider();"></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_opsz' name='Optical size'>Optical size</label><input type='range' min='14' max='32' value='14' class='slider' id='opsz' oninput='updateSlider();'></div>
+			<div class='labeldiv'><label class='sliderlabel' id='label_wght' name='Weight'>Weight</label><input type='range' min='100' max='900' value='400' class='slider' id='wght' oninput='updateSlider();'></div>
+
+			<div id="featureControls">
+			<!-- style menu -->
+			<select id='styleMenu' name='styleMenu' onchange='setStyle(this.value);'>
+				<option value='opsz: 14.0,wght: 400.0'>Origin</option>
+				<option value='opsz: 14.0,wght: 100.0'>Thin</option>
+				<option value='opsz: 14.0,wght: 200.0'>ExtraLight</option>
+				<option value='opsz: 14.0,wght: 300.0'>Light</option>
+				<option value='opsz: 14.0,wght: 400.0'>Regular</option>
+				<option value='opsz: 14.0,wght: 490.0'>Medium</option>
+				<option value='opsz: 14.0,wght: 580.0'>SemiBold</option>
+				<option value='opsz: 14.0,wght: 670.0'>Bold</option>
+				<option value='opsz: 14.0,wght: 780.0'>ExtraBold</option>
+				<option value='opsz: 14.0,wght: 900.0'>Black</option>
+				<option value='opsz: 32.0,wght: 100.0'>Thin</option>
+				<option value='opsz: 32.0,wght: 200.0'>ExtraLight</option>
+				<option value='opsz: 32.0,wght: 300.0'>Light</option>
+				<option value='opsz: 32.0,wght: 400.0'>Regular</option>
+				<option value='opsz: 32.0,wght: 490.0'>Medium</option>
+				<option value='opsz: 32.0,wght: 580.0'>SemiBold</option>
+				<option value='opsz: 32.0,wght: 670.0'>Bold</option>
+				<option value='opsz: 32.0,wght: 780.0'>ExtraBold</option>
+				<option value='opsz: 32.0,wght: 900.0'>Black</option>
+{tabbing}</select>
+
+			<!-- file type -->
+				<a onclick="toggleType();" id="type" class="emojiButton">TT</a>
+
+			<!-- Samsa -->
+				<!-- placeholder for external links, hold down OPTION and SHIFT while running the script -->
+
+			<!-- display type (x-ray vs. filled) -->
+				<a onclick="toggleInverse();" id="invert" class="emojiButton">🔲</a>
+
+			<!-- OT features -->
+				<input type="checkbox" name="kern" id="kern" value="kern" class="otFeature" onchange="updateFeatures()" checked><label for="kern" class="otFeatureLabel">kern</label>
+				<input type="checkbox" name="liga" id="liga" value="liga" class="otFeature" onchange="updateFeatures()" checked><label for="liga" class="otFeatureLabel">liga</label>
+				<input type="checkbox" name="calt" id="calt" value="calt" class="otFeature" onchange="updateFeatures()" checked><label for="calt" class="otFeatureLabel">calt</label>
+				<input type="checkbox" name="sinf" id="sinf" value="sinf" class="otFeature" onchange="updateFeatures()"><label for="sinf" class="otFeatureLabel">sinf</label>
+				<input type="checkbox" name="numr" id="numr" value="numr" class="otFeature" onchange="updateFeatures()"><label for="numr" class="otFeatureLabel">numr</label>
+				<input type="checkbox" name="dnom" id="dnom" value="dnom" class="otFeature" onchange="updateFeatures()"><label for="dnom" class="otFeatureLabel">dnom</label>
+				<input type="checkbox" name="case" id="case" value="case" class="otFeature" onchange="updateFeatures()"><label for="case" class="otFeatureLabel">case</label>
+				<input type="checkbox" name="subs" id="subs" value="subs" class="otFeature" onchange="updateFeatures()"><label for="subs" class="otFeatureLabel">subs</label>
+				<input type="checkbox" name="sups" id="sups" value="sups" class="otFeature" onchange="updateFeatures()"><label for="sups" class="otFeatureLabel">sups</label>
+				<input type="checkbox" name="pnum" id="pnum" value="pnum" class="otFeature" onchange="updateFeatures()"><label for="pnum" class="otFeatureLabel">pnum</label>
+				<input type="checkbox" name="tnum" id="tnum" value="tnum" class="otFeature" onchange="updateFeatures()"><label for="tnum" class="otFeatureLabel">tnum</label>
+				<input type="checkbox" name="ordn" id="ordn" value="ordn" class="otFeature" onchange="updateFeatures()"><label for="ordn" class="otFeatureLabel">ordn</label>
+				<input type="checkbox" name="ss03" id="ss03" value="ss03" class="otFeature" onchange="updateFeatures()"><label for="ss03" class="otFeatureLabel">ss03</label>
+				<input type="checkbox" name="ss07" id="ss07" value="ss07" class="otFeature" onchange="updateFeatures()"><label for="ss07" class="otFeatureLabel">ss07</label>
+				<input type="checkbox" name="ss08" id="ss08" value="ss08" class="otFeature" onchange="updateFeatures()"><label for="ss08" class="otFeatureLabel">ss08</label>
+				<input type="checkbox" name="c2sc" id="c2sc" value="c2sc" class="otFeature" onchange="updateFeatures()"><label for="c2sc" class="otFeatureLabel">c2sc</label>
+				<input type="checkbox" name="smcp" id="smcp" value="smcp" class="otFeature" onchange="updateFeatures()"><label for="smcp" class="otFeatureLabel">smcp</label>
+
+				<select id='lang' name='languages' onchange='setLanguage(this.value);'>
+					<option value=''>No Language</option>
+					<option value='ro'>Romanian (ROM, ro)</option>
+					<option value='mo'>Moldavian (MOL, mo)</option>
+					<option value='ca'>Catalan (CAT, ca)</option>
+				</select>
+			</div>
+		</div>
+
+		<!-- Test Text -->
+		<div contenteditable="true" spellcheck="false" autocomplete="true" id="textarea" class="●">
+		</div>
+	</div>
+
+	<!-- Disclaimer -->
+	<p id="helptext" onmouseleave="vanish(this);">
+		<strong>Ctrl-period/comma</strong> step through styles <strong>Ctrl-R</strong> reset charset <strong>Ctrl-L</strong> Lat-1 <strong>Ctrl-J</strong> LTR/RTL <strong>Ctrl-C</strong> center <strong>Ctrl-M</strong> toggle menu <strong>Ctrl-X</strong> x-ray <strong>Ctrl +/−</strong> size <strong>Ctrl-1/2</strong> linegap <strong>Shift</strong> high slider precision <em>Not working? Try newer macOS or <a href="https://www.google.com/chrome/">latest Chrome</a>. Hover mouse above this note to make it disappear.</em>
+	</p>
+	</body>
+</html>

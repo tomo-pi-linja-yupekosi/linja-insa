@@ -36,11 +36,11 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 alignment = -1;
-pos = (286,456);
+pos = (286,448);
 ref = _part.bottom_box;
 },
 {
-pos = (700,170);
+pos = (700,226);
 ref = _part.dot;
 }
 );

@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "linja-sp";
 layers = (
 {
@@ -76,18 +75,18 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 0;
 nodes = (
-(213,749,l),
-(427,1017,o),
+(181,749,l),
+(395,1017,o),
 (694,972,o),
 (937,749,cs),
 (1254,459,o),
-(1616,459,o),
-(1782,749,c)
+(1648,459,o),
+(1814,749,c)
 );
 }
 );

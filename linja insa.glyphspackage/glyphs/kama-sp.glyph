@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "kama-sp";
 layers = (
 {
@@ -26,7 +25,7 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-pos = (222,0);
+pos = (141,0);
 ref = _part.walking;
 }
 );

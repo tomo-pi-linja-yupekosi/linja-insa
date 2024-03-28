@@ -1,23 +1,42 @@
 {
-color = 1;
 glyphname = "kon-sp";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-angle = 90;
-pos = (-25,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x1302562e0;
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(724,1527,l),
+(434,1361,o),
+(434,999,o),
+(724,682,cs),
+(947,439,o),
+(992,172,o),
+(724,-42,c)
+);
 },
 {
-alignment = -1;
-angle = 90;
-pos = (535,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x125021860;
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(1284,1527,l),
+(994,1361,o),
+(994,999,o),
+(1284,682,cs),
+(1507,439,o),
+(1552,172,o),
+(1284,-42,c)
+);
 }
 );
 width = 2000;
@@ -26,18 +45,38 @@ width = 2000;
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
 shapes = (
 {
-alignment = -1;
-angle = 90;
-pos = (-14,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x130260160;
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(735,1527,l),
+(445,1361,o),
+(445,999,o),
+(735,682,cs),
+(958,439,o),
+(1003,172,o),
+(735,-42,c)
+);
 },
 {
-alignment = -1;
-angle = 90;
-pos = (546,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x130260270;
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(1295,1527,l),
+(1005,1361,o),
+(1005,999,o),
+(1295,682,cs),
+(1518,439,o),
+(1563,172,o),
+(1295,-42,c)
+);
 }
 );
 width = 2000;
@@ -46,18 +85,38 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-alignment = -1;
-angle = 90;
-pos = (-25,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x130260580;
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(676,1559,l),
+(386,1393,o),
+(386,999,o),
+(676,682,cs),
+(899,439,o),
+(944,140,o),
+(676,-74,c)
+);
 },
 {
-alignment = -1;
-angle = 90;
-pos = (535,-255);
-ref = "linja-sp";
-scale = (1,-1);
+attr = {
+identifier = ID0x130260690;
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(1332,1559,l),
+(1042,1393,o),
+(1042,999,o),
+(1332,682,cs),
+(1555,439,o),
+(1600,140,o),
+(1332,-74,c)
+);
 }
 );
 width = 2000;

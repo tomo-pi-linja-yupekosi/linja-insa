@@ -1,5 +1,5 @@
 {
-color = 1;
+color = 0;
 glyphname = "ko-sp";
 layers = (
 {
@@ -257,8 +257,8 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 1;
 nodes = (

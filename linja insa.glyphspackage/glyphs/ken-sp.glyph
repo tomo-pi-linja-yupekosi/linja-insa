@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "ken-sp";
 layers = (
 {
@@ -93,39 +92,39 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 1;
 nodes = (
-(548,0,l),
-(548,1490,l)
+(532,0,l),
+(532,1490,l)
 );
 },
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 0;
 nodes = (
-(1458,1490,l),
-(1458,974,o),
-(1165,745,o),
-(548,745,c)
+(1474,1490,l),
+(1474,974,o),
+(1149,745,o),
+(532,745,c)
 );
 },
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 0;
 nodes = (
-(548,745,l),
-(1165,745,o),
-(1458,532,o),
-(1458,0,c)
+(532,745,l),
+(1149,745,o),
+(1474,532,o),
+(1474,0,c)
 );
 }
 );

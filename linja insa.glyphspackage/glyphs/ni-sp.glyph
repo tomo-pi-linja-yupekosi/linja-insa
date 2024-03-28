@@ -138,6 +138,7 @@ width = 2000;
 }
 );
 metricLeft = "|=";
+subCategory = "";
 tags = (
 "can cartouche"
 );

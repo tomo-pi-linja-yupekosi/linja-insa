@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "kili-sp";
 layers = (
 {
@@ -140,8 +139,8 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 1;
 nodes = (
@@ -161,8 +160,8 @@ nodes = (
 },
 {
 attr = {
-strokeHeight = 260;
-strokeWidth = 300;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 0;
 nodes = (

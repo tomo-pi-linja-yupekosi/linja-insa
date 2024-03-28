@@ -851,7 +851,6 @@ name = Midline;
 }
 );
 settings = {
-disablesAutomaticAlignment = 1;
 gridLength = 16;
 gridSubDivision = 16;
 keyboardIncrementBig = 8;

@@ -5,13 +5,12 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (774,-517);
-ref = _part.dot;
+pos = (0,456);
+ref = _part.bottom_box;
 },
 {
-pos = (286,456);
-ref = _part.bottom_box;
+pos = (18,-43);
+ref = "_anpa-sp.dot";
 }
 );
 width = 2000;
@@ -20,13 +19,12 @@ width = 2000;
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
 shapes = (
 {
-alignment = -1;
-pos = (700,-517);
-ref = _part.dot;
+pos = (0,552);
+ref = _part.bottom_box;
 },
 {
-pos = (286,456);
-ref = _part.bottom_box;
+pos = (0,-9);
+ref = "_anpa-sp.dot";
 }
 );
 width = 2000;
@@ -35,13 +33,12 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-alignment = -1;
-pos = (700,-565);
-ref = _part.dot;
+pos = (0,471);
+ref = _part.bottom_box;
 },
 {
-pos = (286,472);
-ref = _part.bottom_box;
+pos = (0,-13);
+ref = "_anpa-sp.dot";
 }
 );
 width = 2000;

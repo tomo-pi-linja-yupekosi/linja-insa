@@ -9,7 +9,7 @@ shapes = (
 ref = "poki-sp";
 },
 {
-pos = (286,578);
+pos = (0,578);
 ref = _part.bottom_box;
 scale = (1,-1);
 }
@@ -23,7 +23,7 @@ shapes = (
 ref = "poki-sp";
 },
 {
-pos = (286,578);
+pos = (0,578);
 ref = _part.bottom_box;
 scale = (1,-1);
 }

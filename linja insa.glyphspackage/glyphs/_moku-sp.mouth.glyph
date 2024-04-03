@@ -1,0 +1,90 @@
+{
+export = 0;
+glyphname = "_moku-sp.mouth";
+layers = (
+{
+anchors = (
+{
+name = _attachment;
+pos = (1095,583);
+}
+);
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 1;
+nodes = (
+(1371,583,o),
+(1594,806,o),
+(1594,1209,c),
+(594,1209,l),
+(594,806,o),
+(818,583,o),
+(1095,583,cs)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _attachment;
+pos = (1095,605);
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1371,605,o),
+(1594,828,o),
+(1594,1231,c),
+(594,1231,l),
+(594,828,o),
+(818,605,o),
+(1095,605,cs)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _attachment;
+pos = (1095,605);
+}
+);
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 1;
+nodes = (
+(1371,605,o),
+(1618,828,o),
+(1618,1231,c),
+(570,1231,l),
+(570,828,o),
+(818,605,o),
+(1095,605,cs)
+);
+}
+);
+width = 2000;
+}
+);
+}

@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "e-sp";
 layers = (
 {
@@ -34,11 +33,11 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-pos = (-382,0);
+pos = (-358,0);
 ref = "li-sp";
 },
 {
-pos = (318,0);
+pos = (342,0);
 ref = "li-sp";
 }
 );

@@ -1,30 +1,17 @@
 {
-color = 1;
 glyphname = "moku-sp";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-attr = {
-strokeHeight = 176;
-strokeWidth = 186;
-};
-closed = 1;
-nodes = (
-(1371,605,o),
-(1594,828,o),
-(1594,1231,c),
-(594,1231,l),
-(594,828,o),
-(818,605,o),
-(1095,605,cs)
-);
-},
-{
 alignment = -1;
 pos = (8,0);
 ref = _part.smallLuka;
+},
+{
+pos = (8,21);
+ref = "_moku-sp.mouth";
 }
 );
 width = 2000;
@@ -33,24 +20,12 @@ width = 2000;
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
 shapes = (
 {
-attr = {
-strokeHeight = 46;
-strokeWidth = 46;
-};
-closed = 1;
-nodes = (
-(1371,583,o),
-(1594,806,o),
-(1594,1209,c),
-(594,1209,l),
-(594,806,o),
-(818,583,o),
-(1095,583,cs)
-);
-},
-{
 alignment = -1;
 ref = _part.smallLuka;
+},
+{
+pos = (-88,7);
+ref = "_moku-sp.mouth";
 }
 );
 width = 2000;
@@ -59,25 +34,13 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-attr = {
-strokeHeight = 260;
-strokeWidth = 300;
-};
-closed = 1;
-nodes = (
-(1371,605,o),
-(1594,828,o),
-(1594,1231,c),
-(594,1231,l),
-(594,828,o),
-(818,605,o),
-(1095,605,cs)
-);
-},
-{
 alignment = -1;
 pos = (8,0);
 ref = _part.smallLuka;
+},
+{
+pos = (15,32);
+ref = "_moku-sp.mouth";
 }
 );
 width = 2000;

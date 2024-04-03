@@ -1,0 +1,57 @@
+{
+export = 0;
+glyphname = "_anpa-sp.dot";
+layers = (
+{
+anchors = (
+{
+name = _anpa;
+pos = (1000,228);
+}
+);
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+alignment = -1;
+pos = (700,-517);
+ref = _part.dot;
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _anpa;
+pos = (1000,228);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (762,-517);
+ref = _part.dot;
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _anpa;
+pos = (1000,180);
+}
+);
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+alignment = -1;
+pos = (700,-565);
+ref = _part.dot;
+}
+);
+width = 2000;
+}
+);
+}

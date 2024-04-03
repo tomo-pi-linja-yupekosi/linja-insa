@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "loje-sp";
 layers = (
 {
@@ -22,27 +21,12 @@ nodes = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1724.268,55,l),
-(1105,880,l),
-(895,880,l),
-(275.732,55,l)
-);
+alignment = 1;
+ref = _part.kule_radical;
 },
 {
-closed = 1;
-nodes = (
-(1047,772,l),
-(953,772,l),
-(1315.732,231,l),
-(684.268,231,l)
-);
-},
-{
-alignment = -1;
-pos = (143,760);
-ref = _closedMouth;
+pos = (0,-51);
+ref = "_loje-sp.mouth";
 }
 );
 width = 2000;
@@ -51,27 +35,12 @@ width = 2000;
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
 shapes = (
 {
-closed = 1;
-nodes = (
-(1566,72,l),
-(1035,766,l),
-(965,766,l),
-(434,72,l)
-);
+alignment = 1;
+ref = _part.kule_radical;
 },
 {
-closed = 1;
-nodes = (
-(1013,751,l),
-(987,751,l),
-(1474,118,l),
-(526,118,l)
-);
-},
-{
-alignment = -1;
-pos = (143,664);
-ref = _closedMouth;
+pos = (-1,30);
+ref = "_loje-sp.mouth";
 }
 );
 width = 2000;
@@ -80,27 +49,12 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-closed = 1;
-nodes = (
-(1808,13,l),
-(1219,921,l),
-(781,921,l),
-(192,13,l)
-);
+alignment = 1;
+ref = _part.kule_radical;
 },
 {
-closed = 1;
-nodes = (
-(1024,786,l),
-(976,786,l),
-(1337,273,l),
-(666,273,l)
-);
-},
-{
-alignment = -1;
-pos = (143,760);
-ref = _closedMouth;
+pos = (-1,-14);
+ref = "_loje-sp.mouth";
 }
 );
 width = 2000;

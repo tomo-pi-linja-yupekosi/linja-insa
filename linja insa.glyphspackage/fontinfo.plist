@@ -795,7 +795,7 @@ axesValues = (
 instanceInterpolations = {
 "6D287F59-47E8-4638-B138-818E25D25DE1" = 1;
 };
-name = "linja lili lili lili";
+name = "linja lili";
 weightClass = 100;
 },
 {
@@ -806,7 +806,7 @@ instanceInterpolations = {
 "6D287F59-47E8-4638-B138-818E25D25DE1" = 0.66667;
 m01 = 0.33333;
 };
-name = "linja lili lili";
+name = "linja meso lili lili";
 weightClass = 200;
 },
 {
@@ -817,7 +817,7 @@ instanceInterpolations = {
 "6D287F59-47E8-4638-B138-818E25D25DE1" = 0.33333;
 m01 = 0.66667;
 };
-name = "linja lili";
+name = "linja meso lili";
 weightClass = 300;
 },
 {
@@ -828,6 +828,62 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "linja meso";
+},
+{
+axesValues = (
+490
+);
+instanceInterpolations = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = 0.18;
+m01 = 0.82;
+};
+name = "linja meso suli";
+weightClass = 500;
+},
+{
+axesValues = (
+580
+);
+instanceInterpolations = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = 0.36;
+m01 = 0.64;
+};
+name = "linja meso suli suli";
+weightClass = 600;
+},
+{
+axesValues = (
+670
+);
+instanceInterpolations = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = 0.54;
+m01 = 0.46;
+};
+isBold = 1;
+linkStyle = "linja meso";
+name = "linja suli";
+weightClass = 700;
+},
+{
+axesValues = (
+780
+);
+instanceInterpolations = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = 0.76;
+m01 = 0.24;
+};
+name = "linja suli suli";
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+"6553A8EE-D982-49E3-AD79-1FB562774AD6" = 1;
+};
+name = "linja pimeja";
+weightClass = 900;
 }
 );
 metrics = (

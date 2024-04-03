@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "monsi-sp";
 layers = (
 {
@@ -39,12 +38,12 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 alignment = -1;
-pos = (1692,0);
+pos = (1845,0);
 ref = _part.side_box;
 scale = (-1,1);
 },
 {
-pos = (275,0);
+pos = (172,0);
 ref = _part.dot;
 }
 );

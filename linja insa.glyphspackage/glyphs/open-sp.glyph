@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "open-sp";
 layers = (
 {
@@ -37,7 +36,7 @@ shapes = (
 ref = "poki-sp";
 },
 {
-pos = (286,666);
+pos = (0,706);
 ref = _part.bottom_box;
 scale = (1,-1);
 }

@@ -203,8 +203,8 @@ background = {
 shapes = (
 {
 attr = {
-strokeHeight = 176;
-strokeWidth = 186;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 1;
 nodes = (
@@ -224,8 +224,8 @@ nodes = (
 },
 {
 attr = {
-strokeHeight = 176;
-strokeWidth = 186;
+strokeHeight = 300;
+strokeWidth = 400;
 };
 closed = 1;
 nodes = (

@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = "sinpin-sp";
 layers = (
 {
@@ -39,12 +38,12 @@ layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
 alignment = -1;
-pos = (295,0);
+pos = (191,0);
 ref = _part.side_box;
 },
 {
 alignment = -1;
-pos = (1149,0);
+pos = (1301,0);
 ref = _part.dot;
 }
 );

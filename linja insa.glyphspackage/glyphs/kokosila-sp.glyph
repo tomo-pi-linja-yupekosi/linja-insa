@@ -45,6 +45,23 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(1853,916,l),
+(146,210,l)
+);
+},
+{
+alignment = -1;
+ref = "toki-sp";
+}
+);
 width = 2000;
 }
 );

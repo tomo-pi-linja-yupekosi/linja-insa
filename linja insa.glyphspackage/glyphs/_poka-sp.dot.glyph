@@ -1,0 +1,54 @@
+{
+export = 0;
+glyphname = "_poka-sp.dot";
+layers = (
+{
+anchors = (
+{
+name = _poka;
+pos = (300,745);
+}
+);
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+alignment = -1;
+ref = _part.dot;
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _poka;
+pos = (238,745);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = _part.dot;
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _poka;
+pos = (300,745);
+}
+);
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+alignment = -1;
+ref = _part.dot;
+}
+);
+width = 2000;
+}
+);
+}

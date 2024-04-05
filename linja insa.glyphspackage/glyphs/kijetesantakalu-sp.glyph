@@ -165,6 +165,323 @@ width = 2000;
 },
 {
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+lineCapEnd = "3";
+lineCapStart = "4";
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(888,192,l),
+(931,-91,l),
+(269,-91,l),
+(126,-91,o),
+(14,33,o),
+(14,191,c),
+(14,349,o),
+(126,474,o),
+(269,474,c),
+(637,474,l),
+(637,809,l),
+(637,1503,o),
+(1079,1592,o),
+(1637,1592,c),
+(1637,1364,l),
+(1987,1094,l),
+(1676,790,l),
+(1676,-91,l)
+);
+},
+{
+alignment = -1;
+pos = (651,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+alignment = -1;
+pos = (272,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+attr = {
+lineCapStart = "3";
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(1304,-91,l),
+(1304,192,l)
+);
+},
+{
+attr = {
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(637,-16,l),
+(637,474,l)
+);
+},
+{
+attr = {
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(315,-16,l),
+(315,474,l)
+);
+}
+);
+width = 2000;
+},
+{
+associatedMasterId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+attr = {
+axisRules = (
+{
+max = 900;
+min = 700;
+}
+);
+};
+layerId = "44F28438-68EE-42AE-B37D-672DDA1C63D1";
+name = "Apr 5, 24 at 15:37";
+shapes = (
+{
+attr = {
+lineCapEnd = "3";
+lineCapStart = "4";
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(888,192,l),
+(931,-91,l),
+(269,-91,l),
+(126,-91,o),
+(14,33,o),
+(14,191,c),
+(14,349,o),
+(126,474,o),
+(269,474,c),
+(637,474,l),
+(637,809,l),
+(637,1503,o),
+(1079,1592,o),
+(1637,1592,c),
+(1637,1364,l),
+(1987,1094,l),
+(1676,790,l),
+(1676,-91,l)
+);
+},
+{
+alignment = -1;
+pos = (651,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+alignment = -1;
+pos = (272,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+attr = {
+lineCapStart = "3";
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(1304,-91,l),
+(1304,192,l)
+);
+},
+{
+attr = {
+strokeHeight = 325;
+strokeWidth = 325;
+};
+closed = 0;
+nodes = (
+(509,-16,l),
+(509,474,l)
+);
+}
+);
+width = 2000;
+},
+{
+associatedMasterId = m01;
+attr = {
+axisRules = (
+{
+max = 900;
+min = 700;
+}
+);
+};
+layerId = "53CBEDD2-55CA-4A1A-BABF-AFB984DF22D3";
+name = "Apr 5, 24 at 15:38";
+shapes = (
+{
+attr = {
+lineCapEnd = 3;
+lineCapStart = 4;
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(908,257,l),
+(943,6,l),
+(401,6,l),
+(284,6,o),
+(192,116,o),
+(192,256,c),
+(192,396,o),
+(284,506,o),
+(401,506,c),
+(703,506,l),
+(703,802,l),
+(703,1190,o),
+(1065,1495,o),
+(1522,1495,c),
+(1522,1293,l),
+(1809,1054,l),
+(1554,785,l),
+(1554,6,l)
+);
+},
+{
+alignment = -1;
+pos = (555,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+alignment = -1;
+pos = (272,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+attr = {
+lineCapStart = 3;
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(1249,6,l),
+(1249,257,l)
+);
+},
+{
+attr = {
+strokeHeight = 150;
+strokeWidth = 150;
+};
+closed = 0;
+nodes = (
+(575,33,l),
+(575,506,l)
+);
+}
+);
+width = 2000;
+},
+{
+associatedMasterId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+attr = {
+axisRules = (
+{
+max = 900;
+min = 700;
+}
+);
+};
+layerId = "FBD688D2-00E8-4457-B723-6F15B282E424";
+name = "Apr 5, 24 at 15:38";
+shapes = (
+{
+attr = {
+lineCapEnd = "3";
+lineCapStart = "4";
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(908,257,l),
+(943,6,l),
+(401,6,l),
+(284,6,o),
+(192,116,o),
+(192,256,c),
+(192,396,o),
+(284,506,o),
+(401,506,c),
+(703,506,l),
+(703,802,l),
+(703,1190,o),
+(1065,1495,o),
+(1522,1495,c),
+(1522,1293,l),
+(1809,1054,l),
+(1554,785,l),
+(1554,6,l)
+);
+},
+{
+alignment = -1;
+pos = (555,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+alignment = -1;
+pos = (272,445);
+ref = "interpunct-sp";
+scale = (0.7976,0.7976);
+},
+{
+attr = {
+lineCapStart = "3";
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(1249,6,l),
+(1249,257,l)
+);
+},
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(575,9,l),
+(575,506,l)
+);
+}
+);
 width = 2000;
 }
 );

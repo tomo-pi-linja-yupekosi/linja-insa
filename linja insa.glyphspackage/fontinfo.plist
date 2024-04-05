@@ -616,6 +616,9 @@ stemValues = (
 326,
 404
 );
+userData = {
+GSCornerRadius = 100;
+};
 }
 );
 instances = (
@@ -778,7 +781,21 @@ cornerbracketright.vert,
 "weka-sp",
 "wile-sp",
 "kama-sp",
-"kepeken-sp"
+"kepeken-sp",
+"kijetesantakalu-sp",
+"epiku-sp",
+"jasima-sp",
+"kijetesantakalu-sp",
+"kipisi-sp",
+"kokosila-sp",
+"ku-sp",
+"lanpan-sp",
+"leko-sp",
+"meso-sp",
+"misikeke-sp",
+"monsuta-sp",
+"n-sp",
+"namako-sp"
 );
 }
 );

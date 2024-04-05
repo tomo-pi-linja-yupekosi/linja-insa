@@ -11,9 +11,16 @@ pos = (1018,-271);
 {
 name = insa;
 pos = (1001,583);
+},
+{
+name = poka;
+pos = (1752,289);
 }
 );
 layerId = m01;
+partSelection = {
+poka = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -40,9 +47,16 @@ pos = (1000,-333);
 {
 name = insa;
 pos = (1001,436);
+},
+{
+name = poka;
+pos = (1718,244);
 }
 );
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+partSelection = {
+poka = 1;
+};
 shapes = (
 {
 closed = 1;
@@ -69,17 +83,24 @@ pos = (1000,-304);
 {
 name = insa;
 pos = (1000,622);
+},
+{
+name = poka;
+pos = (1950,291);
 }
 );
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+partSelection = {
+poka = 1;
+};
 shapes = (
 {
 closed = 1;
 nodes = (
 (1859,-44,l),
 (1859,620,l),
-(1458,620,l),
-(1458,256,l),
+(1459,620,l),
+(1459,256,l),
 (541,256,l),
 (541,620,l),
 (141,620,l),
@@ -88,6 +109,127 @@ nodes = (
 }
 );
 width = 2000;
+},
+{
+anchors = (
+{
+name = anpa;
+pos = (1000,-304);
+},
+{
+name = insa;
+pos = (1000,622);
+},
+{
+name = poka;
+pos = (1786,745);
+}
+);
+associatedMasterId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+layerId = "01C807A5-EEAE-4F49-974D-236DDC6624DA";
+name = poka;
+partSelection = {
+poka = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1475,413,l),
+(1475,1077,l),
+(1075,1077,l),
+(1075,713,l),
+(541,713,l),
+(541,1077,l),
+(141,1077,l),
+(141,413,l)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = anpa;
+pos = (1018,-271);
+},
+{
+name = insa;
+pos = (1001,583);
+},
+{
+name = poka;
+pos = (1758,306);
+}
+);
+associatedMasterId = m01;
+layerId = "D8BB475C-C69F-4104-9C08-D2A15A870CCB";
+name = poka;
+partSelection = {
+poka = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1464,0,l),
+(1464,578,l),
+(1277,578,l),
+(1277,175,l),
+(466,175,l),
+(466,578,l),
+(280,578,l),
+(280,0,l)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = anpa;
+pos = (1000,-333);
+},
+{
+name = insa;
+pos = (1001,436);
+},
+{
+name = poka;
+pos = (1748,745);
+}
+);
+associatedMasterId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+layerId = "5EF4B750-1FD2-40B5-BC32-5259905B4DF0";
+name = poka;
+partSelection = {
+poka = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1522,520,l),
+(1522,969,l),
+(1476,969,l),
+(1476,566,l),
+(524,566,l),
+(524,969,l),
+(478,969,l),
+(478,520,l)
+);
+}
+);
+width = 2000;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = poka;
+topValue = 100;
 }
 );
 script = han;

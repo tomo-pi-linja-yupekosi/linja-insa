@@ -1,18 +1,19 @@
 {
-color = 1;
 glyphname = "poka-sp";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (1438,0);
-ref = _part.dot;
+piece = {
+poka = 100;
+};
+pos = (0,456);
+ref = _part.bottom_box;
 },
 {
-pos = (76,456);
-ref = _part.bottom_box;
+pos = (1520,17);
+ref = "_poka-sp.dot";
 }
 );
 width = 2000;
@@ -21,13 +22,14 @@ width = 2000;
 layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
 shapes = (
 {
-alignment = -1;
-pos = (1438,0);
-ref = _part.dot;
+piece = {
+poka = 100;
+};
+ref = _part.bottom_box;
 },
 {
-pos = (76,520);
-ref = _part.bottom_box;
+pos = (1448,0);
+ref = "_poka-sp.dot";
 }
 );
 width = 2000;
@@ -36,13 +38,14 @@ width = 2000;
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
 shapes = (
 {
-alignment = -1;
-pos = (1423,0);
-ref = _part.dot;
+piece = {
+poka = 100;
+};
+ref = _part.bottom_box;
 },
 {
-pos = (61,435);
-ref = _part.bottom_box;
+pos = (1486,0);
+ref = "_poka-sp.dot";
 }
 );
 width = 2000;

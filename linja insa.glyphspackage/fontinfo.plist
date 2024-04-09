@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3257";
 .formatVersion = 3;
 axes = (
 {
@@ -192,10 +192,10 @@ value = {
 wght = {
 100 = 100;
 400 = 400;
-500 = 490;
-600 = 580;
-700 = 670;
-800 = 780;
+490 = 500;
+580 = 600;
+670 = 700;
+780 = 800;
 900 = 900;
 };
 };
@@ -623,9 +623,6 @@ GSCornerRadius = 100;
 );
 instances = (
 {
-axesValues = (
-400
-);
 customParameters = (
 {
 name = "Remove Features";
@@ -795,13 +792,14 @@ cornerbracketright.vert,
 "misikeke-sp",
 "monsuta-sp",
 "n-sp",
-"namako-sp"
+"namako-sp",
+"oko-sp",
+"soko-sp",
+"tonsi-sp",
+"kin-sp"
 );
 }
 );
-instanceInterpolations = {
-m01 = 1;
-};
 name = "ken ante";
 type = variable;
 },

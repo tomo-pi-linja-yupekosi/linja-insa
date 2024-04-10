@@ -96,7 +96,49 @@ vertWidth = 0;
 width = 2000;
 },
 {
+hints = (
+{
+name = _cap.smallButt;
+origin = (0,3);
+type = Cap;
+},
+{
+name = _cap.smallButt;
+origin = (2,3);
+type = Cap;
+}
+);
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(2147,1984,l),
+(2147,4462,l),
+(1847,4462,l),
+(1847,1984,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1931,2019,l),
+(1920,2319,l),
+(30,2319,l),
+(30,2019,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,1984,l),
+(130,4462,l),
+(-170,4462,l),
+(-170,1984,l)
+);
+}
+);
+vertWidth = 0;
 width = 2000;
 }
 );

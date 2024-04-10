@@ -78,7 +78,42 @@ vertWidth = 0;
 width = 2000;
 },
 {
+hints = (
+{
+name = _cap.butt;
+options = 8;
+origin = (0,3);
+type = Cap;
+},
+{
+name = _cap.butt;
+options = 8;
+origin = (1,3);
+type = Cap;
+}
+);
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(2218,1984,l),
+(2218,4463,l),
+(1818,4463,l),
+(1818,1984,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(182,1984,l),
+(182,4463,l),
+(-218,4463,l),
+(-218,1984,l)
+);
+}
+);
+vertWidth = 0;
 width = 2000;
 }
 );

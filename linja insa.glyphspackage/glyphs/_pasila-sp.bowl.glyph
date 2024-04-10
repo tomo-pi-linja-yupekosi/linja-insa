@@ -1,0 +1,96 @@
+{
+export = 0;
+glyphname = "_pasila-sp.bowl";
+layers = (
+{
+anchors = (
+{
+name = _attachment;
+pos = (1104,594);
+}
+);
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(648,1439,l),
+(648,1008,l),
+(648,848,o),
+(776,593,o),
+(1104,594,cs),
+(1432,595,o),
+(1560,851,o),
+(1560,1008,c),
+(1560,1437,l)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _attachment;
+pos = (1104,583);
+}
+);
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(648,1428,l),
+(648,997,l),
+(648,837,o),
+(776,582,o),
+(1104,583,cs),
+(1432,584,o),
+(1560,840,o),
+(1560,997,c),
+(1560,1426,l)
+);
+}
+);
+width = 2000;
+},
+{
+anchors = (
+{
+name = _attachment;
+pos = (1104,594);
+}
+);
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(648,1439,l),
+(648,1008,l),
+(648,848,o),
+(776,593,o),
+(1104,594,cs),
+(1432,595,o),
+(1560,851,o),
+(1560,1008,c),
+(1560,1437,l)
+);
+}
+);
+width = 2000;
+}
+);
+}

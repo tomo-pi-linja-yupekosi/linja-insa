@@ -94,8 +94,49 @@ nodes = (
 width = 0;
 },
 {
+hints = (
+{
+name = _cap.smallButt;
+origin = (1,0);
+type = Cap;
+},
+{
+name = _cap.smallButt;
+origin = (2,0);
+type = Cap;
+}
+);
 layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
-width = 2000;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-250,l),
+(0,1673,l),
+(-300,1673,l),
+(-300,-250,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,-436,l),
+(0,-136,l),
+(-2000,-136,l),
+(-2000,-436,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,1625,l),
+(0,1925,l),
+(-2000,1925,l),
+(-2000,1625,l)
+);
+}
+);
+width = 0;
 }
 );
 script = han;

@@ -2,7 +2,6 @@
 displayStrings = (
 "/cartoucheend-sp",
 "/_cap.smallButt",
-"",
 "/cartouchestart-sp/powe-sp/cartouche/cartoucheend-sp",
 "/powe-sp",
 "/cartouche/tally5",
@@ -11,6 +10,10 @@ displayStrings = (
 "/kijetesantakalu-sp.end",
 "/kijetesantakalu-sp.start/wan-sp/cartouche.kijetesantakalu/kijetesantakalu-sp.end",
 "/namako-sp",
-"/san-sp"
+"/san-sp",
+"/o-sp/weka-sp/ala-sp/e-sp/namako-sp",
+"/o-sp/uta-sp/e-sp/palisa-sp/mi-sp",
+"/mi-sp/noka-sp/e-sp/linja-sp/sina-sp",
+"/lipu-sp/kule-sp/walo-sp/pimeja-sp/li-sp/utala-sp/e-sp/sina-sp"
 );
 }

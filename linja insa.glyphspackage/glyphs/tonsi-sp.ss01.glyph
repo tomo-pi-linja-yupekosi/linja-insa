@@ -1,0 +1,203 @@
+{
+glyphname = "tonsi-sp.ss01";
+layers = (
+{
+layerId = "6D287F59-47E8-4638-B138-818E25D25DE1";
+shapes = (
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 1;
+nodes = (
+(1201,385,o),
+(1378,562,o),
+(1378,788,cs),
+(1378,901,o),
+(1333,1002,o),
+(1261,1074,cs),
+(1189,1146,o),
+(1088,1190,o),
+(975,1191,cs),
+(863,1191,o),
+(762,1146,o),
+(690,1074,cs),
+(617,1002,o),
+(572,901,o),
+(572,788,cs),
+(572,562,o),
+(749,385,o),
+(975,385,cs)
+);
+},
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(975,-63,l),
+(975,385,l)
+);
+},
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(374,1390,l),
+(690,1074,l)
+);
+},
+{
+attr = {
+strokeHeight = 46;
+strokeWidth = 46;
+};
+closed = 0;
+nodes = (
+(1577,1390,l),
+(1261,1074,l)
+);
+}
+);
+width = 2000;
+},
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 1;
+nodes = (
+(1225,385,o),
+(1402,562,o),
+(1402,788,cs),
+(1402,901,o),
+(1357,1002,o),
+(1285,1074,cs),
+(1213,1146,o),
+(1112,1190,o),
+(999,1191,cs),
+(887,1191,o),
+(786,1146,o),
+(714,1074,cs),
+(641,1002,o),
+(596,901,o),
+(596,788,cs),
+(596,562,o),
+(773,385,o),
+(999,385,cs)
+);
+},
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(999,-63,l),
+(999,385,l)
+);
+},
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(398,1390,l),
+(714,1074,l)
+);
+},
+{
+attr = {
+strokeHeight = 176;
+strokeWidth = 186;
+};
+closed = 0;
+nodes = (
+(1601,1390,l),
+(1285,1074,l)
+);
+}
+);
+width = 2000;
+},
+{
+layerId = "6553A8EE-D982-49E3-AD79-1FB562774AD6";
+shapes = (
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 1;
+nodes = (
+(1225,385,o),
+(1402,562,o),
+(1402,788,cs),
+(1402,901,o),
+(1357,1002,o),
+(1285,1074,cs),
+(1213,1146,o),
+(1112,1190,o),
+(999,1191,cs),
+(887,1191,o),
+(786,1146,o),
+(714,1074,cs),
+(641,1002,o),
+(596,901,o),
+(596,788,cs),
+(596,562,o),
+(773,385,o),
+(999,385,cs)
+);
+},
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(999,-63,l),
+(999,385,l)
+);
+},
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(398,1390,l),
+(714,1074,l)
+);
+},
+{
+attr = {
+strokeHeight = 300;
+strokeWidth = 400;
+};
+closed = 0;
+nodes = (
+(1601,1390,l),
+(1285,1074,l)
+);
+}
+);
+width = 2000;
+}
+);
+}

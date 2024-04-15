@@ -243,6 +243,7 @@ code = "feature calt;
 feature calt;
 feature vert;
 feature vrt2;
+feature ss01;
 ";
 tag = aalt;
 },
@@ -309,6 +310,20 @@ sub tally4 by tally4.vert;
 sub tally5 by tally5.vert;
 ";
 tag = vrt2;
+},
+{
+automatic = 1;
+code = "sub tonsi-sp by tonsi-sp.ss01;
+sub meli-sp by meli-sp.ss01;
+sub mije-sp by mije-sp.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "nimi tonsi en nimi meli en nimi mije li pu lukin";
+}
+);
+tag = ss01;
 },
 {
 automatic = 1;

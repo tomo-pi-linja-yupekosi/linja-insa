@@ -35,7 +35,7 @@ jobs:
           path: 'Site/'
 
   deploy_site:
-    needs: build_site
+    needs: prepare_site
     runs-on: ubuntu-latest
 
     permissions:

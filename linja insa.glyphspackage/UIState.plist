@@ -1,7 +1,7 @@
 {
 displayStrings = (
 "/mi-sp/wile-sp/e-sp/pan-sp/pona-sp",
-"/lipu-sp/li-sp/suwi-sp/ala-sp",
+"/telo-sp/kon-sp",
 "/meli-sp/mije-sp/tonsi-sp",
 "/tonsi-sp.ss01/meli-sp.ss01/mije-sp.ss01",
 "/selo-sp",
@@ -13,6 +13,8 @@ displayStrings = (
 "/o-sp/unpa-sp/e-sp/mama-sp/sina-sp",
 "/lanpan-sp",
 "/ni-sp",
-"/telo-sp"
+"/telo-sp",
+"/ona-sp/li-sp/noka-sp/sina-sp/li-sp/lanpan-sp/e-sp/mi-sp 
+"
 );
 }

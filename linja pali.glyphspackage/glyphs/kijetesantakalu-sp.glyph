@@ -1,0 +1,124 @@
+{
+glyphname = "kijetesantakalu-sp";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../var/folders/7_/hlqmqyb10f5__tdzxmpw5nsc0000gn/T/TemporaryItems/NSIRD_screencaptureui_livoqB/Screenshot 2024-07-25 at 8.13.25 PM.png";
+locked = 1;
+pos = (-137,-252);
+scale = (10.2612,10.2612);
+};
+hints = (
+{
+name = _corner.exterior;
+origin = (0,15);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (0,14);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (0,17);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (0,18);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(573,200,l),
+(288,200,l),
+(288,752,l),
+(736,752,l),
+(736,1471,l),
+(1304,1471,l),
+(1304,1262,l),
+(1445,1099,l),
+(1304,936,l),
+(1304,0,l),
+(1504,0,l),
+(1504,862,l),
+(1711,1099,l),
+(1504,1336,l),
+(1504,1671,l),
+(536,1671,l),
+(536,952,l),
+(88,952,l),
+(88,0,l),
+(1011,0,l),
+(548,533,l),
+(398,401,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(1022,438,l),
+(1022,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1067,1086,l),
+(1267,1086,l),
+(1267,1286,l),
+(1067,1286,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(793,1086,l),
+(993,1086,l),
+(993,1286,l),
+(793,1286,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989568;
+}

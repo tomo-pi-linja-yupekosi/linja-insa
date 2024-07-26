@@ -1,0 +1,26 @@
+{
+glyphname = _corner.exterior;
+layers = (
+{
+anchors = (
+{
+name = origin;
+pos = (251,1779);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(451,1779,ls),
+(321,1779,o),
+(251,1709,o),
+(251,1579,cs)
+);
+}
+);
+width = 600;
+}
+);
+}

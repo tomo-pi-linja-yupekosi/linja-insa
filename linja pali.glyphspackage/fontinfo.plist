@@ -1,0 +1,88 @@
+{
+.appVersion = "3260";
+.formatVersion = 3;
+customParameters = (
+{
+name = fsType;
+value = (
+3
+);
+},
+{
+name = "Default Layer Width";
+value = "2048";
+}
+);
+date = "2024-07-26 00:07:10 +0000";
+familyName = "linja pali";
+fontMaster = (
+{
+customParameters = (
+{
+name = underlineThickness;
+value = 200;
+},
+{
+name = "CJK Grid";
+value = "8";
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 1984;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1118;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+},
+{
+pos = 745;
+}
+);
+name = "linja meso";
+userData = {
+GSCornerRadius = 25;
+};
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+name = Midline;
+}
+);
+settings = {
+gridLength = 16;
+gridSubDivision = 16;
+keyboardIncrementBig = 8;
+keyboardIncrementHuge = 128;
+};
+unitsPerEm = 2048;
+versionMajor = 1;
+versionMinor = 0;
+}

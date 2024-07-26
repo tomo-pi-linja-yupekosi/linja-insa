@@ -1,0 +1,132 @@
+{
+glyphname = "soweli-sp";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../var/folders/7_/hlqmqyb10f5__tdzxmpw5nsc0000gn/T/TemporaryItems/NSIRD_screencaptureui_xuAStp/Screenshot 2024-07-25 at 10.41.20 PM.png";
+locked = 1;
+pos = (-89,-561);
+scale = (4.938,4.938);
+};
+hints = (
+{
+name = _corner.interior;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,8);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,9);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,10);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1270,344,l),
+(1470.421,344,l),
+(1729,602.579,l),
+(1729,1465.421,l),
+(1470.421,1724,l),
+(150,1724,l),
+(150,1524,l),
+(1387.579,1524,l),
+(1529,1382.579,l),
+(1529,685.421,l),
+(1387.579,544,l),
+(1070,544,l),
+(1070,0,l),
+(1270,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(955,544,l),
+(755,544,l),
+(755,0,l),
+(955,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(640,544,l),
+(440,544,l),
+(440,0,l),
+(640,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(325,544,l),
+(125,544,l),
+(125,0,l),
+(325,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1090,928,l),
+(1290,928,l),
+(1290,1128,l),
+(1090,1128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(696,928,l),
+(896,928,l),
+(896,1128,l),
+(696,1128,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989538;
+}

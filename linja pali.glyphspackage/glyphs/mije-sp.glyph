@@ -1,0 +1,152 @@
+{
+glyphname = "mije-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,3);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (2,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (2,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (2,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (2,6);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (3,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (3,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (3,5);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (3,6);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1287,1426,l),
+(1287,654,l),
+(513,654,l),
+(513,1426,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(313,454,l),
+(1487,454,l),
+(1487,1626,l),
+(313,1626,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(486,702,l),
+(359,702,l),
+(98,441,l),
+(98,0,l),
+(298,0,l),
+(298,359,l),
+(441,502,l),
+(486,502,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1317,502,l),
+(1359,502,l),
+(1502,359,l),
+(1502,0,l),
+(1702,0,l),
+(1702,441,l),
+(1441,702,l),
+(1334,702,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989493;
+}

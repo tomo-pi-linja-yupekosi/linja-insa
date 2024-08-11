@@ -1,0 +1,112 @@
+{
+glyphname = "tonsi-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1150,1201,l),
+(1150,702,l),
+(650,702,l),
+(650,1201,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(450,502,l),
+(1350,502,l),
+(1350,1401,l),
+(450,1401,l)
+);
+},
+{
+attr = {
+strokeHeight = 200;
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(1700,1471,l),
+(1250,1021,l)
+);
+},
+{
+attr = {
+strokeHeight = 200;
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(100,1471,l),
+(550,1021,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(900,0,l),
+(900,538,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989566;
+}

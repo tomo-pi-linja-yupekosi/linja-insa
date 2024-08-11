@@ -1,12 +1,13 @@
 {
 displayStrings = (
+" ",
+"/kijetesantakalu-sp/li-sp/alasa-sp/meli-sp/ale-sp/akesi-sp",
+"/meli-sp",
+"/ala-sp",
 "",
-"/kijetesantakalu-sp",
-"/toki-sp/a-sp/kijetesantakalu-sp",
-"/toki-sp/a-sp",
-"/a-sp",
-"/o-sp",
-"/soweli-sp",
-"/toki-sp"
+"/li-sp",
+"/alasa-sp",
+"/jan-sp",
+""
 );
 }

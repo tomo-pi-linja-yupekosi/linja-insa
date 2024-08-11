@@ -34,7 +34,7 @@ pos = 1984;
 },
 {
 over = 24;
-pos = 1490;
+pos = 1724;
 },
 {
 over = 24;
@@ -47,7 +47,10 @@ over = -24;
 pos = -494;
 },
 {
-pos = 745;
+pos = 837;
+},
+{
+pos = 1674;
 }
 );
 name = "linja meso";
@@ -61,7 +64,6 @@ metrics = (
 type = ascender;
 },
 {
-type = "cap height";
 },
 {
 type = "x-height";
@@ -74,6 +76,9 @@ type = descender;
 },
 {
 name = Midline;
+},
+{
+name = Headline;
 }
 );
 settings = {
@@ -83,6 +88,14 @@ keyboardIncrementBig = 8;
 keyboardIncrementHuge = 128;
 };
 unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+han3 = "200";
+han5 = "200";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 0;
 }

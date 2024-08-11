@@ -1,0 +1,43 @@
+{
+glyphname = "anu-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,7);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1270,1626,l),
+(900,1061,l),
+(530,1626,l),
+(291,1626,l),
+(800,848,l),
+(800,0,l),
+(1000,0,l),
+(1000,848,l),
+(1509,1626,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989447;
+}

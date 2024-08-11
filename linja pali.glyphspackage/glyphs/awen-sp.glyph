@@ -1,0 +1,57 @@
+{
+glyphname = "awen-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,9);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(796,1626,l),
+(418.419,226,l),
+(216,226,l),
+(216,26,l),
+(571.581,26,l),
+(900,1242.367,l),
+(1228.419,26,l),
+(1584,26,l),
+(1584,226,l),
+(1381.581,226,l),
+(1004,1626,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989448;
+}

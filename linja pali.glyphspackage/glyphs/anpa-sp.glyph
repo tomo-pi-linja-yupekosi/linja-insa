@@ -1,0 +1,58 @@
+{
+glyphname = "anpa-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.exterior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1363,845,l),
+(437,845,l),
+(437,1203,l),
+(237,1203,l),
+(237,645,l),
+(1563,645,l),
+(1563,1203,l),
+(1363,1203,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(800,306,l),
+(1000,306,l),
+(1000,506,l),
+(800,506,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989445;
+}

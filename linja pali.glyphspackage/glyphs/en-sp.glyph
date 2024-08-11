@@ -1,0 +1,32 @@
+{
+glyphname = "en-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(229,823,l),
+(1571,823,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(900,1494,l),
+(900,152,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989450;
+}

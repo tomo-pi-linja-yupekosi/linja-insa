@@ -1,0 +1,94 @@
+{
+glyphname = "ilo-sp";
+layers = (
+{
+guides = (
+{
+pos = (111,1626);
+}
+);
+hints = (
+{
+name = _corner.exterior;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.exterior;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1351,1426,l),
+(1351,907,l),
+(424,907,l),
+(424,1426,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(224,707,l),
+(1551,707,l),
+(1551,1626,l),
+(224,1626,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(800,0,l),
+(1000,0,l),
+(1000,1526,l),
+(800,1526,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989454;
+}

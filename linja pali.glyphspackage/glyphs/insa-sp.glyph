@@ -1,0 +1,58 @@
+{
+glyphname = "insa-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.exterior;
+origin = (0,5);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1363,634,l),
+(437,634,l),
+(437,992,l),
+(237,992,l),
+(237,434,l),
+(1563,434,l),
+(1563,992,l),
+(1363,992,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(800,992,l),
+(1000,992,l),
+(1000,1192,l),
+(800,1192,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989455;
+}

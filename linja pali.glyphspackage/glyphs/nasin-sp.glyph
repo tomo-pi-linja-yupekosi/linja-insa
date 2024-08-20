@@ -1,0 +1,33 @@
+{
+glyphname = "nasin-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(900,1626,l),
+(900,0,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(400,642,l),
+(900,1127,l),
+(1400,642,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989503;
+}

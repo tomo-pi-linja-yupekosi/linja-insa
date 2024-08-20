@@ -2,7 +2,7 @@
 glyphname = "la-sp";
 layers = (
 {
-layerId = m01;
+background = {
 shapes = (
 {
 attr = {
@@ -16,6 +16,77 @@ nodes = (
 (1180,400,l),
 (880,100,l),
 (548,100,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,7);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,8);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,9);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(921.421,0,l),
+(1280,358.579,l),
+(1280,1267.421,l),
+(921.421,1626,l),
+(548,1626,l),
+(548,1426,l),
+(838.579,1426,l),
+(1080,1184.579,l),
+(1080,441.421,l),
+(838.579,200,l),
+(548,200,l),
+(548,0,l)
 );
 }
 );

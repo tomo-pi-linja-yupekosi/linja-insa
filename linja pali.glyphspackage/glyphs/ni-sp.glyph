@@ -1,0 +1,68 @@
+{
+glyphname = "ni-sp";
+layers = (
+{
+background = {
+guides = (
+{
+angle = 90;
+pos = (794,299);
+},
+{
+angle = 90;
+pos = (994,299);
+}
+);
+shapes = (
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(894,1626,l),
+(894,42,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(1394,527,l),
+(894,42,l),
+(394,527,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(900,1626,l),
+(900,82,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(1400,567,l),
+(900,82,l),
+(400,567,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989505;
+}

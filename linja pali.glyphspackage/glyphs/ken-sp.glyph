@@ -1,0 +1,74 @@
+{
+glyphname = "ken-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (1,5);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,8);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,13);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,9);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,12);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,1626,l),
+(374,1626,l),
+(374,0,l),
+(574,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1426,554.421,l),
+(1067.421,913,l),
+(474,913,l),
+(474,713,l),
+(1067.421,713,l),
+(1426,1071.579,l),
+(1426,1626,l),
+(1226,1626,l),
+(1226,1154.421,l),
+(985,913,l),
+(474,913,l),
+(474,713,l),
+(985,713,l),
+(1226,471.579,l),
+(1226,0,l),
+(1426,0,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989464;
+}

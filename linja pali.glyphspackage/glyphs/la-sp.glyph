@@ -1,0 +1,26 @@
+{
+glyphname = "la-sp";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(548,1526,l),
+(880,1526,l),
+(1180,1226,l),
+(1180,400,l),
+(880,100,l),
+(548,100,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989473;
+}

@@ -1,0 +1,147 @@
+{
+glyphname = "tenpo-sp";
+layers = (
+{
+hints = (
+{
+name = _corner.interior;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (1,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,3);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (1,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,5);
+type = Corner;
+},
+{
+name = _corner.interior;
+options = 2;
+origin = (1,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.interior;
+origin = (1,7);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1151,1426,l),
+(1392,1185,l),
+(1392,441,l),
+(1151,200,l),
+(649,200,l),
+(408,441,l),
+(408,1185,l),
+(649,1426,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,1267,l),
+(208,359,l),
+(567,0,l),
+(1233,0,l),
+(1592,359,l),
+(1592,1267,l),
+(1233,1626,l),
+(567,1626,l)
+);
+},
+{
+attr = {
+strokeWidth = 200;
+};
+closed = 0;
+nodes = (
+(900,1244,l),
+(900,812,l),
+(1173,812,l)
+);
+}
+);
+width = 1800;
+}
+);
+unicode = 989547;
+}
